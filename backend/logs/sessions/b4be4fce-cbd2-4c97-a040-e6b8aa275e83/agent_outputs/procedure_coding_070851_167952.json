@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-01-05T07:08:51.167952",
+  "agent_id": "procedure_coding",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "Please specify the exact total time documented for the session (start time, end time, or total minutes spent). This is required to determine the appropriate level of the combined Evaluation and Management (E/M) and psychotherapy service.",
+    "suggested_answer": "Given the clinical complexity (medication change, detailed safety assessment, therapeutic support), we anticipate a combined E/M/Psychotherapy session requiring 45-50 minutes. Can we use 50 minutes?",
+    "primary_code": {
+      "code": "99214",
+      "description": "Established patient evaluation and management (Level 4)",
+      "rationale": "The E/M component is high complexity, supported by the decision to increase the *Sertraline* dosage due to treatment failure, and the detailed risk assessment and documentation of *passive suicidal ideation*. Selection of this level relies on documentation of complex Medical Decision Making (MDM) or sufficient time (30-39 minutes total time for 99214)."
+    },
+    "addon_codes": [
+      {
+        "code": "90836",
+        "description": "Psychotherapy, 45 minutes with an Evaluation and Management service",
+        "rationale": "Psychotherapy was provided, addressing severe *depressive symptoms*, guilt, hopelessness, and performing the C-SSRS assessment and intervention for passive ideation. This is the common add-on code for follow-up psychiatric sessions when 38-52 minutes of therapy are documented."
+      }
+    ],
+    "modifiers": [],
+    "medical_necessity": "Management of *Recurrent Major Depressive Disorder, Moderate (F33.1)*. Patient is experiencing significant functional impairment and inadequate response to current pharmacotherapy, necessitating dosage adjustment and clinical intervention for safety concerns.",
+    "confidence": "Medium"
+  },
+  "duration_ms": 12186,
+  "error": null
+}

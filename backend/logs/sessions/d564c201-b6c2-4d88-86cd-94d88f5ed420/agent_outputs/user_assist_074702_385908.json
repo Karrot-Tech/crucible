@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T07:47:02.385908",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session addressing severe depressive episode symptoms, passive suicidal ideation, and required titration of the recently initiated *Sertraline*.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The session focuses on medication efficacy review and dose increase (Sertraline 50mg to 100mg) due to continued severe symptoms, functional impairment (missing work), and assessment of passive suicidal ideation. This is a standard clinical encounter for treatment follow-up."
+  },
+  "duration_ms": 3759,
+  "error": null
+}

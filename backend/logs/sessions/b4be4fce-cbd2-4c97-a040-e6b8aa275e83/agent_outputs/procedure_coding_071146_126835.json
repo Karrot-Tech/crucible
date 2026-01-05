@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-01-05T07:11:46.126835",
+  "agent_id": "procedure_coding",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "What was the total documented time for this established patient visit? This session involved both detailed psychotherapy (discussing passive ideation, guilt) and complex medication management (increasing Sertraline dosage). Time is necessary to select the appropriate E/M level and psychotherapy add-on code.",
+    "suggested_answer": "45 minutes (the typical duration for a combined E/M and psychotherapy session)?",
+    "primary_code": {
+      "code": "TBD",
+      "description": "Established Patient E/M (Likely 99214 based on complexity)",
+      "rationale": "The visit involves established patient care by a prescribing provider. The complexity of the medical decision making (MDM) is at least Moderate, driven by the management of a complex psychiatric condition (*Recurrent Major Depressive Disorder, Moderate*) and adjusting a primary medication (*Sertraline*) due to insufficient response. This requires 99214 level of service."
+    },
+    "addon_codes": [
+      {
+        "code": "TBD",
+        "description": "Psychotherapy Add-on (Likely 90836)",
+        "rationale": "Significant psychotherapy (addressing feelings of failure, guilt, and passive suicidal ideation) was performed concurrently with the E/M service. We require the total time to select the appropriate add-on unit (90833, 90836, or 90838)."
+      }
+    ],
+    "modifiers": [],
+    "medical_necessity": "The patient is presenting with significant worsening of *Major Depressive Disorder* (F33.1) including early morning awakening, weight loss, severe guilt, and passive thoughts of death, necessitating detailed mental status evaluation, supportive psychotherapy, and medication dosage titration.",
+    "confidence": "High"
+  },
+  "duration_ms": 6623,
+  "error": null
+}

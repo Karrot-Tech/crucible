@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-01-05T08:35:09.729405",
+  "trigger": "after_safety_triage",
+  "agent_id": "safety_triage",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session detailing a severe depressive relapse, lack of response to 50mg of Sertraline, and assessment of passive suicidal ideation.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The session involves a standard psychiatric follow-up reviewing significant worsening of depressive symptoms (vegetative changes, functional impairment) and includes a crucial safety assessment for passive death ideation. The primary intervention is a Sertraline dosage increase."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": true,
+      "clarification_question": "Please clarify if the patient mentioned or displayed any preparatory behaviors associated with the passive death ideation (e.g., gathering supplies, writing a note, researching methods), even though active intent was denied.",
+      "suggested_answer": "No. The patient explicitly denied active intent or hurting herself, stating: 'No, no, I wouldn't do that. I couldn't do that to them.'",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. / I just wish I could disappear sometimes.",
+          "recommended_action": "Patient reports passive suicidal ideation (Wish to be Dead) but explicitly denies active plan or intent. This requires ongoing safety planning, documentation of the denial of intent, and close follow-up due to the severity of depressive symptoms (*anhedonia, weight loss, early morning awakening*)."
+        }
+      ],
+      "summary": "Patient is experiencing significant vegetative symptoms and severe guilt leading to passive suicidal ideation ('wish to disappear,' 'better off without me'). Active intent and plan were denied. Severity is Moderate, requiring immediate confirmation that no preparatory behaviors were missed."
+    }
+  }
+}

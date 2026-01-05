@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T08:35:44.249893",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up psychiatric visit focused on assessing response to a 4-week trial of *Sertraline* 50mg amid escalating symptoms of a *Major Depressive Episode*.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The patient reports severe depressive symptoms including early morning awakening, psychomotor slowing, and passive death ideation. Safety screening ruled out active intent. The session focused on medication adjustment (increasing *Sertraline* to 100mg) and brief behavioral interventions."
+  },
+  "duration_ms": 3574,
+  "error": null
+}

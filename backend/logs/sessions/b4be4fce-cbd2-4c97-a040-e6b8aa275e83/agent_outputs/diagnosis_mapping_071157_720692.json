@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-01-05T07:11:57.720692",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "primary_diagnosis": {
+      "code": "F33.1",
+      "description": "Major depressive disorder, recurrent, moderate episode",
+      "justification": "Clinical history confirms recurrent episodes of depression without mania/hypomania. The patient is currently experiencing an active episode, evidenced by the recent initiation of *Sertraline* (4 weeks ago), which warrants a moderate severity specifier due to ongoing, impactful symptoms.",
+      "dsm_criteria_met": [
+        "Meets criteria for a Major Depressive Episode (MDE).",
+        "History confirms at least one prior MDE.",
+        "No history of manic or hypomanic episodes (ruling out Bipolar I/II).",
+        "Current symptoms cause clinically significant distress or impairment."
+      ],
+      "confidence": 0.95
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": [
+      {
+        "code": "F32.x",
+        "description": "Major depressive disorder, single episode",
+        "reason": "Clinical Entity Agent confirms history suggests 'Recurrent' MDD."
+      },
+      {
+        "code": "F31.x",
+        "description": "Bipolar I or II Disorder",
+        "reason": "Patient explicitly denied any history of manic or hypomanic episodes."
+      },
+      {
+        "code": "F33.42",
+        "description": "Major depressive disorder, recurrent, in full remission",
+        "reason": "Symptoms are active, warranting treatment start 4 weeks ago (*Sertraline*), indicating a current moderate episode, not remission."
+      }
+    ]
+  },
+  "duration_ms": 5419,
+  "error": null
+}

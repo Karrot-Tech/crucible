@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T07:19:00.320078",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session detailing severe, persistent depressive symptoms (fatigue, anhedonia, sleep disturbance, functional impairment) despite 4 weeks of *Sertraline* 50mg.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The patient is presenting for a scheduled follow-up to assess initial antidepressant efficacy. Critical findings include non-response to *Sertraline* 50mg, significant functional impairment (missed work), and endorsement of passive death ideation, requiring immediate dose titration and a full C-SSRS safety assessment."
+  },
+  "duration_ms": 4325,
+  "error": null
+}

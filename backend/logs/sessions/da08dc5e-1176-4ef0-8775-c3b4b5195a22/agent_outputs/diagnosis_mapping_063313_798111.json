@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-01-05T06:33:13.798111",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "To complete the specification of Major Depressive Disorder, Recurrent (F33.x), please enumerate the number and description of the DSM-5 Criterion A symptoms endorsed during the current episode (depressed mood, anhedonia, sleep, appetite, concentration, etc.) to determine the severity specifier (Mild, Moderate, Severe, or With Psychotic Features).",
+    "suggested_answer": "Given the history of recurrent episodes and the current absence of an enumerated symptom count, the required placeholder diagnosis is Major Depressive Disorder, Recurrent, Unspecified (F33.9).",
+    "primary_diagnosis": {
+      "code": "F33.9",
+      "description": "Major depressive disorder, recurrent, unspecified",
+      "justification": "Based on the confirmation of recurrent episodes and the current lack of available symptom count or severity data for the present episode, this unspecified placeholder code is required per medical necessity guidance.",
+      "dsm_criteria_met": [
+        "Meets criteria for a Major Depressive Episode by history.",
+        "Has had at least one previous Major Depressive Episode."
+      ],
+      "confidence": 1.0
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": []
+  },
+  "duration_ms": 5857,
+  "error": null
+}

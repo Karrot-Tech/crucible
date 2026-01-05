@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-01-05T07:35:00.154524",
+  "trigger": "after_safety_triage",
+  "agent_id": "safety_triage",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session detailing worsening vegetative and cognitive symptoms of depression, including early morning awakening, anhedonia, and passive death ideation, necessitating a medication adjustment.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The clinical encounter is a standard psychiatric follow-up focusing on assessing the efficacy of Sertraline 50mg, managing breakthrough depressive symptoms, and conducting a necessary C-SSRS safety check regarding passive suicidal ideation."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. ... No, no, I wouldn't do that. I couldn't do that to them. But I just wish I could disappear sometimes.",
+          "recommended_action": "Patient reports passive death wish/ideation but denies active intent or plan. This requires a safety plan discussion, close monitoring, and reinforcement of protective factors (children/husband)."
+        }
+      ],
+      "summary": "The patient exhibits significant depressive symptoms and reports passive suicidal ideation ('wish I could disappear'). The provider adequately screened for intent and plan, which were denied. Risk is considered moderate, requiring immediate documentation and safety planning."
+    }
+  }
+}

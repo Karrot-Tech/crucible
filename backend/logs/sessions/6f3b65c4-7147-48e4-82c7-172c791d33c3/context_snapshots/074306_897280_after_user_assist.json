@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-01-05T07:43:06.897280",
+  "trigger": "after_user_assist",
+  "agent_id": "user_assist",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session addressing severe, non-responsive Major Depressive Disorder symptoms, including vegetative signs and passive suicidal ideation, leading to pharmacologic adjustment.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "This is a standard follow-up for a patient on psychotropic medication (Sertraline). The session includes necessary screening for suicide risk (C-SSRS material), ruling out bipolarity, and medication management decisions based on treatment non-response."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-01-05T06:45:46.702950",
+  "trigger": "after_safety_triage",
+  "agent_id": "safety_triage",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session documenting significant worsening of depressive symptoms, including passive suicidal ideation, resulting in the upward titration of Sertraline.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The patient reports classic symptoms of severe, escalating depression (terminal insomnia, anhedonia, weight loss) despite being on 50mg of Sertraline for 4 weeks. Safety screening confirms passive death ideation only. The focus of the session is medication management (increasing Sertraline to 100mg) and brief behavioral activation."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. [...] But I just wish I could disappear sometimes. (Denies active plan/intent: 'No, no, I wouldn't do that.')",
+          "recommended_action": "The patient reports passive death ideation ('wish I could disappear') and significant guilt/hopelessness, despite denying active intent or plan. A formal safety plan should be established or reviewed, and close monitoring is required, especially given the upcoming medication dosage increase (*Sertraline* 50mg to 100mg)."
+        },
+        {
+          "type": "Acute Emergency",
+          "severity": "Low",
+          "evidence": "I'm just feeling so drained all the time. I can barely get out of bed in the mornings. I've missed three days of work this week. (Symptoms consistent with severe *Major Depressive Episode*.)",
+          "recommended_action": "The patient reports significant functional impairment (missing work, *anhedonia*, *early morning awakening*, *weight loss*) indicating a severe depressive episode requiring immediate pharmacological intervention (dose increase) and close follow-up."
+        }
+      ],
+      "summary": "The patient reports passive suicidal ideation (wishing to disappear) and expresses strong feelings of guilt and worthlessness, coupled with severe functional impairment (missing work, 5lb weight loss). Active suicidal intent and plan are denied, and the patient cites protective factors (family). This constitutes a **Moderate** suicide risk requiring formal safety planning and enhanced follow-up, particularly after the medication dosage change."
+    }
+  }
+}

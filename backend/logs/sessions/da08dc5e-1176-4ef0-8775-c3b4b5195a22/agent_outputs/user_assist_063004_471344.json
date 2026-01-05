@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T06:30:04.471344",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session for Major Depressive Disorder (MDD) characterized by severe vegetative symptoms, functional impairment, and lack of response to the initial Sertraline 50mg dose.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The session involved a standard follow-up assessment for treatment-resistant depressive symptoms, including essential safety checks (ruling out active SI/bipolar pathology) necessary for a planned pharmacologic dose increase."
+  },
+  "duration_ms": 4136,
+  "error": null
+}

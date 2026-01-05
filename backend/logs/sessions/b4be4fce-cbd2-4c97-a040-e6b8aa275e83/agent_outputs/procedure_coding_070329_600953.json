@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-01-05T07:03:29.600953",
+  "agent_id": "procedure_coding",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "error": "Failed to parse JSON",
+    "raw": "{\n  \"clarification_needed\": true,\n  \"clarification_question\": \"Please specify the total time spent for this established patient visit (including E/M, counseling, and psychotherapy components). This information is required to determine the appropriate CPT code level (90833, 90836, or 90838).\",\n  \"suggested_answer\": \"53 minutes (Standard 90837 equivalent time for combination service)?\",\n  \"primary_code\": {\n    \"code\": \"TIME PENDING (99214 likely)\",\n    \"description\": \"Established Patient Visit for Evaluation and Management (E/M)\",\n    \"rationale\": \"The session involved evaluation of treatment failure, assessment of passive suicidal ideation, and prescription drug management (increase of *Sertraline* from 50mg to 100mg). Based on the complexity (dose adjustment for a chronic condition failing treatment, requiring safety assessment), the Medical Decision Making (MDM) is likely Moderate, pointing towards CPT 99214. However, the final coding selection must be determined by documented time if time is the controlling factor.\"\n  },\n  \"addon_codes\": [\n    {\n      \"code\": \"TIME PENDING (90836 likely)\",\n      \"description\": \"Psychotherapy Add-on Code (30, 50, or 80 minutes)\",\n      \"rationale\": \"Psychotherapy was provided, focusing on exploring passive death ideation, feelings of guilt, and functional decline secondary to *Major Depression*. An add-on code (90833, 90836, or 90838) is mandatory when psychotherapy accompanies an E/M service. The specific duration (30, 50, or 80 minutes) is needed to select the correct code.\"\n    }\n  ],\n  \"modifiers\": [],\n  \"medical_necessity\": \"Management of worsening *Recurrent Major Depressive Disorder* (F33.1, Moderate severity) with passive death ideation and significant functional impairment (missing work), necessitating critical medication titration (dose increase of *Sertraline*) and focused therapeutic intervention.\",\n  \"confidence\": \"High\"\n}\n}",
+    "clarification_question": "I encountered a formatting error while processing the analysis. Could you please provide a brief update or re-state the last point of the session to help me re-sync?"
+  },
+  "duration_ms": 12184,
+  "error": null
+}

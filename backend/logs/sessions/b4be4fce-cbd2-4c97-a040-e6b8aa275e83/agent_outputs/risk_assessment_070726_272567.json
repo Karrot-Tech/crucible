@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-01-05T07:07:26.272567",
+  "agent_id": "risk_assessment",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": null,
+    "suggested_answer": null,
+    "risk_level": "Low",
+    "suicidal_ideation_present": true,
+    "max_ideation_severity": 1,
+    "suicidal_behavior_present": false,
+    "protective_factors": [
+      "Strong deterrent factor (children/family): 'I couldn't do that to them.'",
+      "Current engagement and compliance with treatment plan (medication increase, light therapy)",
+      "Established therapeutic alliance with the provider"
+    ],
+    "risk_factors": [
+      "Current severe, acute depressive episode (*F33.1*)",
+      "Hopelessness and significant guilt ('I'm a failure', 'letting everyone down')",
+      "Vegetative symptoms (early morning awakening, weight loss, psychomotor retardation)",
+      "Recent loss of functioning (missed three days of work)"
+    ],
+    "clinical_actions": [
+      "Document the C-SSRS finding: Passive ideation (Wish to be dead/disappear) without intent or plan.",
+      "Increase monitoring frequency following the medication dosage adjustment (Sertraline to 100mg).",
+      "Safety plan review focused on immediate coping strategies for 3 AM awakenings."
+    ],
+    "cssrs_detail": {
+      "wish_to_be_dead": true,
+      "active_thoughts": false,
+      "specific_plan": false,
+      "intent": false
+    }
+  },
+  "duration_ms": 6445,
+  "error": null
+}

@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-01-05T07:33:57.015554",
+  "agent_id": "safety_triage",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "risk_detected": true,
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "concerns": [
+      {
+        "type": "Suicide Risk",
+        "severity": "Moderate",
+        "evidence": "Sometimes I think they'd be better off without me dragging them down. ... But I just wish I could disappear sometimes.",
+        "recommended_action": "The patient reports significant passive suicidal ideation (wish to be dead/disappear) rooted in overwhelming *guilt* and feelings of *failure*. Active ideation, plan, and intent were explicitly denied. Risk is elevated due to symptom severity (*anhedonia*, *insomnia*, functional impairment) and passive ideation. Continue close safety monitoring and detailed C-SSRS assessment (specifically C-SSRS item 3: Wish to be Dead)."
+      }
+    ],
+    "summary": "Safety assessment indicates moderate risk due to documented passive suicidal ideation and severe depressive symptoms (*early morning awakening*, *anergia*, *weight loss*). The patient explicitly denied active plan or intent, stating, 'I couldn't do that to them.' The risk requires continued vigilance, safety planning, and close follow-up, especially following the increase in *Sertraline* dosage."
+  },
+  "duration_ms": 4372,
+  "error": null
+}

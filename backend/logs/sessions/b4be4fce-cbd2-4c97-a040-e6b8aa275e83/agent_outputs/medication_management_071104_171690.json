@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-01-05T07:11:04.171690",
+  "agent_id": "medication_management",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": null,
+    "suggested_answer": null,
+    "medications": [
+      {
+        "name": "Sertraline",
+        "generic_name": "Sertraline",
+        "brand_name": "Zoloft",
+        "strength": "100 mg",
+        "form": "Tablet",
+        "route": "Oral",
+        "frequency": "Daily",
+        "indication": "Recurrent Major Depressive Disorder",
+        "response": "Minimal response observed after 4 weeks at 50mg dose; symptoms of fatigue, anhedonia, and early morning awakening persist.",
+        "adherence": "Good (reported taking 50mg daily)",
+        "side_effects": []
+      }
+    ],
+    "changes_made": [
+      {
+        "medication": "Sertraline",
+        "change_type": "Increase Dose",
+        "rationale": "Insufficient efficacy (minimal response) at 50mg after 4 weeks of treatment, given the ongoing severity of depressive symptoms (F33.1, Moderate)."
+      }
+    ],
+    "get_chat_summary": [
+      "Medication Check: Patient reports taking *Sertraline* 50mg daily, started 4 weeks ago.",
+      "Response: Patient reports minimal efficacy ('I don't feel like it's doing anything yet').",
+      "Plan: Dosage was increased from 50mg to 100mg daily to address persistent, moderate depressive symptoms.",
+      "**PEER REVIEW**: Diagnosis Mapping (F33.1, Major Depressive Disorder) is consistent with the current antidepressant medication (*Sertraline*)."
+    ]
+  },
+  "duration_ms": 6559,
+  "error": null
+}

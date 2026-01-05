@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-01-05T07:02:44.633751",
+  "agent_id": "safety_triage",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "risk_detected": true,
+    "clarification_needed": true,
+    "clarification_question": "Please clarify if a full C-SSRS assessment was performed after the patient reported the passive death ideation, specifically checking for history of past attempts and current preparatory behaviors (Step 6 and the corresponding section for intensity/behavior).",
+    "suggested_answer": "The patient denied any history of past attempts, current intent, or preparatory behaviors, confirming the passive nature of the ideation.",
+    "concerns": [
+      {
+        "type": "Suicide Risk",
+        "severity": "Moderate",
+        "evidence": "Sometimes I think they'd be better off without me dragging them down. ... No, no, I wouldn't do that. I couldn't do that to them. But I just wish I could disappear sometimes.",
+        "recommended_action": "Patient reports significant *passive death ideation* and intense feelings of guilt/hopelessness, placing the overall risk level at Moderate. Active intent and plan were denied. Requires immediate safety planning, close follow-up, and confirmation that full C-SSRS screen (including attempts/preparatory acts) was negative."
+      }
+    ],
+    "summary": "**SAFETY ALERT:** The patient reported *passive death ideation* and thoughts of others being 'better off.' Active intent and plan were denied, but the level of hopelessness and functional impairment is high. Requires confirmation of full C-SSRS screening (history/prep behaviors) and immediate safety planning."
+  },
+  "duration_ms": 5445,
+  "error": null
+}

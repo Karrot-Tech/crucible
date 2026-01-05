@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-01-05T06:48:43.137895",
+  "agent_id": "safety_triage",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "risk_detected": true,
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "concerns": [
+      {
+        "type": "Suicide Risk",
+        "severity": "Low",
+        "evidence": "Patient states, 'Sometimes I think they'd be better off without me dragging them down.' and 'But I just wish I could disappear sometimes.' (Passive death wish/Ideation). Patient explicitly denies intent or plan: 'No, no, I wouldn't do that. I couldn't do that to them.'",
+        "recommended_action": "Risk is currently managed as Low, validated by the C-SSRS assessment and confirmation of restricted means (User Feedback). However, the presence of passive suicidal ideation and the proposed increase in *Sertraline* dose (50mg to 100mg) necessitates careful monitoring for activation or increased ideation in the coming weeks. Safety planning should be reinforced."
+      }
+    ],
+    "summary": "**LOW IMMEDIATE RISK.** Passive suicidal ideation (wish to disappear, sense of being a burden) is confirmed. Active ideation, intent, and plan are denied by the patient, and access to lethal means is confirmed restricted. Outpatient safety management is appropriate. The team must monitor closely following the *Sertraline* dose adjustment."
+  },
+  "duration_ms": 6450,
+  "error": null
+}

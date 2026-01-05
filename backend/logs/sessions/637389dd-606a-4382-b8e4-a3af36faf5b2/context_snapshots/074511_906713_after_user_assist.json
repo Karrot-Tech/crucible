@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-01-05T07:45:11.906713",
+  "trigger": "after_user_assist",
+  "agent_id": "user_assist",
+  "context": {
+    "user_assist": {
+      "summary": "The session is a follow-up for a patient with Major Depressive Disorder presenting with severe, worsening symptoms including profound fatigue, anhedonia, insomnia, and passive suicidal ideation, requiring medication management adjustment.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "This is a standard psychiatric follow-up addressing a severe depressive episode characterized by anhedonia, early morning awakening, and passive death thoughts, leading to a planned dose titration of Sertraline after inadequate response at 50mg."
+    }
+  }
+}

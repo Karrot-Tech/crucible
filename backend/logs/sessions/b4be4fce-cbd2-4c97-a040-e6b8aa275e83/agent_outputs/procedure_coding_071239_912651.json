@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-01-05T07:12:39.912651",
+  "agent_id": "procedure_coding",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "Please specify the total time spent on this patient encounter (including face-to-face time, risk assessment, documentation review, and medication reconciliation) on the date of service, as time is the key factor in determining the correct E/M code level (99213-99215) and the appropriate psychotherapy add-on (90833, 90836, or 90838).",
+    "suggested_answer": "40 minutes (Supporting 99215 for the E/M component)?",
+    "primary_code": {
+      "code": "99214",
+      "description": "Established patient visit, moderate complexity (Level 4)",
+      "rationale": "The E/M component is necessitated by the complex Medical Decision Making (MDM): managing *Recurrent Major Depressive Disorder* (F33.1), performing a detailed C-SSRS risk assessment (passive SI confirmed but without intent/plan), and initiating a change in regimen (increasing *Sertraline* dosage from 50mg to 100mg). This level is supported by the high risk associated with the presenting problem and treatment plan. This level assumes a total time of 30-39 minutes, which should be confirmed by the provider."
+    },
+    "addon_codes": [
+      {
+        "code": "90833",
+        "description": "Psychotherapy, 30 minutes with evaluation and management service",
+        "rationale": "A significant portion of the session was dedicated to therapeutic work addressing the patient's feelings of failure, guilt, and passive suicidal ideation ('wish I could disappear'), which qualifies for the psychotherapy add-on. We are assigning the 30-minute level (16-37 minutes of psychotherapy) pending confirmation of the total session duration."
+      }
+    ],
+    "modifiers": [
+      "Pending Time/Modality Confirmation"
+    ],
+    "medical_necessity": "The session was medically necessary for the reassessment and adjustment of antidepressant therapy for *Major Depressive Disorder*, coupled with a required suicide risk assessment due to the presence of passive death ideation.",
+    "confidence": "Medium"
+  },
+  "duration_ms": 10599,
+  "error": null
+}

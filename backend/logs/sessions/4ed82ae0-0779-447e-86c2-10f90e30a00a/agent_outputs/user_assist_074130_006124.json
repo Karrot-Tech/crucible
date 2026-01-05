@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T07:41:30.006124",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up for worsening Major Depressive Disorder symptoms characterized by severe fatigue, functional impairment, early morning awakening, and passive death ideation; the session focused on titration of *Sertraline*.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The patient returned for follow-up describing a severe lack of response to the initial dose of *Sertraline* (50mg) after four weeks. The clinical discussion confirms severe vegetative and cognitive symptoms of depression, significant functional impairment (missing work), and necessitated safety screening, which revealed passive death ideation. The primary intervention was medication dose adjustment (increase to 100mg)."
+  },
+  "duration_ms": 4831,
+  "error": null
+}

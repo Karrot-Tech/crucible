@@ -1,0 +1,158 @@
+{
+  "timestamp": "2026-01-05T07:53:15.168182",
+  "trigger": "after_clinical_entity",
+  "agent_id": "clinical_entity",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session for treatment response monitoring of Major Depressive Disorder, complicated by increasing symptom severity and passive suicidal ideation.",
+      "clinical_nature": "medication_check",
+      "validation_result": "approved",
+      "reasoning": "Patient reported significant depressive symptoms, including anhedonia, severe functional impairment (missing work), and passive death wishes. The session focused on assessing treatment failure at 50mg *Sertraline* and titrating the dosage to 100mg daily. Safety assessment was completed and negative for active intent/plan."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. [...] But I just wish I could disappear sometimes.",
+          "recommended_action": "Patient reports passive suicidal ideation (wish to be dead/non-specific ideation) linked to intense *guilt* and feelings of being a *failure*. Active intent and plan are denied ('No, no, I wouldn't do that. I couldn't do that to them.'). Risk is elevated but not imminent. Recommend thorough safety planning, documentation of means restriction discussion, and close follow-up, especially following the *Sertraline* dose increase."
+        }
+      ],
+      "summary": "Moderate risk for suicide detected due to passive suicidal ideation ('wish to disappear,' feeling family is 'better off without me'). Active intent and plan were denied by the patient. The situation is **SAFE** from imminent risk, but requires mandatory safety plan documentation and enhanced monitoring."
+    },
+    "clinical_entity": {
+      "clarification_needed": true,
+      "clarification_question": "Please clarify the timeframe over which the *5-pound weight loss* occurred (e.g., over the last month or 6 months). Also, confirm if the *Sertraline* is dosed once daily (QD).",
+      "suggested_answer": "The *5-pound weight loss* is inferred to have occurred over the past four weeks, coinciding with the acute phase of the depressive episode. *Sertraline* frequency is inferred as once daily (QD).",
+      "presenting_symptoms": [
+        {
+          "symptom": "Fatigue / Lack of Energy",
+          "onset": "Unspecified (present since last session)",
+          "duration": "A couple of weeks (severe)",
+          "severity": "High (can barely get out of bed)",
+          "context": "Morning inertia",
+          "impact": "Missed 3 days of work this week"
+        },
+        {
+          "symptom": "Apathy / Lack of Motivation",
+          "onset": "Unspecified (present since last session)",
+          "duration": "A couple of weeks",
+          "severity": "Moderate-to-Severe",
+          "context": "Feeling drained, 'don't see the point in going' (to work)",
+          "impact": "Occupational impairment"
+        },
+        {
+          "symptom": "Appetite Disturbance / Weight Loss",
+          "onset": "Unspecified",
+          "duration": "Unspecified (Patient says 'I've lost maybe 5 pounds')",
+          "severity": "Moderate (5 lb loss)",
+          "context": "Not feeling hungry",
+          "impact": "Physical health decline"
+        },
+        {
+          "symptom": "Insomnia (Terminal)",
+          "onset": "Unspecified",
+          "duration": "Unspecified",
+          "severity": "Moderate",
+          "context": "Waking up at 3 AM and unable to return to sleep",
+          "impact": "Mental distress, mind racing"
+        },
+        {
+          "symptom": "Guilt / Worthlessness",
+          "onset": "Unspecified (present during insomniac periods)",
+          "duration": "Unspecified",
+          "severity": "Severe",
+          "context": "Thoughts of being a failure and letting people down",
+          "impact": "Distress, contributing to ideation"
+        },
+        {
+          "symptom": "Passive Death Wish",
+          "onset": "Unspecified",
+          "duration": "Unspecified",
+          "severity": "Moderate (Passive)",
+          "context": "Thinking family would be 'better off without me dragging them down,' wishes to 'disappear sometimes.'",
+          "impact": "Safety monitoring required"
+        }
+      ],
+      "mental_status_exam": {
+        "appearance": "not assessed",
+        "behavior": "Inferred low energy/sluggish (based on report of difficulty getting out of bed)",
+        "speech": "not assessed",
+        "mood": "Drained, rough, wishes to disappear",
+        "affect": "not assessed (likely restricted/depressed)",
+        "thought_process": "Racing thoughts (during awakening)",
+        "thought_content": "Guilt, failure, burden, passive death ideation",
+        "perception": "No evidence of perceptual disturbance",
+        "cognition": "not assessed",
+        "insight": "Good (Acknowledges symptoms are significant and seeks intervention)",
+        "judgment": "Appropriate (Denies active self-harm plan)"
+      },
+      "current_medications": [
+        {
+          "name": "*Sertraline*",
+          "dose": "50mg (current, being increased to 100mg)",
+          "frequency": "Daily (inferred)",
+          "start_date": "Approximately 4 weeks prior to session",
+          "response": "Minimal/None ('don't feel like it's doing anything yet')",
+          "adherence": "Good ('taking it every day')"
+        }
+      ],
+      "substance_use": {
+        "alcohol": "not assessed",
+        "tobacco": "not assessed",
+        "drugs": "not assessed"
+      },
+      "past_psychiatric_history": {
+        "prior_episodes": "Always been more 'on the low side' if anything.",
+        "bipolar_screen": "Negative (denied periods of mania/hypomania, high energy, or risk-taking)"
+      },
+      "medical_history": "not assessed",
+      "social_history": {
+        "family": "Married, has kids",
+        "occupational": "Currently employed, missed 3 days of work this week due to symptoms"
+      },
+      "family_psychiatric_history": "not assessed",
+      "functional_assessment": {
+        "occupational_impairment": "Significant (Missed 3 days of work this week)",
+        "social_impairment": "Feeling like a burden to husband and kids"
+      },
+      "assessment_scales": []
+    },
+    "user_clarifications": {
+      "clinical_entity": "Inferred start date is approximately 4 weeks prior to the session, based on the Doctor stating, 'at 4 weeks we usually hope to see some spark.'",
+      "diagnosis_mapping": "Based on the doctor's reference to monitoring treatment response at the 4-week mark ('at 4 weeks we usually hope to see some spark'), the clinical context strongly suggests an active Major Depressive Episode. We will proactively map this as Major Depressive Disorder, Single Episode, Moderate, pending symptom confirmation."
+    },
+    "diagnosis_mapping": {
+      "clarification_needed": true,
+      "clarification_question": "To establish a definitive primary diagnosis (DSM-5 Criterion B & C), please provide the full symptom cluster (Criterion A, at least 5 of 9 required) and confirm if the symptoms cause clinically significant distress or impairment. Specifically, how many of the 9 MDD criteria are currently endorsed?",
+      "suggested_answer": "Based on the doctor's reference to monitoring treatment response at the 4-week mark ('at 4 weeks we usually hope to see some spark'), the clinical context strongly suggests an active Major Depressive Episode. We will proactively map this as Major Depressive Disorder, Single Episode, Moderate, pending symptom confirmation.",
+      "primary_diagnosis": {
+        "code": "F32.1",
+        "description": "Major depressive disorder, single episode, moderate",
+        "justification": "Inference based on the existing shared transcript which indicates active pharmacological treatment monitoring for depression. This code assumes the patient meets at least five depressive criteria for a minimum of two weeks, causing moderate functional impairment, and has no history of mania or hypomania.",
+        "dsm_criteria_met": [
+          "Criterion A (Inferred: Depressed mood or Anhedonia plus 3-4 associated symptoms)",
+          "Criterion C (Inferred: Symptoms cause distress/impairment)"
+        ],
+        "confidence": 0.65
+      },
+      "secondary_diagnoses": [],
+      "ruled_out": [
+        {
+          "code": "F33.x",
+          "description": "Major depressive disorder, recurrent",
+          "reason": "Insufficient information to determine if this is a first episode or a recurrence."
+        },
+        {
+          "code": "F31.x",
+          "description": "Bipolar and related disorders",
+          "reason": "No evidence of manic or hypomanic episodes reported in the limited available context."
+        }
+      ]
+    }
+  }
+}

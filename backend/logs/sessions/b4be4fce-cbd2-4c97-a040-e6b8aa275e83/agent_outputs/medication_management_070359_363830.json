@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-01-05T07:03:59.363830",
+  "agent_id": "medication_management",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": null,
+    "suggested_answer": null,
+    "medications": [
+      {
+        "name": "Sertraline",
+        "generic_name": "Sertraline",
+        "brand_name": null,
+        "strength": "100mg",
+        "form": "Tablet",
+        "route": "PO",
+        "frequency": "Daily",
+        "indication": "Recurrent Major Depressive Disorder",
+        "response": "Minimal/Poor response after 4 weeks at 50mg",
+        "adherence": "Excellent",
+        "side_effects": []
+      }
+    ],
+    "changes_made": [
+      {
+        "medication": "Sertraline",
+        "change_type": "Increase Dose",
+        "rationale": "Increase from 50mg daily to 100mg daily due to ongoing, severe depressive symptoms (F33.1) and minimal reported efficacy after 4 weeks at the starting dose."
+      }
+    ],
+    "peer_review_status": "**Match**",
+    "peer_review_finding": "The use of *Sertraline* (SSRI) aligns appropriately with the proposed diagnosis of *Recurrent Major Depressive Disorder* (F33.1)."
+  },
+  "duration_ms": 4848,
+  "error": null
+}

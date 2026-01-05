@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-01-05T07:45:17.438677",
+  "trigger": "after_safety_triage",
+  "agent_id": "safety_triage",
+  "context": {
+    "user_assist": {
+      "summary": "The session is a follow-up for a patient with Major Depressive Disorder presenting with severe, worsening symptoms including profound fatigue, anhedonia, insomnia, and passive suicidal ideation, requiring medication management adjustment.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "This is a standard psychiatric follow-up addressing a severe depressive episode characterized by anhedonia, early morning awakening, and passive death thoughts, leading to a planned dose titration of Sertraline after inadequate response at 50mg."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. / But I just wish I could disappear sometimes.",
+          "recommended_action": "The patient reports significant passive suicidal ideation (wish to be dead/others better off without her). Active ideation and intent are explicitly denied (No, no, I wouldn't do that). This requires close safety monitoring, immediate treatment modification (Sertraline dose increase), and a documented safety plan/contract for safety."
+        },
+        {
+          "type": "Acute Emergency",
+          "severity": "Moderate",
+          "evidence": "I'm just feeling so drained all the time. I can barely get out of bed in the mornings. I've missed three days of work this week. I've lost maybe 5 pounds. I wake up at like 3 AM and can't go back to sleep.",
+          "recommended_action": "The patient is experiencing a severe depressive episode (MDD) with significant functional impairment, severe vegetative symptoms (anhedonia, weight loss, psychomotor retardation, terminal insomnia), requiring urgent intervention and medication management escalation."
+        }
+      ],
+      "summary": "Patient is experiencing a severe Major Depressive Episode with significant functional decline, vegetative symptoms, and clear evidence of passive suicidal ideation ('wish to be dead'). Active intent and plan are denied per documented screening. Severity is moderate requiring immediate medication adjustment and continued close safety follow-up."
+    }
+  }
+}

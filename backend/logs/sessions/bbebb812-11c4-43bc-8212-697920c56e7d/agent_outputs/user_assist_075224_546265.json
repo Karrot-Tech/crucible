@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T07:52:24.546265",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session addressing worsening symptoms of Major Depressive Disorder (MDD), including passive suicidal ideation, and subsequent titration of *Sertraline* 50mg to 100mg.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "Patient is presenting for a 4-week follow-up after initiating *Sertraline*. Symptoms include vegetative signs (early awakening, weight loss, anhedonia) and passive death ideation. The session is focused on medication efficacy review, dose adjustment, and comprehensive suicide risk assessment (negative for active plan/intent)."
+  },
+  "duration_ms": 3802,
+  "error": null
+}

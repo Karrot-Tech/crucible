@@ -1,0 +1,111 @@
+{
+  "timestamp": "2026-01-05T08:01:00.628398",
+  "agent_id": "clinical_entity",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "presenting_symptoms": [
+      {
+        "symptom": "*Fatigue*/Feeling drained",
+        "onset": "Approx. 2-4 weeks ago",
+        "duration": "Ongoing",
+        "severity": "Severe",
+        "context": "Mornings, difficulty getting out of bed",
+        "impact": "Missed three days of work this week"
+      },
+      {
+        "symptom": "*Anhedonia*/Lack of motivation",
+        "onset": "Approx. 2-4 weeks ago",
+        "duration": "Ongoing",
+        "severity": "Moderate to Severe",
+        "context": "Not seeing the point in going to work",
+        "impact": "Contributed to missing work"
+      },
+      {
+        "symptom": "*Insomnia* (Terminal)",
+        "onset": "Unspecified (part of current episode)",
+        "duration": "Ongoing",
+        "severity": "Moderate",
+        "context": "Waking up around 3 AM",
+        "impact": "Inability to return to sleep; accompanied by racing thoughts"
+      },
+      {
+        "symptom": "*Appetite decrease* and *Weight loss*",
+        "onset": "Unspecified (part of current episode)",
+        "duration": "Unspecified",
+        "severity": "Moderate",
+        "context": "Not really hungry",
+        "impact": "Lost 5 pounds"
+      },
+      {
+        "symptom": "*Guilt*/Worthlessness",
+        "onset": "Unspecified (part of current episode)",
+        "duration": "Ongoing",
+        "severity": "Significant",
+        "context": "Racing thoughts at night",
+        "impact": "Feeling like a failure and letting family down"
+      },
+      {
+        "symptom": "*Passive Suicidal Ideation*/Death Wish",
+        "onset": "Unspecified (part of current episode)",
+        "duration": "Ongoing",
+        "severity": "Significant",
+        "context": "Feeling like family would be better off without her",
+        "impact": "Expresses wish to disappear (Active plan/intent denied)"
+      }
+    ],
+    "mental_status_exam": {
+      "appearance": "Not assessed",
+      "behavior": "Not assessed (Implied low energy/psychomotor slowing based on self-report)",
+      "speech": "Normals rate/rhythm/volume (Implied)",
+      "mood": "Drained, Low",
+      "affect": "Not assessed",
+      "thought_process": "Linear and goal-directed, with evidence of nocturnal *rumination*",
+      "thought_content": "Themes of failure, guilt, worthlessness, and passive wish for death. Denial of active self-harm intent or plan.",
+      "perception": "No evidence of hallucinations or delusions.",
+      "cognition": "Not assessed",
+      "insight": "Good (Acknowledges severity of symptoms and willingness to engage in treatment changes)",
+      "judgment": "Functionally impaired (missing work), but sound in safety assessment (denying active intent)"
+    },
+    "current_medications": [
+      {
+        "name": "*Sertraline*",
+        "dose": "50mg (current, increasing to 100mg)",
+        "frequency": "Daily",
+        "start_date": "Last month (approx. 4 weeks ago)",
+        "response": "Minimal/None",
+        "adherence": "Good (taking it every day)"
+      }
+    ],
+    "substance_use": {
+      "alcohol": "Not assessed",
+      "tobacco": "Not assessed",
+      "drugs": "Not assessed"
+    },
+    "past_psychiatric_history": {
+      "mood_episodes": "History of being 'more on the low side if anything'. Denies history of manic/hypomanic episodes."
+    },
+    "medical_history": {
+      "summary": "Not assessed"
+    },
+    "social_history": {
+      "family_status": "Married, has kids",
+      "employment_status": "Employed (currently missing work due to symptoms)"
+    },
+    "family_psychiatric_history": {
+      "summary": "Not assessed"
+    },
+    "functional_assessment": {
+      "social": "Not assessed",
+      "occupational": "Severely impaired (missed 3 days of work this week)"
+    },
+    "assessment_scales": []
+  },
+  "duration_ms": 10332,
+  "error": null
+}

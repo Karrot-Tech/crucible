@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-01-05T07:10:33.301252",
+  "agent_id": "procedure_coding",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "Please specify the total time spent face-to-face with the patient, or the start and end times of the session, as the duration is required to select the appropriate E/M and psychotherapy codes.",
+    "suggested_answer": "45 minutes to 55 minutes total session time (consistent with 99214/90836 combination)?",
+    "primary_code": {
+      "code": "99214",
+      "description": "Established patient office visit, level 4",
+      "rationale": "Code selection is pending confirmation of total time and Medical Decision Making complexity, but the depth of discussion (safety assessment, worsening *Major Depression*, medication titration from 50mg to 100mg of *Sertraline*) strongly suggests high complexity/99214 level of service."
+    },
+    "addon_codes": [
+      {
+        "code": "90836",
+        "description": "Psychotherapy, 45 minutes, with E/M service",
+        "rationale": "Based on the extensive safety review, symptom review, exploration of passive ideation ('Sometimes I think they'd be better off...'), and motivational interviewing, 45 minutes of psychotherapy was clearly integrated into the management service. Final code (90833, 90836, or 90838) is dependent on confirmed time."
+      }
+    ],
+    "modifiers": [],
+    "medical_necessity": "Recurrent Major Depressive Disorder, Moderate (F33.1). The complexity is driven by the failure of initial *Sertraline* dosage, worsening symptoms, and necessary safety assessment/medication titration.",
+    "confidence": "Medium"
+  },
+  "duration_ms": 7287,
+  "error": null
+}

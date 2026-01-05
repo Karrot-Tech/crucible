@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-01-05T06:46:01.800958",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "The input context is empty. Please provide the clinical interview data (chief complaints, symptoms, history of present illness, and mental status exam findings) necessary to perform DSM-5 criteria matching and ICD-10 coding.",
+    "suggested_answer": "Diagnosis cannot be determined as the input data is currently empty. Assuming the next step involves processing the full clinical transcript/notes.",
+    "primary_diagnosis": {
+      "code": "F99",
+      "description": "Mental disorder, not otherwise specified",
+      "justification": "Input data is empty, preventing clinical analysis. F99 is used as a placeholder indicating insufficient information for specific coding.",
+      "dsm_criteria_met": [],
+      "confidence": 0.0
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": []
+  },
+  "duration_ms": 5397,
+  "error": null
+}

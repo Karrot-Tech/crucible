@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T06:47:09.119335",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session for Major Depressive Disorder (MDD) showing inadequate response to initial SSRI dose, complicated by severe functional decline and passive death ideation.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "This is a 4-week follow-up focusing on the efficacy and tolerability of Sertraline 50mg. The patient reports significant depressive symptom severity (anorexia, early morning awakening, anhedonia, worthlessness) requiring an immediate dose increase and rigorous safety evaluation for passive suicidal ideation."
+  },
+  "duration_ms": 4723,
+  "error": null
+}

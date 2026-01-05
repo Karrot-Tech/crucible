@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-01-05T07:43:40.667026",
+  "agent_id": "safety_triage",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "risk_detected": true,
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "concerns": [
+      {
+        "type": "Suicide Risk",
+        "severity": "Moderate",
+        "evidence": "Patient states, 'Sometimes I think they'd be better off without me dragging them down,' and later, 'I just wish I could disappear sometimes.'",
+        "recommended_action": "Passive suicidal ideation is present. Patient denies active intent, plan, or self-injurious behavior. A full C-SSRS assessment must be documented, and safety planning should be reinforced. The severity of the *Major Depression* symptoms (anhedonia, functional impairment, sleep disturbance) elevates the baseline risk."
+      },
+      {
+        "type": "Acute Emergency",
+        "severity": "Low",
+        "evidence": "Patient reports severe symptoms consistent with a Major Depressive Episode (anhedonia, *early morning awakening*, *weight loss*, *guilt*), leading to significant functional impairment (*missed three days of work*).",
+        "recommended_action": "Monitor clinical status closely, especially following the medication increase (*Sertraline* from 50mg to 100mg). No evidence of psychosis, mania, or delirium detected."
+      }
+    ],
+    "summary": "Moderate suicide risk detected due to confirmed passive death ideation, although the patient denied active intent or plan. Severe vegetative and cognitive symptoms of depression are noted, requiring immediate clinical attention and safety follow-up."
+  },
+  "duration_ms": 4327,
+  "error": null
+}

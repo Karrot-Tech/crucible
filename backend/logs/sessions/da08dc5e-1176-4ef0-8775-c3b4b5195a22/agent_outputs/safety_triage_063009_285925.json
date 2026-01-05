@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-01-05T06:30:09.285925",
+  "agent_id": "safety_triage",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "risk_detected": true,
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "concerns": [
+      {
+        "type": "Suicide Risk",
+        "severity": "Moderate",
+        "evidence": "PATIENT: 'Sometimes I think they'd be better off without me dragging them down.' and 'But I just wish I could disappear sometimes.'",
+        "recommended_action": "The patient expresses passive suicidal ideation (wish to die/disappear, belief others would be better off) but explicitly denies intent or plan ('No, no, I wouldn't do that. I couldn't do that to them.'). This necessitates immediate safety planning, monitoring, and documentation of the denial of means/intent. (Note: The shared transcript confirms lethal means restriction was addressed.)"
+      }
+    ],
+    "summary": "The patient reports significant worsening depressive symptoms (anhedonia, early morning awakening, weight loss) and expresses passive suicidal ideation related to feelings of being a burden and guilt. Intent and plan are explicitly denied, and safety measures regarding lethal means have been confirmed, supporting the current outpatient management plan. Close follow-up and crisis contact information must be reinforced."
+  },
+  "duration_ms": 4812,
+  "error": null
+}

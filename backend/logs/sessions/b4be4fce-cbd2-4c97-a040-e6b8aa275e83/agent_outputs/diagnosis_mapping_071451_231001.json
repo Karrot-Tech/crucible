@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-01-05T07:14:51.231001",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "primary_diagnosis": {
+      "code": "F33.1",
+      "description": "Major depressive disorder, recurrent, moderate",
+      "justification": "Based on the patient's history indicating previous episodes, confirming the recurrent specifier. Current symptoms are ongoing and impactful, necessitating the initiation of *Sertraline* 4 weeks ago. The severity is currently mapped to moderate based on the clinical impact and provider feedback.",
+      "dsm_criteria_met": [
+        "A. Meets criteria for current Major Depressive Episode.",
+        "B. History confirms recurrence (at least one previous MDE).",
+        "E. Absence of manic or hypomanic episodes."
+      ],
+      "confidence": 0.95
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": [
+      {
+        "code": "F32.1",
+        "description": "Major depressive disorder, single episode, moderate",
+        "reason": "History confirms previous episodes, negating the 'single episode' specifier."
+      },
+      {
+        "code": "F31.31",
+        "description": "Bipolar I disorder, current episode depressed, mild",
+        "reason": "The patient explicitly denies any history of manic or hypomanic episodes, ruling out Bipolar spectrum disorders."
+      },
+      {
+        "code": "F34.1",
+        "description": "Persistent depressive disorder (Dysthymia)",
+        "reason": "Clinical presentation suggests episodic, recurrent Major Depressive Disorder rather than chronic, low-grade symptoms lasting two or more years."
+      }
+    ]
+  },
+  "duration_ms": 5447,
+  "error": null
+}

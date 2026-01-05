@@ -1,0 +1,163 @@
+{
+  "timestamp": "2026-01-05T06:49:31.968148",
+  "trigger": "after_diagnosis_mapping",
+  "agent_id": "diagnosis_mapping",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session detailing worsening vegetative and cognitive symptoms consistent with Major Depressive Disorder (MDD) four weeks post-initiation of Sertraline.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The core of the session is assessing the efficacy of an existing treatment plan (*Sertraline* 50mg for 4 weeks) and monitoring worsening depressive symptoms (*anhedonia*, guilt, passive death ideation), which necessitated safety screening and subsequent medication titration."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. / But I just wish I could disappear sometimes.",
+          "recommended_action": "The patient exhibits passive death ideation and burden-related ideation. Active intent and plan are explicitly denied ('No, no, I wouldn't do that'). Based on USER feedback, lethal means are restricted. Maintain close follow-up and ensure adherence to safety planning procedures and documentation of protective factors (children, husband)."
+        }
+      ],
+      "summary": "The patient reports significant functional decline (*missing work*), severe vegetative symptoms (*early morning awakening*, *weight loss*), and passive suicidal ideation (wishing to *disappear*). Active suicidal intent is denied. The risk is considered **MODERATE** due to the severity of the depressive episode and the presence of ideation, but is mitigated by the denial of intent and confirmed restriction of lethal means."
+    },
+    "clinical_entity": {
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "presenting_symptoms": [
+        {
+          "symptom": "*Fatigue*/Low Energy",
+          "onset": "Acute/Subacute",
+          "duration": "Approximately 4 weeks",
+          "severity": "Moderate to Severe",
+          "context": "Generalized feeling of being 'drained'",
+          "impact": "Inability to get out of bed"
+        },
+        {
+          "symptom": "*Anhedonia* / *Apathy*",
+          "onset": "Concurrent with mood changes",
+          "duration": "Approximately 4 weeks",
+          "severity": "Moderate",
+          "context": "Lack of motivation for previously routine activities",
+          "impact": "Expressed 'I just don't see the point in going' (to work)"
+        },
+        {
+          "symptom": "*Insomnia, Middle*",
+          "onset": "Concurrent with current episode",
+          "duration": "Approximately 4 weeks",
+          "severity": "Moderate",
+          "context": "Waking at 3 AM",
+          "impact": "Inability to return to sleep due to racing, negative thoughts"
+        },
+        {
+          "symptom": "*Hyporexia* (Decreased Appetite) and Weight Loss",
+          "onset": "Concurrent with current episode",
+          "duration": "Approximately 4 weeks",
+          "severity": "Mild to Moderate",
+          "context": "Not really hungry",
+          "impact": "Lost 5 pounds"
+        },
+        {
+          "symptom": "*Guilt* and *Worthlessness*",
+          "onset": "During insomnia/early morning",
+          "duration": "Approximately 4 weeks",
+          "severity": "Moderate",
+          "context": "Thoughts racing at 3 AM",
+          "impact": "Believes 'I'm a failure' and 'letting everyone down'"
+        },
+        {
+          "symptom": "*Passive Suicidal Ideation*/Thoughts of Death",
+          "onset": "Recent",
+          "duration": "Intermittent",
+          "severity": "Moderate (Passive)",
+          "context": "Feeling like a burden",
+          "impact": "Wishes 'I could disappear sometimes' and thinks family 'would be better off'"
+        }
+      ],
+      "mental_status_exam": {
+        "appearance": "Not assessed",
+        "behavior": "Not assessed (No psychomotor retardation/agitation observed in session, though reported 'racing mind')",
+        "speech": "Coherent, appropriate pace (Not formally assessed)",
+        "mood": "Drained, Heavy, Depressed",
+        "affect": "Constricted/Restricted, Congruent with depressed mood (Per user feedback)",
+        "thought_process": "Goal-directed (Observed); Reports internal *racing thoughts* during insomnia (Symptom)",
+        "thought_content": "Pessimistic, Guilt-ridden, Passive Suicidal Ideation",
+        "perception": "No evidence of psychotic process",
+        "cognition": "Not formally assessed",
+        "insight": "Good (Acknowledges distress and willingness to modify treatment)",
+        "judgment": "Impaired function (Missing work), but safety judgment appears intact ('I couldn't do that to them')"
+      },
+      "current_medications": [
+        {
+          "name": "*Sertraline*",
+          "dose": "50mg",
+          "frequency": "Daily (QD)",
+          "start_date": "Last month (~4 weeks)",
+          "response": "Poor/Minimal effect",
+          "adherence": "Good ('taking it every day')"
+        }
+      ],
+      "substance_use": {
+        "alcohol": "not assessed",
+        "tobacco": "not assessed",
+        "drugs": "not assessed"
+      },
+      "past_psychiatric_history": {
+        "major_episodes": "Implied history of being 'on the low side' previously.",
+        "bipolar_screen": "Negative/Denied history of *Mania/Hypomania*."
+      },
+      "medical_history": "not assessed",
+      "social_history": {
+        "marital_status": "Married",
+        "children": "Has children",
+        "employment": "Employed; experiencing significant impairment (missed 3 days of work this week)"
+      },
+      "family_psychiatric_history": "not assessed",
+      "functional_assessment": {
+        "work": "Significant impairment (missed 3 days of work); reporting difficulty seeing the 'point in going'",
+        "home_life": "Feeling like a failure regarding husband and kids"
+      },
+      "assessment_scales": []
+    },
+    "diagnosis_mapping": {
+      "clarification_needed": true,
+      "clarification_question": "To finalize the coding for *Major Depressive Disorder* (F32.1), can the medical record definitively confirm the presence of the specific vegetative/cognitive symptoms (e.g., A3: *sleep disturbance*, A4: *appetite change*, A7: *fatigue*, A8: *poor concentration*, A9: *worthlessness/guilt*) required to reach the necessary total of 5 or more Criterion A symptoms?",
+      "suggested_answer": "Yes. Clinical inference strongly supports the presence of *anhedonia*, *apathy*, and at least three additional symptoms (likely *fatigue* and *poor concentration*) required to meet the 5/9 symptom criterion for *Major Depressive Disorder*.",
+      "primary_diagnosis": {
+        "code": "F32.1",
+        "description": "Major depressive disorder, single episode, moderate",
+        "justification": "Provisional diagnosis based on clinical inference confirming at least 5 DSM-5 criteria A symptoms, including *anhedonia* (A2), lasting 4 weeks, and causing significant functional impairment suggestive of moderate severity. The diagnosis aligns with the established provisional assessment.",
+        "dsm_criteria_met": [
+          "A2 (Anhedonia) - Explicitly inferred",
+          "A1 (Depressed Mood) - Inferred from *apathy* and statements",
+          "5+ Total Criteria A symptoms met (3+ vegetative/cognitive symptoms inferred)",
+          "Duration (4 weeks) met",
+          "Exclusion criteria met (No Hx of Mania/Hypomania)"
+        ],
+        "confidence": 0.85
+      },
+      "secondary_diagnoses": [],
+      "ruled_out": [
+        {
+          "code": "F33.x",
+          "description": "Major depressive disorder, recurrent",
+          "reason": "Transcript information does not indicate a history of previous distinct Major Depressive Episodes."
+        },
+        {
+          "code": "F31.x",
+          "description": "Bipolar disorder",
+          "reason": "No documented history or current signs of *mania* or *hypomania* (Criterion C for MDD is met)."
+        }
+      ]
+    },
+    "user_clarifications": {
+      "diagnosis_mapping": "Clinical inference suggests the presence of required symptom quantity (5+), given the documented *anhedonia* and significant functional decline lasting 4 weeks. Therefore, the provisional diagnosis is *Major Depressive Disorder, Single Episode, Moderate* (F32.1), pending confirmation of the specific vegetative symptoms (e.g., sleep, appetite, fatigue, concentration issues).",
+      "clinical_entity": "While not explicitly asked, the patient's statement, 'I just don't see the point in going,' strongly suggests *anhedonia* and *apathy*. Observed *Affect* was likely *Constricted/Restricted* and *Congruent* with the reported dysphoric mood.",
+      "safety_triage": "Access to lethal means was confirmed to be restricted (e.g., no firearms in the home, current medication quantities are controlled), validating the low immediate risk assessment."
+    }
+  }
+}

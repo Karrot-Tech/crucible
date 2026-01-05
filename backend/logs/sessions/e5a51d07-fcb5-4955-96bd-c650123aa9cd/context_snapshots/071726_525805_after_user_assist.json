@@ -1,0 +1,150 @@
+{
+  "timestamp": "2026-01-05T07:17:26.525805",
+  "trigger": "after_user_assist",
+  "agent_id": "user_assist",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session evaluating the inadequate response to the current *Sertraline* regimen and addressing significant worsening of depressive symptoms, including passive suicidal ideation.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The session focused on assessing the efficacy of the initial 4-week trial of *Sertraline* 50mg and planning a subsequent dose escalation to 100mg due to persistent symptoms (anhedonia, early morning awakening, feelings of failure). Critical clinical data includes confirmation of passive suicidal ideation and denial of active intent, necessitating immediate safety processing."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Patient states: 'Sometimes I think they'd be better off without me dragging them down,' and 'I just wish I could disappear sometimes.' Patient denies intent or plan: 'No, no, I wouldn't do that. I couldn't do that to them.'",
+          "recommended_action": "Document presence of passive suicidal ideation (Wish to be Dead/Feeling of being a burden). Note the explicit denial of intent and strong protective factors (children/husband). Implement or reinforce safety plan and schedule close follow-up."
+        }
+      ],
+      "summary": "The patient endorses significant depressive symptoms including severe guilt, early morning awakening, and hopelessness. There is evidence of passive suicidal ideation (wishes to disappear/death wishes). Intent, plan, and preparatory behaviors were explicitly denied, indicating a moderate, non-imminent risk profile requiring ongoing monitoring and safety intervention."
+    },
+    "clinical_entity": {
+      "clarification_needed": true,
+      "clarification_question": "The patient stated she started *Sertraline* 50mg 'last month.' Please clarify the exact start date (DD/MM/YYYY) for precise medication tracking and assessment of adequate trial length.",
+      "suggested_answer": "Inferred start date of *Sertraline* 50mg is approximately 4 weeks ago, based on the doctor's comment: 'at 4 weeks we usually hope to see some spark.'",
+      "presenting_symptoms": [
+        {
+          "symptom": "Fatigue/Low Energy (*Anhedonia*)",
+          "onset": "Recent exacerbation",
+          "duration": "Couple of weeks",
+          "severity": "Severe (Self-reported; impairment level)",
+          "context": "Mornings, upon waking",
+          "impact": "Difficulty getting out of bed; missed 3 days of work this week."
+        },
+        {
+          "symptom": "Initial/Terminal Insomnia (*Early Morning Awakening*)",
+          "onset": "Unknown",
+          "duration": "Couple of weeks (current severity)",
+          "severity": "Moderate",
+          "context": "Wakes up at 3 AM; mind races (guilt/failure)",
+          "impact": "Cannot return to sleep"
+        },
+        {
+          "symptom": "Change in Appetite/Weight",
+          "onset": "Recent",
+          "duration": "Unknown",
+          "severity": "Moderate",
+          "context": "Not feeling hungry",
+          "impact": "Lost approximately 5 pounds"
+        },
+        {
+          "symptom": "Feelings of *Worthlessness*/Guilt",
+          "onset": "Unknown",
+          "duration": "Couple of weeks (current severity)",
+          "severity": "Severe",
+          "context": "Thoughts of being a failure and letting family down (*husband*, *kids*)",
+          "impact": "Contributes to racing thoughts and sleep disturbance"
+        },
+        {
+          "symptom": "Passive Death Ideation",
+          "onset": "Recent",
+          "duration": "Unknown",
+          "severity": "Moderate (Present, but non-specific)",
+          "context": "Thinks family 'would be better off without me dragging them down.'",
+          "impact": "Wishes 'I could disappear sometimes.' *Active plan/intent denied.*"
+        }
+      ],
+      "mental_status_exam": {
+        "appearance": "not assessed",
+        "behavior": "Lethargic/Psychomotor slowing inferred (difficulty getting out of bed)",
+        "speech": "Normal rate/rhythm (Inferred)",
+        "mood": "Drained; rough",
+        "affect": "Constricted/Dysphoric (Inferred from content)",
+        "thought_process": "Linear and goal-directed",
+        "thought_content": "Pervasive themes of *failure*, *guilt*, *worthlessness*, and *passive death wish*.",
+        "perception": "No evidence of perceptual disturbance.",
+        "cognition": "Alert and oriented (Inferred)",
+        "insight": "Good (Recognizes symptoms are impairing; seeking treatment change)",
+        "judgment": "Intact (Denies self-harm; adheres to medication)",
+        "orientation": "A&O x 3 (Inferred)"
+      },
+      "current_medications": [
+        {
+          "name": "*Sertraline*",
+          "dose": "50mg (Current); Increasing to 100mg",
+          "frequency": "Daily",
+          "start_date": "Approx. 4 weeks ago (Start date clarification needed)",
+          "response": "Minimal/None ('don't feel like it's doing anything yet')",
+          "adherence": "Adherent ('taking it every day')"
+        }
+      ],
+      "substance_use": {
+        "alcohol": "not assessed",
+        "tobacco": "not assessed",
+        "drugs": "not assessed"
+      },
+      "past_psychiatric_history": {
+        "diagnosis": "History of being 'more on the low side if anything.'",
+        "hospitalizations": "not assessed",
+        "episodes": "Denied *manic/hypomanic* episodes."
+      },
+      "medical_history": {
+        "conditions": "not assessed",
+        "allergies": "not assessed"
+      },
+      "social_history": {
+        "living_situation": "Lives with *husband* and *kids* (inferred)",
+        "employment": "Employed; currently missing work (3 days this week)",
+        "stressors": "Feeling like a failure to *husband* and *kids*."
+      },
+      "family_psychiatric_history": {
+        "history": "not assessed"
+      },
+      "functional_assessment": {
+        "impairment_level": "Significant functional impairment (missed 3 days of work)",
+        "activities": "Difficulty performing basic activities (*getting out of bed*)."
+      },
+      "assessment_scales": []
+    },
+    "diagnosis_mapping": {
+      "clarification_needed": true,
+      "clarification_question": "Critical input data (clinical transcript, symptoms, and history) is missing. Please provide the patient's presentation and history to proceed with psychiatric diagnosis mapping. Specifically, I require current symptoms, duration, impairment level, and functional history.",
+      "suggested_answer": "N/A - Core clinical history is required to determine DSM-5 criteria matching. Diagnosis cannot be attempted without data.",
+      "primary_diagnosis": {
+        "code": "R69",
+        "description": "Illness, unspecified",
+        "justification": "No clinical data provided. Placeholder code used to indicate unknown clinical status.",
+        "dsm_criteria_met": [],
+        "confidence": 0.0
+      },
+      "secondary_diagnoses": [],
+      "ruled_out": [
+        {
+          "code": "F41.1",
+          "description": "Generalized Anxiety Disorder",
+          "reason": "Insufficient information to confirm or rule out."
+        }
+      ]
+    },
+    "user_clarifications": {
+      "diagnosis_mapping": "N/A - Core clinical history is required to determine DSM-5 criteria matching. Diagnosis cannot be attempted without data.",
+      "clinical_entity": "Inferred start date of *Sertraline* 50mg is approximately 4 weeks ago, based on the doctor's comment: 'at 4 weeks we usually hope to see some spark.'"
+    }
+  }
+}

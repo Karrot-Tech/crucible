@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-01-05T07:08:38.975918",
+  "agent_id": "risk_assessment",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": null,
+    "suggested_answer": null,
+    "risk_level": "Low",
+    "suicidal_ideation_present": true,
+    "max_ideation_severity": 1,
+    "suicidal_behavior_present": false,
+    "protective_factors": [
+      "Explicitly denies current intent or plan ('I wouldn't do that')",
+      "Strong family deterrent ('I couldn't do that to them')",
+      "Agreement and willingness to adhere to medication change (*Sertraline* increase)"
+    ],
+    "risk_factors": [
+      "Presence of passive suicidal ideation ('I just wish I could disappear')",
+      "Current episode of *Major Depressive Disorder* (Moderate severity)",
+      "Significant insomnia (early morning awakening)",
+      "Guilt and feelings of failure (sense of burdening family)"
+    ],
+    "clinical_actions": [
+      "Reinforce safety plan focusing on family deterrents.",
+      "Monitor closely for adverse effects or worsening symptoms post-*Sertraline* dose increase.",
+      "Schedule follow-up appointment within 1-2 weeks due to dose change and current symptoms."
+    ],
+    "cssrs_detail": {
+      "wish_to_be_dead": true,
+      "active_thoughts": false,
+      "specific_plan": false,
+      "intent": false
+    }
+  },
+  "duration_ms": 5464,
+  "error": null
+}

@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-01-05T06:45:41.900841",
+  "trigger": "after_user_assist",
+  "agent_id": "user_assist",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session documenting significant worsening of depressive symptoms, including passive suicidal ideation, resulting in the upward titration of Sertraline.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The patient reports classic symptoms of severe, escalating depression (terminal insomnia, anhedonia, weight loss) despite being on 50mg of Sertraline for 4 weeks. Safety screening confirms passive death ideation only. The focus of the session is medication management (increasing Sertraline to 100mg) and brief behavioral activation."
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "timestamp": "2026-01-05T07:16:50.111068",
+  "trigger": "after_diagnosis_mapping",
+  "agent_id": "diagnosis_mapping",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session focused on worsening symptoms of a major depressive episode, including early morning awakening and passive death ideation.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The patient reports insufficient response to Sertraline 50mg and significant vegetative and cognitive symptoms of depression, requiring a dose titration and safety assessment (passive SI confirmed, active intent denied)."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. ... But I just wish I could disappear sometimes.",
+          "recommended_action": "The patient reports passive death ideation and wishes to disappear, coupled with severe vegetative symptoms (terminal insomnia, weight loss, functional decline). Although intent and plan are explicitly denied ('No, no, I wouldn't do that'), this constitutes a moderate suicide risk based on ideation and burden status. A brief safety plan (C-SSRS Step 3+) and crisis resource education should be implemented immediately."
+        }
+      ],
+      "summary": "Moderate suicide risk detected due to passive death ideation ('wish to disappear') and feelings of being a burden, accompanied by significant depressive symptoms (anhedonia, terminal insomnia, missing work). Patient explicitly denies active intent or plan. Requires crisis safety planning and close follow-up."
+    },
+    "clinical_entity": {
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "presenting_symptoms": [
+        {
+          "symptom": "Fatigue/Low Energy (Drained)",
+          "onset": "Within the last couple of weeks",
+          "duration": "A couple of weeks",
+          "severity": "Severe",
+          "context": "Mornings, persistent",
+          "impact": "Inability to get out of bed; missed three days of work"
+        },
+        {
+          "symptom": "Anhedonia / Lack of motivation",
+          "onset": "Within the last couple of weeks",
+          "duration": "A couple of weeks",
+          "severity": "Moderate-Severe",
+          "context": "Related to work/daily activities",
+          "impact": "Doesn't 'see the point in going' to work"
+        },
+        {
+          "symptom": "Appetite/Weight loss",
+          "onset": "Unspecified",
+          "duration": "Unspecified (recent change)",
+          "severity": "Moderate",
+          "context": "Not feeling hungry",
+          "impact": "Lost 5 pounds"
+        },
+        {
+          "symptom": "Early Morning Awakening (Insomnia)",
+          "onset": "Unspecified",
+          "duration": "Unspecified",
+          "severity": "Moderate",
+          "context": "Waking up at 3 AM; inability to return to sleep",
+          "impact": "Mind races with negative thoughts"
+        },
+        {
+          "symptom": "Guilt/Worthlessness",
+          "onset": "Unspecified",
+          "duration": "Unspecified",
+          "severity": "Severe",
+          "context": "Early morning awakenings",
+          "impact": "Thoughts of being a failure and letting family down"
+        },
+        {
+          "symptom": "Passive Suicidal Ideation / Death Wish",
+          "onset": "Unspecified",
+          "duration": "Unspecified",
+          "severity": "Moderate (passive)",
+          "context": "Feeling like a burden",
+          "impact": "Believes family 'would be better off' without patient; wishes to disappear. Denies active intent."
+        }
+      ],
+      "mental_status_exam": {
+        "appearance": "not assessed",
+        "behavior": "not assessed",
+        "speech": "Clear, coherent, normal rate and volume (implied)",
+        "mood": "Drained, Depressed, Rough",
+        "affect": "not assessed",
+        "thought_process": "Linear and goal-directed; reports racing thoughts during insomnia episodes.",
+        "thought_content": "Preoccupied with themes of failure, guilt, worthlessness, and passive death ideation. Denies active suicidal intent or plan.",
+        "perception": "not assessed",
+        "cognition": "not assessed",
+        "insight": "Fair (Recognizes severity of symptoms and is motivated for dose increase/change.)",
+        "judgment": "not assessed"
+      },
+      "current_medications": [
+        {
+          "name": "Sertraline",
+          "dose": "50mg",
+          "frequency": "Daily",
+          "start_date": "Approximately 4 weeks ago ('last month')",
+          "response": "Minimal/Poor response ('doesn't feel like it's doing anything yet')",
+          "adherence": "Good ('taking it every day')"
+        }
+      ],
+      "substance_use": {
+        "alcohol": "not assessed",
+        "tobacco": "not assessed",
+        "drugs": "not assessed"
+      },
+      "past_psychiatric_history": {
+        "history_of_mania": "Denied ('No, never. I've always been more on the low side.')",
+        "prior_depressive_episodes": "Implied ('always been more on the low side')"
+      },
+      "medical_history": {
+        "chronic_conditions": "not assessed",
+        "recent_illness": "not assessed"
+      },
+      "social_history": {
+        "marital_status": "Married (Mentions 'husband')",
+        "children": "Yes (Mentions 'kids')",
+        "employment_status": "Employed, but currently experiencing severe impairment (missed 3 days of work this week)"
+      },
+      "family_psychiatric_history": {
+        "details": "not assessed"
+      },
+      "functional_assessment": {
+        "daily_activities": "Significantly impaired (difficulty getting out of bed)",
+        "occupational_functioning": "Severely impaired (missed 3 days of work)"
+      },
+      "assessment_scales": []
+    },
+    "diagnosis_mapping": {
+      "clarification_needed": true,
+      "clarification_question": "Critical input data (clinical transcript, symptoms, and history) is missing. Please provide the patient's presentation and history to proceed with psychiatric diagnosis mapping. Specifically, I require current symptoms, duration, impairment level, and functional history.",
+      "suggested_answer": "N/A - Core clinical history is required to determine DSM-5 criteria matching. Diagnosis cannot be attempted without data.",
+      "primary_diagnosis": {
+        "code": "R69",
+        "description": "Illness, unspecified",
+        "justification": "No clinical data provided. Placeholder code used to indicate unknown clinical status.",
+        "dsm_criteria_met": [],
+        "confidence": 0.0
+      },
+      "secondary_diagnoses": [],
+      "ruled_out": [
+        {
+          "code": "F41.1",
+          "description": "Generalized Anxiety Disorder",
+          "reason": "Insufficient information to confirm or rule out."
+        }
+      ]
+    }
+  }
+}

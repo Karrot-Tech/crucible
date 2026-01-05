@@ -1,0 +1,239 @@
+{
+  "timestamp": "2026-01-05T07:13:39.650333",
+  "trigger": "after_diagnosis_mapping",
+  "agent_id": "diagnosis_mapping",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up for Recurrent Major Depressive Disorder focused on worsening vegetative symptoms, safety assessment, and titration of recently initiated Sertraline.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The session is a structured follow-up (approximately 4 weeks post-initiation) addressing the efficacy of *Sertraline* for *Major Depressive Disorder, Recurrent, Moderate* (F33.1). Key focus areas included symptom severity assessment (insomnia, anergia, functional impairment), clarification of passive death ideation, and subsequent decision to titrate the antidepressant dose from 50mg to 100mg."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Low",
+          "evidence": "Patient states, 'Sometimes I think they'd be better off without me dragging them down.' and 'But I just wish I could disappear sometimes.'",
+          "recommended_action": "Document the presence of passive death ideation. Given the specific denial of intent, plan, preparatory behaviors, and history of attempts (as confirmed in the shared context/C-SSRS results), the immediate risk is low. Maintain safety planning, monitor symptoms closely, and schedule follow-up rapidly, especially following the *Sertraline* dose increase."
+        }
+      ],
+      "summary": "Passive death ideation is present ('wish I could disappear'), but the patient explicitly denies active intent, plan, or preparatory behaviors, and confirms no history of attempts. The overall immediate risk is assessed as Low, requiring routine safety monitoring."
+    },
+    "clinical_entity": {
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "presenting_symptoms": [
+        {
+          "symptom": "Fatigue and Anergia",
+          "onset": "Rough couple of weeks",
+          "duration": "Ongoing",
+          "severity": "Severe",
+          "context": "Mornings",
+          "impact": "Difficulty getting out of bed, missed 3 days of work"
+        },
+        {
+          "symptom": "Anhedonia/Lack of Motivation",
+          "onset": "Concurrent with fatigue",
+          "duration": "Ongoing",
+          "severity": "Moderate",
+          "context": "Work-related",
+          "impact": "Doesn't see the point in going to work"
+        },
+        {
+          "symptom": "Appetite Loss",
+          "onset": "Recent",
+          "duration": "Not specified",
+          "severity": "Mild to Moderate",
+          "context": "Eating habits",
+          "impact": "Lost 5 pounds"
+        },
+        {
+          "symptom": "Middle Insomnia (Early Morning Awakening)",
+          "onset": "Recent",
+          "duration": "Ongoing",
+          "severity": "Moderate",
+          "context": "Wakes at 3 AM",
+          "impact": "Cannot return to sleep; accompanied by racing thoughts"
+        },
+        {
+          "symptom": "Guilt and Worthlessness",
+          "onset": "Concurrent with insomnia",
+          "duration": "Ongoing",
+          "severity": "Moderate",
+          "context": "Mind racing at 3 AM",
+          "impact": "Thoughts of being a failure and letting family down"
+        },
+        {
+          "symptom": "Passive Suicidal Ideation (Death Ideation)",
+          "onset": "Recent",
+          "duration": "Current",
+          "severity": "Present, non-emergent",
+          "context": "Depressive episode",
+          "impact": "Wishes they could 'disappear' sometimes; feels family would be 'better off' without them. Denied intent or plan."
+        }
+      ],
+      "mental_status_exam": {
+        "appearance": "Not assessed",
+        "behavior": "Not assessed",
+        "speech": "Not assessed (implied WNL)",
+        "mood": "Drained, rough",
+        "affect": "Congruent with stated mood (implied)",
+        "thought_process": "Goal-directed (implied)",
+        "thought_content": "Pervasive themes of failure, guilt, and passive death ideation",
+        "perception": "No perceptual disturbances noted",
+        "cognition": "Alert and oriented (implied)",
+        "insight": "Good (Acknowledges symptoms are significant and is willing to accept treatment changes)",
+        "judgment": "Functionally impaired (missing work), but safety judgment regarding self-harm is intact (no intent/plan)"
+      },
+      "current_medications": [
+        {
+          "name": "Sertraline",
+          "dose": "50mg",
+          "frequency": "Daily",
+          "start_date": "Approximately 4 weeks ago",
+          "response": "Poor (reports no change)",
+          "adherence": "Adherent (taking it every day)"
+        }
+      ],
+      "substance_use": {
+        "alcohol": "Not assessed",
+        "tobacco": "Not assessed",
+        "drugs": "Not assessed"
+      },
+      "past_psychiatric_history": {
+        "history": "History of being 'on the low side'. Denies any history of manic or hypomanic episodes.",
+        "diagnoses": "*Recurrent Major Depressive Disorder*"
+      },
+      "medical_history": {
+        "history": "Not assessed"
+      },
+      "social_history": {
+        "marital_status": "Married (Has a husband)",
+        "children": "Yes (Has kids)",
+        "occupation": "Employed (Missing work)"
+      },
+      "family_psychiatric_history": {
+        "history": "Not assessed"
+      },
+      "functional_assessment": {
+        "work": "Significantly impaired; missed 3 days of work this week.",
+        "home_life": "Feels she is 'letting everyone down' (husband, kids)."
+      },
+      "assessment_scales": []
+    },
+    "user_clarifications": {
+      "clinical_entity": "Sertraline start date is approximately 4 weeks ago based on the doctor's commentary. History suggests *Recurrent Major Depressive Disorder* as the patient denies any manic or hypomanic episodes.",
+      "diagnosis_mapping": "Based on the recent initiation of *Sertraline* (4 weeks ago), suggesting ongoing, impactful symptoms, the most probable current severity is **Moderate (F33.1)**.",
+      "safety_triage": "The patient denied any history of past attempts, current intent, or preparatory behaviors, confirming the passive nature of the ideation."
+    },
+    "diagnosis_mapping": {
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "primary_diagnosis": {
+        "code": "F33.1",
+        "description": "Major depressive disorder, recurrent, moderate episode",
+        "justification": "Clinical entity extraction confirms a history of *Recurrent Major Depressive Disorder* without any manic or hypomanic episodes. The recent initiation of *Sertraline* 4 weeks ago and reported ongoing, impactful symptoms confirm the presence of a current episode, appropriately classified as moderate severity based on the provider's direct feedback.",
+        "dsm_criteria_met": [
+          "Meets criteria for Major Depressive Episode (A1-A9, implied by current symptoms/treatment)",
+          "Recurrent status (history of two or more episodes confirmed)",
+          "No history of mania or hypomania (E criteria met)"
+        ],
+        "confidence": 1.0
+      },
+      "secondary_diagnoses": [],
+      "ruled_out": [
+        {
+          "code": "F32.x",
+          "description": "Major Depressive Disorder, Single Episode",
+          "reason": "History confirms multiple prior episodes, necessitating the recurrent specifier (F33.x)."
+        },
+        {
+          "code": "F31.x",
+          "description": "Bipolar and Related Disorders",
+          "reason": "The patient explicitly denies any history of manic or hypomanic episodes, ruling out Bipolar I or Bipolar II Disorder."
+        }
+      ]
+    },
+    "risk_assessment": {
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "risk_level": "Low",
+      "suicidal_ideation_present": true,
+      "max_ideation_severity": 1,
+      "suicidal_behavior_present": false,
+      "protective_factors": [
+        "Explicit denial of active intent/plan: 'I couldn't do that to them.'",
+        "Identifies family (husband, kids) as a reason for not acting.",
+        "Willingness to engage in treatment plan changes (*Sertraline* dose increase, behavioral activation goals)."
+      ],
+      "risk_factors": [
+        "Passive suicidal ideation ('wish I could disappear', 'they'd be better off without me')",
+        "Significant vegetative symptoms of depression (early morning awakening, weight loss, fatigue)",
+        "Severe feelings of guilt and worthlessness ('I'm a failure', 'letting everyone down')",
+        "Recent history of missed work/social functioning decline"
+      ],
+      "clinical_actions": [
+        "Psychoeducation provided regarding passive vs. active ideation.",
+        "Safety plan reinforcement (due to passive ideation being present).",
+        "Monitor closely for any shift from passive to active ideation during follow-up, especially post-medication increase."
+      ],
+      "cssrs_detail": {
+        "wish_to_be_dead": true,
+        "active_thoughts": false,
+        "specific_plan": false,
+        "intent": false
+      }
+    },
+    "procedure_coding": {
+      "clarification_needed": true,
+      "clarification_question": "Please specify the total time spent (start to finish, including counseling/therapy and E/M components) for this established patient visit. Time is required to distinguish between 90834 (45 min) or 90837 (60 min) or the corresponding E/M level.",
+      "suggested_answer": "53 minutes or more (supporting 90837 or 99214/99215 level coding) is suggested given the detailed risk assessment, counseling, and high complexity medication management (titration of *Sertraline*).",
+      "primary_code": {
+        "code": "TIME DEPENDENT",
+        "description": "Established patient E/M and Psychotherapy services (Code determined by documented duration)",
+        "rationale": "The session involved integrated Evaluation and Management (medication titration: increasing *Sertraline* from 50mg to 100mg) and Psychotherapy (detailed assessment of depressive symptoms, grief/guilt, and passive suicidal ideation). The final primary code (99214/99215 or 90834/90837) hinges entirely on documented time."
+      },
+      "addon_codes": [],
+      "modifiers": [
+        "95"
+      ],
+      "medical_necessity": "High medical decision complexity supported by new dose titration of an SSRI for *Recurrent Major Depressive Disorder, Moderate* (F33.1) coupled with assessment and management of passive suicidal ideation.",
+      "confidence": "High"
+    },
+    "medication_management": {
+      "clarification_needed": false,
+      "clarification_question": null,
+      "suggested_answer": null,
+      "medications": [
+        {
+          "name": "Sertraline",
+          "generic_name": "Sertraline",
+          "brand_name": "Zoloft",
+          "strength": "100 mg",
+          "form": "Tablet",
+          "route": "PO",
+          "frequency": "Daily",
+          "indication": "Recurrent Major Depressive Disorder (F33.1)",
+          "response": "Suboptimal/Partial response noted after 4 weeks on 50mg; dosage increased.",
+          "adherence": "Good (patient reports taking 50mg daily)",
+          "side_effects": []
+        }
+      ],
+      "changes_made": [
+        {
+          "medication": "Sertraline",
+          "change_type": "Increase Dose",
+          "rationale": "Patient reported persistent moderate depressive symptoms (anhedonia, guilt, early morning awakening, passive ideation) and minimal symptomatic relief after 4 weeks on the starting dose of 50mg. Dose titrated from 50mg to 100mg daily."
+        }
+      ]
+    }
+  }
+}

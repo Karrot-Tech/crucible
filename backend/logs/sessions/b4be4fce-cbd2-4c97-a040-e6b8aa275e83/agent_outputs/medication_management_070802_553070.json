@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-01-05T07:08:02.553070",
+  "agent_id": "medication_management",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": null,
+    "suggested_answer": null,
+    "medications": [
+      {
+        "name": "Sertraline",
+        "generic_name": "Sertraline",
+        "brand_name": "Zoloft",
+        "strength": "50 mg",
+        "form": "Tablet",
+        "route": "PO",
+        "frequency": "Daily",
+        "indication": "*Major Depressive Disorder*, Recurrent",
+        "response": "Poor/Minimal response after 4 weeks trial",
+        "adherence": "Good (Patient reports taking every day)",
+        "side_effects": []
+      }
+    ],
+    "changes_made": [
+      {
+        "medication": "Sertraline",
+        "change_type": "Increase Dose",
+        "rationale": "Insufficient clinical response (persistent *anhedonia*, *vegetative symptoms*, *passive SI*) after 4 weeks at 50mg. Dose increased to 100mg daily to optimize therapeutic effect for **Moderate Major Depressive Disorder (F33.1)**."
+      }
+    ]
+  },
+  "duration_ms": 6882,
+  "error": null
+}

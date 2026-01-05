@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-01-05T07:39:40.436658",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "primary_diagnosis": {
+      "code": "F33.2",
+      "description": "Major depressive disorder, recurrent, severe, without psychotic features",
+      "justification": "The patient reports 7 out of 9 symptoms of a Major Depressive Episode (MDE), including *severe sadness*, *anhedonia*, and passive *thoughts of death*. This episode has lasted 3 months, meeting duration criteria. History confirms a previous episode 2 years ago, warranting the recurrent specifier (F33.x). Severity is designated as 'severe' due to the high symptom burden (7/9) and the documented functional impairment/lack of adequate response to the current dose of *Fluoxetine*.",
+      "dsm_criteria_met": [
+        "A1: Depressed mood most of the day, nearly every day (Severe sadness)",
+        "A2: Markedly diminished interest or pleasure (Anhedonia)",
+        "A3: Insomnia (Sleeping 4 hours/night)",
+        "A4: Fatigue or loss of energy",
+        "A5: Feelings of worthlessness or excessive inappropriate guilt",
+        "A7: Diminished ability to think or concentrate",
+        "A9: Recurrent thoughts of death (Suicidal ideation present, without plan/intent)"
+      ],
+      "confidence": 1.0
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": [
+      {
+        "code": "F32.x",
+        "description": "Major depressive disorder, single episode",
+        "reason": "History confirms a previous depressive episode 2 years ago, establishing recurrence."
+      },
+      {
+        "code": "F31.x",
+        "description": "Bipolar I or II Disorder",
+        "reason": "Patient reports no history of *mania* or *hypomania*."
+      },
+      {
+        "code": "F41.1",
+        "description": "Generalized anxiety disorder",
+        "reason": "Symptoms are overwhelmingly indicative of a depressive episode; insufficient data to meet independent criteria for GAD as a secondary diagnosis."
+      }
+    ]
+  },
+  "duration_ms": 7568,
+  "error": null
+}

@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-01-05T07:18:18.834407",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "To proceed with DSM-5 criteria matching and ICD-10 assignment, critical clinical input data is missing. Please provide the patient's chief complaints, core symptom clusters (e.g., 5+ symptoms of depression or primary anxiety criteria), duration of the current episode, and documentation of functional impairment.",
+    "suggested_answer": "Currently, a DSM-5 diagnosis cannot be established without reported symptoms, history, or functional status. The patient is on *Sertraline* 50mg, initiated 4 weeks ago, which commonly treats Major Depressive Disorder (F32.x/F33.x) or specific anxiety disorders (F4x.x). Assuming the patient is being treated for a mood disorder, this information is necessary to select the correct code (e.g., specifying severity or recurrence status).",
+    "primary_diagnosis": {
+      "code": "F99",
+      "description": "Mental disorder, not otherwise specified",
+      "justification": "Diagnosis pending symptom criteria review. No clinical symptoms, duration, or impairment are documented in the shared record.",
+      "dsm_criteria_met": [],
+      "confidence": 0.0
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": []
+  },
+  "duration_ms": 5710,
+  "error": null
+}

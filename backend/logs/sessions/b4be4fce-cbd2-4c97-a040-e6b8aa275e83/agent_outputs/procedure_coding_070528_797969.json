@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-01-05T07:05:28.797969",
+  "agent_id": "procedure_coding",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "Please specify the total time spent with Sarah today (including face-to-face counseling, history review, prescribing decisions, and documentation). Time documentation is required to select the correct CPT code (E/M + Psychotherapy add-on).",
+    "suggested_answer": "45-50 minutes (Standard duration for established combined medication management and therapy)?",
+    "primary_code": {
+      "code": "TBD",
+      "description": "TBD",
+      "rationale": "Cannot assign the primary E/M code (9921X) or the appropriate psychotherapy timing (9083X) without the documented duration of the session."
+    },
+    "addon_codes": [],
+    "modifiers": [],
+    "medical_necessity": "The service involved monitoring and adjustment of psychotropic medication (*Sertraline* titration), management of a chronic condition (*Recurrent Major Depressive Disorder* F33.1), and psychotherapy addressing passive suicidal ideation and core depressive symptoms (guilt, anhedonia).",
+    "confidence": "High"
+  },
+  "duration_ms": 7090,
+  "error": null
+}

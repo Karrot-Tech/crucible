@@ -1,0 +1,127 @@
+{
+  "timestamp": "2026-01-05T07:46:47.084856",
+  "trigger": "after_clinical_entity",
+  "agent_id": "clinical_entity",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session for worsening Major Depressive Disorder (MDD), marked by significant vegetative symptoms (weight loss, early morning awakening) and passive thoughts of death requiring medication titration.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The patient is presenting with severe non-response to current Sertraline 50mg treatment, exhibiting multiple SIGECAPS criteria, functional impairment (missed work), and passive suicidal ideation. The session's core purpose is treatment augmentation and longitudinal safety re-evaluation."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. ... No, no, I wouldn't do that. I couldn't do that to them. But I just wish I could disappear sometimes.",
+          "recommended_action": "Patient reports passive death ideation and wishes of disappearance, linked to feelings of being a 'failure.' Patient denies specific intent, plan, or preparatory behaviors, and reports strong protective factors (children/husband). A formal C-SSRS assessment is required to document the denial of intent and plan. Continue safety planning."
+        }
+      ],
+      "summary": "Immediate safety concern detected: Moderate suicide risk based on passive ideation and death wishes ('better off without me,' 'wish I could disappear'). Patient denies intent, plan, or means, citing strong protective factors. Clinical evaluation confirms acute worsening of *Major Depressive Disorder* symptoms (anhedonia, *hypersomnia* followed by *early morning awakening*, *guilt*, *anorexia* with *weight loss*)."
+    },
+    "clinical_entity": {
+      "clarification_needed": true,
+      "clarification_question": "Did the patient mention the specific date Sertraline 50mg was initiated? Also, what is the documented onset duration for the current episode of severe symptoms (the 'rough couple of weeks')?",
+      "suggested_answer": "Sertraline was started approximately 4 weeks ago (last month). The current severe symptoms (missing work, increased SI/guilt) have lasted for approximately two weeks.",
+      "presenting_symptoms": [
+        {
+          "symptom": "Fatigue/Feeling Drained",
+          "onset": "Acute worsening",
+          "duration": "Couple of weeks",
+          "severity": "High (impacts daily function)",
+          "context": "Generalized feeling of being overwhelmed",
+          "impact": "Difficulty getting out of bed"
+        },
+        {
+          "symptom": "Anhedonia/Lack of Motivation",
+          "onset": "Acute worsening",
+          "duration": "Couple of weeks",
+          "severity": "High",
+          "context": "Doesn't see the point in going to work",
+          "impact": "Missed three days of work this week"
+        },
+        {
+          "symptom": "Insomnia",
+          "onset": "Unspecified (Part of current episode)",
+          "duration": "Unspecified (current episode)",
+          "severity": "Moderate",
+          "context": "Mind starts racing",
+          "impact": "Early morning awakening (approx. 3 AM), inability to return to sleep"
+        },
+        {
+          "symptom": "Appetite Disturbance/Weight Loss",
+          "onset": "Unspecified (Part of current episode)",
+          "duration": "Unspecified",
+          "severity": "Mild to Moderate",
+          "context": "Not really hungry",
+          "impact": "Lost 5 pounds"
+        },
+        {
+          "symptom": "Guilt/Feelings of Failure",
+          "onset": "Unspecified (Part of current episode)",
+          "duration": "Unspecified",
+          "severity": "High",
+          "context": "Thoughts of being a failure, letting family down",
+          "impact": "Contributes to racing thoughts"
+        },
+        {
+          "symptom": "Passive Death Ideation",
+          "onset": "Unspecified (Part of current episode)",
+          "duration": "Unspecified",
+          "severity": "High",
+          "context": "Thinking family would be better off without her; wishing to disappear",
+          "impact": "Indicates significant distress; active plan/intent denied."
+        }
+      ],
+      "mental_status_exam": {
+        "appearance": "not assessed",
+        "behavior": "not assessed",
+        "speech": "not assessed",
+        "mood": "Drained; rough couple of weeks",
+        "affect": "Implied restricted/depressed; congruent with mood",
+        "thought_process": "Racing thoughts (specifically during early morning awakening)",
+        "thought_content": "Themes of failure, guilt, perceived burden on family; passive death wishes (denies active SI/intent)",
+        "perception": "None reported",
+        "cognition": "not assessed",
+        "insight": "Good (recognizes severity of symptoms and need for treatment adjustment)",
+        "judgment": "Good (denies active intent to harm self; compliant with treatment recommendations)"
+      },
+      "current_medications": [
+        {
+          "name": "Sertraline",
+          "dose": "50mg",
+          "frequency": "Daily",
+          "start_date": "Last month (approx. 4 weeks ago)",
+          "response": "Poor/Minimal effect",
+          "adherence": "Good (taking it every day)"
+        }
+      ],
+      "substance_use": {
+        "alcohol": "not assessed",
+        "tobacco": "not assessed",
+        "drugs": "not assessed"
+      },
+      "past_psychiatric_history": {
+        "history": "Always been more on the low side if anything. Denies past periods of elevated mood, decreased need for sleep, or risk-taking behavior (rules out mania/hypomania)."
+      },
+      "medical_history": {
+        "history": "not assessed"
+      },
+      "social_history": {
+        "history": "Married with children (mentioned husband and kids)"
+      },
+      "family_psychiatric_history": {
+        "history": "not assessed"
+      },
+      "functional_assessment": {
+        "impairment": "Significant impairment. Missed three days of work this week."
+      },
+      "assessment_scales": []
+    }
+  }
+}

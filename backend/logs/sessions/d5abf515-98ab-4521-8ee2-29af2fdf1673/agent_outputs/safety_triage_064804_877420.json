@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-01-05T06:48:04.877420",
+  "agent_id": "safety_triage",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "risk_detected": true,
+    "clarification_needed": true,
+    "clarification_question": "Please clarify if the patient was explicitly assessed regarding current access to lethal means (e.g., firearms, medication stockpiles) to ensure **SAFE** disposition, as indicated in the prior feedback.",
+    "suggested_answer": "Access to lethal means was confirmed to be restricted (e.g., no firearms in the home, current medication quantities are controlled), validating the low immediate risk assessment.",
+    "concerns": [
+      {
+        "type": "Suicide Risk",
+        "severity": "Moderate",
+        "evidence": "Patient reports passive ideation ('Sometimes I think they'd be better off without me dragging them down.' and 'I just wish I could disappear sometimes.') alongside significant functional decline (missed three days of work) and sleep disturbance.",
+        "recommended_action": "The patient denied intent or plan ('No, no, I wouldn't do that. I couldn't do that to them.') and reported strong protective factors (concern for family). Risk is manageable outpatient but requires immediate confirmation of means restriction assessment and documentation to finalize disposition."
+      }
+    ],
+    "summary": "Passive suicidal ideation is present, coupled with severe depressive symptoms (guilt, worthlessness, early morning awakening). Intent and plan are denied, and strong protective factors are noted. The overall immediate risk is assessed as Low, but confirmation of means restriction is mandatory for final charting and disposition."
+  },
+  "duration_ms": 6330,
+  "error": null
+}

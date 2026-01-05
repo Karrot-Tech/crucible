@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-01-05T07:17:04.475236",
+  "agent_id": "safety_triage",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "risk_detected": true,
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "concerns": [
+      {
+        "type": "Suicide Risk",
+        "severity": "Moderate",
+        "evidence": "Patient states: 'Sometimes I think they'd be better off without me dragging them down,' and 'I just wish I could disappear sometimes.' Patient denies intent or plan: 'No, no, I wouldn't do that. I couldn't do that to them.'",
+        "recommended_action": "Document presence of passive suicidal ideation (Wish to be Dead/Feeling of being a burden). Note the explicit denial of intent and strong protective factors (children/husband). Implement or reinforce safety plan and schedule close follow-up."
+      }
+    ],
+    "summary": "The patient endorses significant depressive symptoms including severe guilt, early morning awakening, and hopelessness. There is evidence of passive suicidal ideation (wishes to disappear/death wishes). Intent, plan, and preparatory behaviors were explicitly denied, indicating a moderate, non-imminent risk profile requiring ongoing monitoring and safety intervention."
+  },
+  "duration_ms": 5397,
+  "error": null
+}

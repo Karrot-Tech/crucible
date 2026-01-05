@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-01-05T07:06:24.200058",
+  "agent_id": "medication_management",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "medications": [
+      {
+        "name": "Sertraline",
+        "generic_name": "Sertraline",
+        "brand_name": "Zoloft",
+        "strength": "100mg",
+        "form": "Tablet",
+        "route": "Oral",
+        "frequency": "Daily",
+        "indication": "Recurrent Major Depressive Disorder",
+        "response": "Inadequate response to 50mg dose after 4 weeks.",
+        "adherence": "Excellent (Reported taking 50mg daily as prescribed)",
+        "side_effects": []
+      }
+    ],
+    "changes_made": [
+      {
+        "medication": "Sertraline",
+        "change_type": "Increase Dose",
+        "rationale": "Suboptimal therapeutic response (persistence of severe symptoms including anhedonia, early morning awakening, and passive death ideation) after 4-week trial at 50mg. Escalation to 100mg for increased efficacy.",
+        "previous_dose": "50mg",
+        "new_dose": "100mg"
+      }
+    ],
+    "peer_review_status": {
+      "diagnosis_mapping": "**F33.1** (Recurrent Major Depressive Disorder, Moderate)",
+      "medication_class": "SSRI",
+      "match_assessment": "MATCH",
+      "flag": "No",
+      "notes": "*Sertraline* is first-line pharmacological treatment for **Major Depressive Disorder** and aligns with the proposed diagnosis of **F33.1**."
+    }
+  },
+  "duration_ms": 5323,
+  "error": null
+}

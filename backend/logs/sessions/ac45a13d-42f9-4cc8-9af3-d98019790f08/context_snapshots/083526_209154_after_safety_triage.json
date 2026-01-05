@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-01-05T08:35:26.209154",
+  "trigger": "after_safety_triage",
+  "agent_id": "safety_triage",
+  "context": {
+    "user_assist": {
+      "summary": "Complex follow-up for severe worsening depressive symptoms and passive death ideation after an inadequate four-week trial of initial Sertraline dosing.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The session involves necessary risk assessment due to new onset passive death ideation, documented functional impairment (missed work), and the clinical decision to adjust the current psychotropic regimen (Sertraline dose increase). This context requires immediate risk assessment and medication management planning."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Passive death ideation is present: 'Sometimes I think they'd be better off without me dragging them down.' and 'I just wish I could disappear sometimes.' Active intent, plan, and preparatory behaviors were explicitly denied, stating strong protective factors ('I couldn't do that to them.').",
+          "recommended_action": "Patient requires immediate follow-up and increased safety monitoring due to new onset passive ideation coupled with severe vegetative symptoms (*early morning awakening*, *anhedonia*, *significant weight loss*). Leverage protective factors (denial of intent due to family) in safety planning. Increase medication dosage requires close watch for potential activation."
+        }
+      ],
+      "summary": "**SAFETY ALERT**: Patient reports passive death ideation and wishes they could 'disappear,' but explicitly denies active suicidal intent, plan, or preparatory behavior. Risk is currently managed by strong protective factors (family). **Close monitoring required** following *Sertraline* dosage increase."
+    },
+    "user_clarifications": {
+      "safety_triage": "No. The patient explicitly denied active intent or hurting herself, stating: 'No, no, I wouldn't do that. I couldn't do that to them.'"
+    }
+  }
+}

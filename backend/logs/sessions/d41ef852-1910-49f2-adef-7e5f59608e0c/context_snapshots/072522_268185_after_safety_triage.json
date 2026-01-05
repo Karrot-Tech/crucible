@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-01-05T07:25:22.268185",
+  "trigger": "after_safety_triage",
+  "agent_id": "safety_triage",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up detailing acute worsening of a depressive episode with vegetative symptoms and passive suicidal ideation, 4 weeks post-initiation of Sertraline.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The session is a scheduled follow-up for Major Depressive Disorder management, focusing on assessing the initial response to *Sertraline* (50mg) and performing a thorough suicide risk evaluation due to reported passive thoughts of death. The core action is a medication change (increase to 100mg)."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. [..] But I just wish I could disappear sometimes. (Follows denial of active intent: 'No, no, I wouldn't do that.')",
+          "recommended_action": "The patient endorsed passive suicidal ideation (wish to disappear/passive death wish) tied to severe guilt, coupled with significant vegetative symptoms (*early morning awakening*, *weight loss*, *anhedonia*). Active intent/plan was explicitly denied. Maintain close safety monitoring and reinforce protective factors (e.g., concern for children)."
+        }
+      ],
+      "summary": "Patient presents with severe depressive symptoms, including *early morning awakening*, *weight loss*, and significant functional decline (missing work). The patient endorsed passive suicidal ideation ('wish to disappear') and guilt regarding being a burden, but denied active ideation or plan. Immediate risk level is Moderate, requiring careful management and safety plan reinforcement."
+    }
+  }
+}

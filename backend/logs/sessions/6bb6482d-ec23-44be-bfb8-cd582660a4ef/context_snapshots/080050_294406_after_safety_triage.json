@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-01-05T08:00:50.294406",
+  "trigger": "after_safety_triage",
+  "agent_id": "safety_triage",
+  "context": {
+    "user_assist": {
+      "summary": "This is a follow-up session assessing the persistence and worsening of Major Depressive Disorder symptoms, including significant functional impairment, passive death ideation, and inadequate response to the current dose of Sertraline.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The patient presents with a severe clinical relapse marked by core depressive symptoms (anhedonia, guilt, early morning awakening) and passive suicidal ideation, necessitating an increase in the Sertraline dosage and a mandatory safety assessment."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. / But I just wish I could disappear sometimes.",
+          "recommended_action": "Patient reports passive death wishes/ideation without active intent, plan, or preparatory acts (denied active self-harm thoughts when asked). Risk Assessment (C-SSRS) should be fully completed and documented. Ensure safety planning is reinforced and frequency of follow-up is appropriate for the severity of symptoms."
+        }
+      ],
+      "summary": "The patient exhibits significant depressive symptoms (fatigue, insomnia, functional impairment, *weight loss*) and reports passive suicidal ideation/death wish. Active suicidal ideation, intent, and plan were explicitly denied during the session. Risk level is elevated to Moderate due to severity of depression and hopelessness."
+    }
+  }
+}

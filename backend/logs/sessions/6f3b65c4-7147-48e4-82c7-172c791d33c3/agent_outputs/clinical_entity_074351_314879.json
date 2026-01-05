@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-01-05T07:43:51.314879",
+  "agent_id": "clinical_entity",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "Did the patient specify the total duration of the current major depressive episode (i.e., the symptoms that led to the start of Sertraline last month)?",
+    "suggested_answer": "The current severe exacerbation, marked by high functional impairment (missing 3 days of work), has lasted 'a rough couple of weeks.' The overall episode is at least 4 weeks, as that is the duration of the current *Sertraline* trial.",
+    "presenting_symptoms": [
+      {
+        "symptom": "Fatigue/Anhedonia",
+        "onset": "Rough couple of weeks (current severity)",
+        "duration": "At least 2 weeks (severe phase)",
+        "severity": "Severe",
+        "context": "Wakes up and wants to pull covers over head",
+        "impact": "Barely able to get out of bed; missed 3 days of work this week"
+      },
+      {
+        "symptom": "Appetite Change/Weight Loss",
+        "onset": "Unspecified",
+        "duration": "Unspecified",
+        "severity": "Moderate",
+        "context": "Not really hungry",
+        "impact": "Lost 5 pounds"
+      },
+      {
+        "symptom": "Sleep Disturbance (Early Morning Awakening)",
+        "onset": "Unspecified",
+        "duration": "Unspecified",
+        "severity": "Moderate",
+        "context": "Mind starts racing",
+        "impact": "Wakes up at 3 AM and cannot return to sleep"
+      },
+      {
+        "symptom": "Guilt/Worthlessness",
+        "onset": "Unspecified",
+        "duration": "Unspecified",
+        "severity": "Severe",
+        "context": "Thoughts racing at 3 AM",
+        "impact": "Feels like a failure; feels like she is letting husband and kids down"
+      },
+      {
+        "symptom": "Passive Thoughts of Death",
+        "onset": "Unspecified",
+        "duration": "Unspecified",
+        "severity": "Moderate (Passive)",
+        "context": "Thinks family would be better off without her",
+        "impact": "Wishes she could disappear sometimes; denies active suicidal intent or plan"
+      }
+    ],
+    "mental_status_exam": {
+      "appearance": "not assessed",
+      "behavior": "not assessed (Implied low psychomotor activity given fatigue)",
+      "speech": "WNL (clear, coherent, logical)",
+      "mood": "Drained; Rough couple of weeks",
+      "affect": "Implied constricted/sad (not explicitly described)",
+      "thought_process": "WNL (goal-directed)",
+      "thought_content": "Preoccupied with failure, guilt, and passive death ideation",
+      "perception": "not assessed (No evidence of psychosis reported)",
+      "cognition": "not assessed",
+      "insight": "Good (Acknowledges symptoms and is willing to pursue treatment changes)",
+      "judgment": "Intact (Maintains safety due to concern for family)"
+    },
+    "current_medications": [
+      {
+        "name": "*Sertraline*",
+        "dose": "50mg",
+        "frequency": "Daily",
+        "start_date": "Last month (approx. 4 weeks ago)",
+        "response": "Reports no effect yet",
+        "adherence": "Taking it every day"
+      }
+    ],
+    "substance_use": {
+      "alcohol": "not reported",
+      "tobacco": "not reported",
+      "drugs": "not reported"
+    },
+    "past_psychiatric_history": {
+      "prior_hospitalizations": "not reported",
+      "prior_episodes": "Patient denies previous manic/hypomanic episodes and states she has 'always been more on the low side if anything'."
+    },
+    "medical_history": {
+      "conditions": "not reported",
+      "surgeries": "not reported"
+    },
+    "social_history": {
+      "occupation": "Employed (but missing work)",
+      "living_situation": "Lives with husband and kids",
+      "relationships": "not reported"
+    },
+    "family_psychiatric_history": {
+      "history": "not reported"
+    },
+    "functional_assessment": {
+      "work_impairment": "Significant (Missed 3 days of work this week)",
+      "social_impairment": "Implied stress on family due to guilt",
+      "self_care": "Difficulty getting out of bed"
+    },
+    "assessment_scales": [
+      {
+        "scale": "C-SSRS (implied screening)",
+        "result": "Passive suicidal ideation endorsed (wish to disappear), but no intent or plan."
+      }
+    ]
+  },
+  "duration_ms": 10645,
+  "error": null
+}

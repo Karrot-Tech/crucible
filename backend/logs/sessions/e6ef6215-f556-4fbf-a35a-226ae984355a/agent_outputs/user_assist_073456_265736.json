@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T07:34:56.265736",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session detailing worsening vegetative and cognitive symptoms of depression, including early morning awakening, anhedonia, and passive death ideation, necessitating a medication adjustment.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The clinical encounter is a standard psychiatric follow-up focusing on assessing the efficacy of Sertraline 50mg, managing breakthrough depressive symptoms, and conducting a necessary C-SSRS safety check regarding passive suicidal ideation."
+  },
+  "duration_ms": 3997,
+  "error": null
+}

@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-01-05T07:45:00.796829",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "To finalize the diagnostic code specificity (F32.x vs. F33.x), please confirm if the patient has a documented history of previous, distinct major depressive episodes, thereby confirming the 'recurrent' specifier for Major Depressive Disorder.",
+    "suggested_answer": "We assume, based on the severity and clinical presentation, that previous episodes have occurred, supporting the use of the recurrent specifier (F33.2).",
+    "primary_diagnosis": {
+      "code": "F33.2",
+      "description": "Major depressive disorder, recurrent severe episode without psychotic features",
+      "justification": "Clinical information confirms a severe episode lasting at least 4 weeks, characterized by high functional impairment (missing 3 days of work). Based on clinical assumption awaiting historical confirmation, we assign the recurrent specifier. Severity is marked by functional impairment meeting MDD criteria.",
+      "dsm_criteria_met": [
+        "Duration of episode meets threshold (>2 weeks, confirmed >4 weeks)",
+        "Depressed mood/Anhedonia (implied by severe exacerbation and functional impairment)",
+        "Criterion C: Clinically significant distress or impairment (missing work days)"
+      ],
+      "confidence": 0.8
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": [
+      {
+        "code": "F32.2",
+        "description": "Major depressive disorder, single episode, severe without psychotic features",
+        "reason": "Ruled out pending confirmation of recurrent nature. F33.2 is the primary working hypothesis."
+      },
+      {
+        "code": "F31.x",
+        "description": "Bipolar I or II Disorder",
+        "reason": "Insufficient evidence of prior manic or hypomanic episodes to support a bipolar spectrum diagnosis."
+      }
+    ]
+  },
+  "duration_ms": 5644,
+  "error": null
+}

@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-01-05T07:06:01.416673",
+  "agent_id": "medication_management",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "medications": [
+      {
+        "name": "Sertraline",
+        "generic_name": "Sertraline",
+        "brand_name": null,
+        "strength": "50mg",
+        "form": "Tablet",
+        "route": "Oral",
+        "frequency": "Daily",
+        "indication": "*Major Depressive Disorder*",
+        "response": "Minimal/Poor response after 4 weeks.",
+        "adherence": "Adherent (Reports taking it every day)",
+        "side_effects": []
+      }
+    ],
+    "changes_made": [
+      {
+        "medication": "Sertraline",
+        "change_type": "Increase Dose",
+        "rationale": "Suboptimal therapeutic response (minimal benefit reported after 4 weeks) at starting dose of 50mg/day, coupled with persistent *moderate depressive symptoms* (early morning awakening, weight loss, passive ideation). Dose increased to 100mg daily.",
+        "new_dose": "100mg daily"
+      }
+    ],
+    "peer_review_check": {
+      "status": "Match Confirmed",
+      "notes": "The current treatment (*Sertraline* for 4 weeks) is appropriate for the proposed diagnosis of *Recurrent Major Depressive Disorder* (F33.1). No significant mismatch flagged."
+    }
+  },
+  "duration_ms": 5452,
+  "error": null
+}

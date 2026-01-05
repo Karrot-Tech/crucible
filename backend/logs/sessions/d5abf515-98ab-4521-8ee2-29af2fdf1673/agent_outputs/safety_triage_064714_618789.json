@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-01-05T06:47:14.618789",
+  "agent_id": "safety_triage",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "risk_detected": true,
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "concerns": [
+      {
+        "type": "Suicide Risk",
+        "severity": "Moderate",
+        "evidence": "Sometimes I think they'd be better off without me dragging them down. ... But I just wish I could disappear sometimes.",
+        "recommended_action": "Patient endorsed passive death ideation/wish to be dead (C-SSRS Step 2/3), but explicitly denied active intent, plan, or preparatory behaviors. Note strong protective factors (family: 'I couldn't do that to them'). Requires immediate safety plan implementation and close follow-up due to symptom severity."
+      }
+    ],
+    "summary": "Immediate safety concern is **Suicide Risk** (Passive Ideation). Patient reports wishing to disappear and feeling family would be 'better off' without them. Active intent and plan were denied. Protective factors are strong. Clinical management requires safety planning, documentation of passive ideation, and close monitoring following medication change."
+  },
+  "duration_ms": 5497,
+  "error": null
+}

@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-01-05T07:13:27.899315",
+  "agent_id": "procedure_coding",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "Please specify the total time spent (start to finish, including counseling/therapy and E/M components) for this established patient visit. Time is required to distinguish between 90834 (45 min) or 90837 (60 min) or the corresponding E/M level.",
+    "suggested_answer": "53 minutes or more (supporting 90837 or 99214/99215 level coding) is suggested given the detailed risk assessment, counseling, and high complexity medication management (titration of *Sertraline*).",
+    "primary_code": {
+      "code": "TIME DEPENDENT",
+      "description": "Established patient E/M and Psychotherapy services (Code determined by documented duration)",
+      "rationale": "The session involved integrated Evaluation and Management (medication titration: increasing *Sertraline* from 50mg to 100mg) and Psychotherapy (detailed assessment of depressive symptoms, grief/guilt, and passive suicidal ideation). The final primary code (99214/99215 or 90834/90837) hinges entirely on documented time."
+    },
+    "addon_codes": [],
+    "modifiers": [
+      "95"
+    ],
+    "medical_necessity": "High medical decision complexity supported by new dose titration of an SSRI for *Recurrent Major Depressive Disorder, Moderate* (F33.1) coupled with assessment and management of passive suicidal ideation.",
+    "confidence": "High"
+  },
+  "duration_ms": 7635,
+  "error": null
+}

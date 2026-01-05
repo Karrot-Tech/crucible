@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-01-05T07:09:35.176564",
+  "agent_id": "risk_assessment",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "risk_level": "Low",
+    "suicidal_ideation_present": true,
+    "max_ideation_severity": 1,
+    "suicidal_behavior_present": false,
+    "protective_factors": [
+      "Strong connection/sense of responsibility toward children and husband ('I couldn't do that to them')",
+      "Expresses willingness to engage in treatment changes (medication and behavioral)",
+      "Explicit denial of intent and plan"
+    ],
+    "risk_factors": [
+      "Current severe depressive symptoms (*F33.1*) with functional impairment (missing work)",
+      "Initial non-response to *Sertraline* 50mg at 4 weeks",
+      "Sleep disturbance (early morning awakening)",
+      "Significant feelings of guilt/hopelessness ('I'm a failure')"
+    ],
+    "clinical_actions": [
+      "Increase frequency of follow-up for next 2 weeks due to medication change and passive ideation",
+      "Monitor closely for any shift from passive to active ideation following dose increase",
+      "Review and document an appropriate safety plan focused on reducing isolation and improving sleep hygiene"
+    ],
+    "cssrs_detail": {
+      "wish_to_be_dead": true,
+      "active_thoughts": false,
+      "specific_plan": false,
+      "intent": false
+    }
+  },
+  "duration_ms": 6981,
+  "error": null
+}

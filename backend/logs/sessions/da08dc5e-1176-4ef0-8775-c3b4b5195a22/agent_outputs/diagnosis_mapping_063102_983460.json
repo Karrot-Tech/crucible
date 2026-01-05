@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-01-05T06:31:02.983460",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "To accurately assign the severity specifier for Major Depressive Disorder, Recurrent (F33.x), please provide the full clinical context, specifically enumerating the number and description of the DSM-5 Criterion A symptoms endorsed during the current episode (depressed mood, anhedonia, sleep, appetite, concentration, etc.). Does the patient meet criteria for Mild (5-6 symptoms), Moderate, or Severe?",
+    "suggested_answer": "Based on the confirmation of recurrent episodes, and in the absence of current symptom data, the most appropriate placeholder diagnosis is Major Depressive Disorder, Recurrent, Unspecified (F33.9). This will require re-specification once symptom data becomes available.",
+    "primary_diagnosis": {
+      "code": "F33.9",
+      "description": "Major depressive disorder, recurrent, unspecified",
+      "justification": "Clinical Entity Agent confirms a history of previous distinct episodes and the current episode duration is approximately 6 weeks. Specific symptoms (Criterion A) and severity specifiers are currently absent from the input data, necessitating the use of the unspecified code (F33.9) until severity can be accurately determined (F33.0, F33.1, F33.2).",
+      "dsm_criteria_met": [
+        "History of at least two prior depressive episodes (Recurrent)",
+        "Current episode duration > 2 weeks (6 weeks confirmed)"
+      ],
+      "confidence": 0.5
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": [
+      {
+        "code": "F32.x",
+        "description": "Major depressive disorder, single episode",
+        "reason": "Explicitly ruled out by the Clinical Entity Agent stating the patient has a 'history of previous distinct episodes (recurrent depression).'"
+      }
+    ]
+  },
+  "duration_ms": 7109,
+  "error": null
+}

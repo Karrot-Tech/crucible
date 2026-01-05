@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T07:46:32.852266",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session for worsening Major Depressive Disorder (MDD), marked by significant vegetative symptoms (weight loss, early morning awakening) and passive thoughts of death requiring medication titration.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The patient is presenting with severe non-response to current Sertraline 50mg treatment, exhibiting multiple SIGECAPS criteria, functional impairment (missed work), and passive suicidal ideation. The session's core purpose is treatment augmentation and longitudinal safety re-evaluation."
+  },
+  "duration_ms": 3909,
+  "error": null
+}

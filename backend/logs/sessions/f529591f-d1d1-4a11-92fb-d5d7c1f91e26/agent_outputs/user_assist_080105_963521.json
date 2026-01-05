@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T08:01:05.963521",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session addressing worsening severe depressive symptoms (including early morning awakening, weight loss, and passive death ideation) four weeks after initiating Sertraline 50mg.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The session is a critical psychiatric follow-up focused on assessing the efficacy of current pharmacotherapy and managing acute, severe depressive symptoms including passive suicidal ideation. Safety content is clinical history required for risk assessment."
+  },
+  "duration_ms": 3615,
+  "error": null
+}

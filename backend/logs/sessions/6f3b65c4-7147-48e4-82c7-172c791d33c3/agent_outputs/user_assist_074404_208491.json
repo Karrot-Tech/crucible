@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T07:44:04.208491",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up for a severe exacerbation of Major Depressive Disorder (MDD), reporting high functional impairment, passive suicidal ideation, and poor response to the initial 50mg dose of Sertraline.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The patient is presenting with severe depressive symptoms (anhedonia, significant sleep/appetite disturbance, severe guilt, missed work) at the 4-week mark of an existing SSRI trial. Safety screen was negative for intent/plan but positive for passive suicidal ideation. The session focus is symptom review, risk assessment, and medication optimization."
+  },
+  "duration_ms": 4073,
+  "error": null
+}

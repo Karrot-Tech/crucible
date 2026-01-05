@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-01-05T07:07:09.682596",
+  "agent_id": "procedure_coding",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "error": "Failed to parse JSON",
+    "raw": "{\n  \"clarification_needed\": true,\n  \"clarification_question\": \"Please specify the total time spent documenting, face-to-face with the patient, and managing the care on the date of service. Accurate time documentation is required to select the correct combined E/M and Psychotherapy codes.\",\n  \"suggested_answer\": \"If the total time documented was 53 minutes (including 30 minutes of integrated psychotherapy), the codes would be 99214 + 90833.\",\n  \"primary_code\": {\n    \"code\": \"99214\",\n    \"description\": \"Established patient evaluation and management, moderate complexity/30-39 minutes\",\n    \"rationale\": \"This is an established patient visit involving prescription management (*Sertraline* dosage change) and management of a chronic condition (*Recurrent Major Depressive Disorder*). Given the patient's passive suicidal ideation and the necessary medication titration, Moderate to High complexity is required. We assume this code based on a typical 45-60 minute combined psychiatric follow-up, pending confirmation of total time.\"\n  },\n  \"addon_codes\": [\n    {\n      \"code\": \"90833\",\n      \"description\": \"Psychotherapy, 30 minutes, with evaluation and management service\",\n      \"rationale\": \"Significant psychotherapy elements were integrated into the session, specifically addressing the patient's feelings of guilt, worthlessness, and the passive death ideation (Risk Assessment). This code assumes 16-37 minutes of integrated therapy, which is highly probable given the depth of the interaction.\"\n    }\n  ],\n  \"modifiers\": [\n    \"95\"\n  ],\n  \"medical_necessity\": \"Management of *Recurrent Major Depressive Disorder, Moderate (F33.1)*, involving medication titration and high-risk safety assessment following a significant deterioration in symptoms (missed work, weight loss, severe passive ideation).\",\n  \"confidence\": \"Medium\"\n}\n}",
+    "clarification_question": "I encountered a formatting error while processing the analysis. Could you please provide a brief update or re-state the last point of the session to help me re-sync?"
+  },
+  "duration_ms": 7835,
+  "error": null
+}

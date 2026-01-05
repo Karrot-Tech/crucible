@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T07:02:53.316313",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up for Recurrent Major Depressive Disorder focused on worsening vegetative symptoms, safety assessment, and titration of recently initiated Sertraline.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The session is a structured follow-up (approximately 4 weeks post-initiation) addressing the efficacy of *Sertraline* for *Major Depressive Disorder, Recurrent, Moderate* (F33.1). Key focus areas included symptom severity assessment (insomnia, anergia, functional impairment), clarification of passive death ideation, and subsequent decision to titrate the antidepressant dose from 50mg to 100mg."
+  },
+  "duration_ms": 4012,
+  "error": null
+}

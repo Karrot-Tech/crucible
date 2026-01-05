@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-01-05T07:05:11.131732",
+  "agent_id": "medication_management",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": null,
+    "suggested_answer": null,
+    "medications": [
+      {
+        "name": "Sertraline",
+        "generic_name": "Sertraline",
+        "brand_name": null,
+        "strength": "50 mg",
+        "form": "Tablet",
+        "route": "Oral",
+        "frequency": "Daily",
+        "indication": "Major Depressive Disorder",
+        "response": "Inadequate/Minimal effect after 4-week trial.",
+        "adherence": "Good (Patient states taking 'every day')",
+        "side_effects": []
+      }
+    ],
+    "changes_made": [
+      {
+        "medication": "Sertraline",
+        "change_type": "Increase Dose",
+        "rationale": "Inadequate clinical response (persistent anhedonia, fatigue, early morning awakening, and depressive ideation) after 4-week trial at 50mg daily. Titration to therapeutic dose of 100mg."
+      }
+    ],
+    "peer_review_finding": {
+      "diagnosis_mapping": "F33.1 - Recurrent Major Depressive Disorder, Moderate",
+      "medications_reviewed": [
+        "Sertraline (SSRI)"
+      ],
+      "match_status": "**MATCH** - *Sertraline* is a standard first-line treatment for *Major Depressive Disorder* (F33.1)."
+    }
+  },
+  "duration_ms": 4966,
+  "error": null
+}

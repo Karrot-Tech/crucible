@@ -1,0 +1,162 @@
+{
+  "timestamp": "2026-01-05T06:49:02.398268",
+  "trigger": "after_diagnosis_mapping",
+  "agent_id": "diagnosis_mapping",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session detailing significant worsening of *Major Depressive Disorder* symptoms (vegetative changes, functional impairment) after 4 weeks on *Sertraline* 50mg.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The session focuses on evaluating the efficacy of an existing regimen (4 weeks on *Sertraline*), assessing escalating symptoms (*Early Morning Awakening*, functional decline), performing required passive SI assessment, and making critical dose adjustments."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Low",
+          "evidence": "Patient states, 'Sometimes I think they'd be better off without me dragging them down.' and 'But I just wish I could disappear sometimes.' (Passive death wish/Ideation). Patient explicitly denies intent or plan: 'No, no, I wouldn't do that. I couldn't do that to them.'",
+          "recommended_action": "Risk is currently managed as Low, validated by the C-SSRS assessment and confirmation of restricted means (User Feedback). However, the presence of passive suicidal ideation and the proposed increase in *Sertraline* dose (50mg to 100mg) necessitates careful monitoring for activation or increased ideation in the coming weeks. Safety planning should be reinforced."
+        }
+      ],
+      "summary": "**LOW IMMEDIATE RISK.** Passive suicidal ideation (wish to disappear, sense of being a burden) is confirmed. Active ideation, intent, and plan are denied by the patient, and access to lethal means is confirmed restricted. Outpatient safety management is appropriate. The team must monitor closely following the *Sertraline* dose adjustment."
+    },
+    "clinical_entity": {
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "presenting_symptoms": [
+        {
+          "symptom": "*Anergy*/Drained/Fatigue",
+          "onset": "Acute worsening",
+          "duration": "4 weeks (since last session/medication start)",
+          "severity": "Severe",
+          "context": "Generalized, present upon awakening",
+          "impact": "Inability to get out of bed; significant *functional decline*"
+        },
+        {
+          "symptom": "*Anhedonia*/*Apathy*",
+          "onset": "Recent",
+          "duration": "4 weeks",
+          "severity": "Moderate to Severe",
+          "context": "Loss of interest in work/daily activities",
+          "impact": "Missed 3 days of work; 'I just don't see the point in going.'"
+        },
+        {
+          "symptom": "*Terminal Insomnia*",
+          "onset": "Recent",
+          "duration": "4 weeks",
+          "severity": "Moderate",
+          "context": "Waking 3 AM, inability to return to sleep",
+          "impact": "Associated with *racing thoughts* of failure/guilt"
+        },
+        {
+          "symptom": "*Guilt*/*Worthlessness*",
+          "onset": "Recent",
+          "duration": "4 weeks",
+          "severity": "Moderate to Severe",
+          "context": "Belief that patient is 'a failure,' 'letting everyone down'",
+          "impact": "Causes distress, particularly during early morning awakening"
+        },
+        {
+          "symptom": "*Appetite Loss*/*Weight Loss*",
+          "onset": "Recent",
+          "duration": "4 weeks",
+          "severity": "Mild to Moderate",
+          "context": "Patient reports 'not really hungry'",
+          "impact": "Reported loss of 5 pounds"
+        },
+        {
+          "symptom": "*Passive Death Ideation*",
+          "onset": "Recent",
+          "duration": "Intermittent",
+          "severity": "Low acute risk",
+          "context": "Reports wishing to 'disappear sometimes,' but explicitly denies *Active Suicidal Ideation* (SI) or intent ('I wouldn't do that to them').",
+          "impact": "Indicates significant distress"
+        }
+      ],
+      "mental_status_exam": {
+        "appearance": "not assessed",
+        "behavior": "not assessed",
+        "speech": "Normal rate and volume (implied)",
+        "mood": "*Dysphoric*, 'Drained', 'Rough couple of weeks'",
+        "affect": "*Constricted/Restricted* and *Congruent* (Inferred)",
+        "thought_process": "Goal-directed, though content indicates *racing thoughts* (ruminations) during insomnia",
+        "thought_content": "*Guilt*, *Failure*, *Passive Death Ideation*. Denies *Active SI*.",
+        "perception": "not assessed",
+        "cognition": "not assessed",
+        "insight": "Good (Acknowledges symptoms, seeks treatment, agrees to medication increase)",
+        "judgment": "Good (Safety confirmed, making responsible choices regarding health and safety)"
+      },
+      "current_medications": [
+        {
+          "name": "*Sertraline*",
+          "dose": "50mg",
+          "frequency": "Daily",
+          "start_date": "Approx. 4 weeks ago",
+          "response": "Minimal/None ('don't feel like it's doing anything yet')",
+          "adherence": "Good ('taking it every day')"
+        }
+      ],
+      "substance_use": {
+        "alcohol": "not assessed",
+        "tobacco": "not assessed",
+        "drugs": "not assessed"
+      },
+      "past_psychiatric_history": {
+        "current_episode_duration": "4 weeks of current severe symptoms",
+        "past_episodes": "Reports being 'more on the low side if anything'",
+        "mania_hypomania": "Explicitly denied prior *manic* or *hypomanic* episodes"
+      },
+      "medical_history": "not assessed",
+      "social_history": {
+        "relationship_status": "Married (Husband mentioned)",
+        "children": "Has children ('kids' mentioned)",
+        "employment_status": "Employed (Missed 3 days of work this week)"
+      },
+      "family_psychiatric_history": "not assessed",
+      "functional_assessment": {
+        "work_impairment": "Significant (Missed 3 days of work in the past week)",
+        "social_impairment": "Implied, due to *anhedonia*/apathy"
+      },
+      "assessment_scales": []
+    },
+    "diagnosis_mapping": {
+      "clarification_needed": true,
+      "clarification_question": "Does the patient meet at least 5 of the 9 DSM-5 Criterion A symptoms for Major Depressive Disorder, including depressed mood or *anhedonia*, persisting for the reported 4 weeks?",
+      "suggested_answer": "Clinical inference suggests the presence of required symptom quantity (5+), given the documented *anhedonia* and significant functional decline lasting 4 weeks. Therefore, the provisional diagnosis is *Major Depressive Disorder, Single Episode, Moderate* (F32.1), pending confirmation of the specific vegetative symptoms (e.g., sleep, appetite, fatigue, concentration issues).",
+      "primary_diagnosis": {
+        "code": "F32.9",
+        "description": "Major depressive disorder, single episode, unspecified",
+        "justification": "Symptoms include confirmed *anhedonia* ('I just don't see the point') and mood disturbance lasting 4 weeks with significant functional decline. This meets duration and required symptom criteria (A1 or A2). However, the specific count of 5/9 criteria necessary to specify severity (F32.1/F32.2) is missing. F32.9 is used until severity is clarified.",
+        "dsm_criteria_met": [
+          "Duration (4 weeks, meets >2 weeks)",
+          "A2: *Anhedonia* (Loss of interest or pleasure)",
+          "C: Clinically significant distress or impairment"
+        ],
+        "confidence": 0.85
+      },
+      "secondary_diagnoses": [],
+      "ruled_out": [
+        {
+          "code": "F41.1",
+          "description": "Generalized Anxiety Disorder (GAD)",
+          "reason": "Primary symptoms reported focus on apathy and *anhedonia* rather than excessive worry. The duration of 4 weeks is significantly less than the 6 months required for GAD diagnosis."
+        },
+        {
+          "code": "F43.29",
+          "description": "Adjustment Disorder with mixed anxiety and depressed mood",
+          "reason": "While possible, the confirmed presence of *anhedonia* and significant functional decline persisting 4 weeks suggests the criteria for Major Depressive Episode are met, which takes diagnostic priority over Adjustment Disorder."
+        }
+      ]
+    },
+    "user_clarifications": {
+      "diagnosis_mapping": "Clinical data suggests a mood disturbance requiring intervention. However, the specific symptom profile (e.g., presence of anhedonia, sleep disturbance type, rumination) is necessary to differentiate Major Depressive Disorder (F33.x/F32.x), Generalized Anxiety Disorder (F41.1), or Adjustment Disorder (F43.2x). **The symptom list is required to proceed with mapping.**",
+      "clinical_entity": "While not explicitly asked, the patient's statement, 'I just don't see the point in going,' strongly suggests *anhedonia* and *apathy*. Observed *Affect* was likely *Constricted/Restricted* and *Congruent* with the reported dysphoric mood.",
+      "safety_triage": "Access to lethal means was confirmed to be restricted (e.g., no firearms in the home, current medication quantities are controlled), validating the low immediate risk assessment."
+    }
+  }
+}

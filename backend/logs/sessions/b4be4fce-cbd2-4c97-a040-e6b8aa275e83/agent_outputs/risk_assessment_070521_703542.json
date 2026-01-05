@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-01-05T07:05:21.703542",
+  "agent_id": "risk_assessment",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "risk_level": "Low",
+    "suicidal_ideation_present": true,
+    "max_ideation_severity": 1,
+    "suicidal_behavior_present": false,
+    "protective_factors": [
+      "Explicit denial of intent/plan related to passive ideation",
+      "Strong deterrent factor (family/children)",
+      "Willingness to engage in treatment plan (medication change, behavioral activation)"
+    ],
+    "risk_factors": [
+      "Current passive suicidal ideation ('Wish to disappear')",
+      "Severe functional impairment (missed 3 days of work)",
+      "Severe depressive symptoms (early morning awakening, weight loss, strong guilt/worthlessness)",
+      "Inadequate response to initial *Sertraline* trial (4 weeks at 50mg)"
+    ],
+    "clinical_actions": [
+      "Monitor response to *Sertraline* 100mg closely (especially within the next 2 weeks).",
+      "Provide crisis resources and reinforce the family deterrent as an implicit safety plan.",
+      "Schedule follow-up appointment sooner than typical due to symptom severity."
+    ],
+    "cssrs_detail": {
+      "wish_to_be_dead": true,
+      "active_thoughts": false,
+      "specific_plan": false,
+      "intent": false
+    }
+  },
+  "duration_ms": 5789,
+  "error": null
+}

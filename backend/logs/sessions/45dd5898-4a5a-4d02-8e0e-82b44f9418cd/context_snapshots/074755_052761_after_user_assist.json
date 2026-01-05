@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-01-05T07:47:55.052761",
+  "trigger": "after_user_assist",
+  "agent_id": "user_assist",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session addressing the severe exacerbation of depressive symptoms, including vegetative changes, passive death ideation, and subsequent titration of the existing antidepressant regimen.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The session involves an established patient reporting worsening depression, new onset of passive suicidal ideation, and clinical assessment for safety. The provider is adjusting the previously initiated *Sertraline* dose based on poor response at 50mg."
+    }
+  }
+}

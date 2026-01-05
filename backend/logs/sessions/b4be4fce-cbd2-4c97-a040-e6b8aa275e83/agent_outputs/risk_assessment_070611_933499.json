@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-01-05T07:06:11.933499",
+  "agent_id": "risk_assessment",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "risk_level": "Low",
+    "suicidal_ideation_present": true,
+    "max_ideation_severity": 1,
+    "suicidal_behavior_present": false,
+    "protective_factors": [
+      "Strong therapeutic alliance",
+      "Denial of active intent or plan",
+      "Stated protective factor (responsibility to family/children)"
+    ],
+    "risk_factors": [
+      "Presence of current passive suicidal ideation (wish to disappear)",
+      "Significant vegetative symptoms (early morning awakening, weight loss, anergia)",
+      "Social/Occupational impairment (missed 3 days of work)",
+      "Recent change in medication dosage (increased *Sertraline*)"
+    ],
+    "clinical_actions": [
+      "Maintain strict no-harm contract.",
+      "Implement psychoeducation regarding delayed effect of SSRI dose increase.",
+      "Ensure family is aware of risk status and knows crisis contact information.",
+      "Schedule close follow-up (e.g., check-in call within 72 hours, follow-up appointment within 1-2 weeks)."
+    ],
+    "cssrs_detail": {
+      "wish_to_be_dead": true,
+      "active_thoughts": false,
+      "specific_plan": false,
+      "intent": false
+    }
+  },
+  "duration_ms": 5814,
+  "error": null
+}

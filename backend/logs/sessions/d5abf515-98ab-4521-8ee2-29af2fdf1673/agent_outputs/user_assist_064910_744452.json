@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T06:49:10.744452",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session detailing worsening vegetative and cognitive symptoms consistent with Major Depressive Disorder (MDD) four weeks post-initiation of Sertraline.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The core of the session is assessing the efficacy of an existing treatment plan (*Sertraline* 50mg for 4 weeks) and monitoring worsening depressive symptoms (*anhedonia*, guilt, passive death ideation), which necessitated safety screening and subsequent medication titration."
+  },
+  "duration_ms": 3437,
+  "error": null
+}

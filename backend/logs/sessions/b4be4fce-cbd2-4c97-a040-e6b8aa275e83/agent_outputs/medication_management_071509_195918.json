@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-01-05T07:15:09.195918",
+  "agent_id": "medication_management",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "medications": [
+      {
+        "name": "Sertraline",
+        "generic_name": "Sertraline",
+        "brand_name": null,
+        "strength": "100mg",
+        "form": "Tablet",
+        "route": "Oral",
+        "frequency": "Daily",
+        "indication": "*Recurrent Major Depressive Disorder*",
+        "response": "Poor/Partial response (at 50mg)",
+        "adherence": "Excellent (4 weeks adherence)",
+        "side_effects": []
+      }
+    ],
+    "changes_made": [
+      {
+        "medication": "Sertraline",
+        "change_type": "Increase Dose",
+        "rationale": "Inadequate therapeutic response (persistent fatigue, anhedonia, passive suicidal ideation) after 4 weeks on initial 50mg dose. Escalation to 100mg is warranted for symptom control."
+      }
+    ]
+  },
+  "duration_ms": 5473,
+  "error": null
+}

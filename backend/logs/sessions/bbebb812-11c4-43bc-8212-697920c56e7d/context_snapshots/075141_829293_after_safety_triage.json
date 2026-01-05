@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-01-05T07:51:41.829293",
+  "trigger": "after_safety_triage",
+  "agent_id": "safety_triage",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up for worsening depressive episode marked by severe fatigue, early morning awakening, and passive thoughts of death, necessitating a medication adjustment.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The patient is presenting with a severe depressive relapse despite four weeks on initial Sertraline dosing. The session included a necessary safety assessment (denial of active intent/plan) and subsequent decision to titrate Sertraline dose from 50mg to 100mg."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. / No, no, I wouldn't do that. I couldn't do that to them. But I just wish I could disappear sometimes.",
+          "recommended_action": "The patient reports passive suicidal ideation (wish to disappear, feeling others are better off) but explicitly denies active intent, plan, or preparatory behaviors. This requires immediate documentation and risk mitigation strategies (safety planning) but does not appear imminent. Needs full C-SSRS assessment by the Risk Assessment Agent."
+        }
+      ],
+      "summary": "Moderate suicide risk detected based on passive death ideation and expressed feeling that family would be 'better off' without them. The patient explicitly denied active intent or plan when prompted. No evidence of homicide risk, abuse, or acute psychosis/mania."
+    }
+  }
+}

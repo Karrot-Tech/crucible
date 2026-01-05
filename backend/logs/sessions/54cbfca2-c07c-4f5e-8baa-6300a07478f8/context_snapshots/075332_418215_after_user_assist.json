@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-01-05T07:53:32.418215",
+  "trigger": "after_user_assist",
+  "agent_id": "user_assist",
+  "context": {
+    "user_assist": {
+      "summary": "This is a follow-up session addressing the severe exacerbation of depressive symptoms, including significant functional impairment and passive suicidal ideation, requiring medication dose adjustment.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The patient presented with severe vegetative and cognitive depressive symptoms (insomnia, anorexia, guilt, fatigue) and reported passive death wishes. The provider conducted an appropriate safety screen, confirmed the absence of intent/plan, and subsequently adjusted the current Sertraline dose from 50mg to 100mg daily."
+    }
+  }
+}

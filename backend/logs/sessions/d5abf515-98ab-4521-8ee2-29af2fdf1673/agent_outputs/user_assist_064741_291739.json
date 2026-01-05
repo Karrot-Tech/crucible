@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T06:47:41.291739",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session detailing worsening depressive symptoms, passive suicidal ideation, and significant functional decline (missing work) following a 4-week trial of *Sertraline* 50mg.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The patient reports critical vegetative symptoms (e.g., *early morning awakening*, *weight loss*, *anhedonia*) and endorses passive death ideation, necessitating an immediate safety screen (C-SSRS) and escalation of the established treatment plan (*Sertraline* dose increase to 100mg)."
+  },
+  "duration_ms": 4186,
+  "error": null
+}

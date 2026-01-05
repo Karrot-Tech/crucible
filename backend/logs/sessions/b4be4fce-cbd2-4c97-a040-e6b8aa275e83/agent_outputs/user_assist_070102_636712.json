@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T07:01:02.636712",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session for severe worsening of depressive symptoms, characterized by vegetative signs, functional impairment, and passive suicidal ideation, requiring prompt medication titration.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The session is a scheduled follow-up focusing on assessing the response to a 4-week trial of *Sertraline* (50mg). The reported severity (early morning awakening, functional impairment, passive SI) necessitated immediate medication management changes (dose increase) and safety assessment."
+  },
+  "duration_ms": 3839,
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-01-05T07:48:00.112296",
+  "trigger": "after_safety_triage",
+  "agent_id": "safety_triage",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session addressing the severe exacerbation of depressive symptoms, including vegetative changes, passive death ideation, and subsequent titration of the existing antidepressant regimen.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The session involves an established patient reporting worsening depression, new onset of passive suicidal ideation, and clinical assessment for safety. The provider is adjusting the previously initiated *Sertraline* dose based on poor response at 50mg."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. ... But I just wish I could disappear sometimes. (Followed by explicit denial of intent: No, no, I wouldn't do that.)",
+          "recommended_action": "Patient reports passive death ideation/wish to disappear, though denies active intent, plan, or preparatory behavior. Monitor risk closely, ensure safety planning is documented, and schedule routine C-SSRS follow-up."
+        }
+      ],
+      "summary": "The patient reports significant worsening of depressive symptoms (anhedonia, *early morning awakening*, *weight loss*) and expresses passive suicidal ideation (wishing to disappear, believing family would be better off). Active ideation, intent, and plan were screened and denied by the patient."
+    }
+  }
+}

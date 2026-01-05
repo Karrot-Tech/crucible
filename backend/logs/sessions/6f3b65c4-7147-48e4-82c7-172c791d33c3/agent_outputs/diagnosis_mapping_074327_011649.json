@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-01-05T07:43:27.011649",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "The input data provided for analysis is empty. I require the full clinical transcript, including reported symptoms, history of present illness, symptom duration, and functional impairment details, to perform accurate symptom clustering and apply DSM-5 criteria for appropriate ICD-10-CM code assignment. Please provide the patient encounter notes.",
+    "suggested_answer": "Please provide the clinical narrative or patient notes containing symptoms and history.",
+    "primary_diagnosis": {
+      "code": "R00.0",
+      "description": "Placeholder for Missing Data",
+      "justification": "No clinical data was provided for analysis. This structure serves as a mandatory output while awaiting required information.",
+      "dsm_criteria_met": [],
+      "confidence": 0.0
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": [
+      {
+        "code": "F32.9",
+        "description": "Major depressive disorder, single episode, unspecified",
+        "reason": "Cannot confirm criteria due to lack of symptom data."
+      }
+    ]
+  },
+  "duration_ms": 6015,
+  "error": null
+}

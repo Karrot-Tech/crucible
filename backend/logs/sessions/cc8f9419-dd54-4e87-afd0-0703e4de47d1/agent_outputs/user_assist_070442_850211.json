@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T07:04:42.850211",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session addressing severe worsening of depressive symptoms, including vegetative signs and passive suicidal ideation, leading to an adjustment of the current Sertraline regimen.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "This is a routine psychiatric follow-up reviewing treatment response. The discussion involves significant depressive episode markers (anhedonia, sleep disturbance, guilt), a detailed safety assessment (passive SI ruled out as active plan), and the titration of an SSRI (Sertraline). All content is valid clinical history and treatment planning."
+  },
+  "duration_ms": 3370,
+  "error": null
+}

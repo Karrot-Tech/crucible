@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-01-05T07:10:13.997363",
+  "agent_id": "medication_management",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "medications": [
+      {
+        "name": "Sertraline",
+        "generic_name": "Sertraline",
+        "brand_name": "Zoloft",
+        "strength": "50 mg",
+        "form": "Tablet",
+        "route": "PO",
+        "frequency": "Daily",
+        "indication": "*Major Depressive Disorder*",
+        "response": "Poor (Symptoms persist after 4 weeks of treatment)",
+        "adherence": "Adherent",
+        "side_effects": []
+      }
+    ],
+    "changes_made": [
+      {
+        "medication": "Sertraline",
+        "change_type": "Increase Dose",
+        "rationale": "Inadequate clinical response (persistent symptoms including anhedonia, early morning awakening, and suicidal ideation) after 4 weeks at 50mg. Dose titrated to 100mg daily to reach therapeutic level."
+      }
+    ],
+    "peer_review_finding": {
+      "status": "**MATCH**",
+      "details": "*Sertraline* is a standard SSRI agent appropriate for the proposed diagnosis of **Recurrent Major Depressive Disorder (F33.1)**. No significant mismatch flagged."
+    }
+  },
+  "duration_ms": 5575,
+  "error": null
+}

@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-01-05T06:31:42.465279",
+  "agent_id": "safety_triage",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "risk_detected": true,
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "concerns": [
+      {
+        "type": "Suicide Risk",
+        "severity": "Moderate",
+        "evidence": "Sometimes I think they'd be better off without me dragging them down. ... But I just wish I could disappear sometimes.",
+        "recommended_action": "Patient reports passive death ideation (wishes to disappear, feels others would be better off) but explicitly denies active intent or plan ('No, no, I wouldn't do that. I couldn't do that to them.'). Protective factors (family) are intact. Based on the assumption that immediate means restriction and environment safety were confirmed by the provider (as per shared transcript), the risk is monitored closely on an outpatient basis. Documentation of a formal safety plan and crisis numbers is mandatory."
+      }
+    ],
+    "summary": "The patient exhibits passive suicidal ideation and feelings of worthlessness ('failure,' 'dragging them down'). Active intent and plan are denied, and protective factors are strong. Based on the provider's prior confirmation of a safe environment and lack of access to lethal means, the risk is categorized as moderate, requiring vigilant monitoring and safety planning, but not immediate escalation to a higher level of care."
+  },
+  "duration_ms": 5035,
+  "error": null
+}

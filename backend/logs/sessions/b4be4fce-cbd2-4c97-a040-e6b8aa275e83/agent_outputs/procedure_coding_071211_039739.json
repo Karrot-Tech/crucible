@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-01-05T07:12:11.039739",
+  "agent_id": "procedure_coding",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "What was the total documented time for this established patient visit (start time to end time)? Time documentation is necessary to assign the appropriate level of service (9083x or 9921x).",
+    "suggested_answer": "For sessions involving both substantial psychotherapy and medication management, documentation often reflects 45 to 60 minutes. Please confirm if the total time was 53 minutes or greater (qualifying for 90837).",
+    "primary_code": {
+      "code": "TIME PENDING",
+      "description": "Psychotherapy and Evaluation/Management (Combined)",
+      "rationale": "The provider performed both a comprehensive assessment of current symptoms, addressed passive suicidal ideation (psychotherapy component), and adjusted *Sertraline* dosage (E/M and medication management component). The final CPT code (90834, 90837, or E/M + add-on) is entirely dependent on the documented total time."
+    },
+    "addon_codes": [],
+    "modifiers": [],
+    "medical_necessity": "Management of *Recurrent Major Depressive Disorder, Moderate (F33.1)*, including detailed risk assessment and psychopharmacologic adjustment due to lack of response to the initial dose.",
+    "confidence": "High"
+  },
+  "duration_ms": 7504,
+  "error": null
+}

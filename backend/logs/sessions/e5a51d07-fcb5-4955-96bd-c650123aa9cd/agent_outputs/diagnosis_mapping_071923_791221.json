@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-01-05T07:19:23.791221",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "To finalize the diagnostic code (F32.x/F33.x), please provide the following: 1) The chief complaint and core symptom clusters (e.g., 5+ MDD criteria symptoms present); 2) Documented duration of the current episode (must be 2 weeks or more); and 3) Documentation of functional impairment (Criterion C).",
+    "suggested_answer": "Based solely on the prescription of *Sertraline* for 4 weeks, the working diagnosis is *Major Depressive Disorder, Recurrent, Unspecified*.",
+    "primary_diagnosis": {
+      "code": "F33.9",
+      "description": "Major depressive disorder, recurrent, unspecified",
+      "justification": "This code is assigned as a provisional working diagnosis based on the established use of *Sertraline*, a first-line SSRI for MDD. Recurrence is assumed as the patient is established on medication, but severity, remission status, and explicit DSM-5 criteria cannot be verified without symptom documentation, necessitating the 'unspecified' specifier.",
+      "dsm_criteria_met": [
+        "No specific criteria met due to lack of symptomatic data."
+      ],
+      "confidence": 0.1
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": [
+      {
+        "code": "F41.1",
+        "description": "Generalized Anxiety Disorder",
+        "reason": "Although *Sertraline* treats GAD, MDD is the most common indication when a specific mental health diagnosis is unknown. GAD cannot be confirmed without assessment of excessive worry and related physical symptoms."
+      },
+      {
+        "code": "F32.A",
+        "description": "Depressive episode, single episode",
+        "reason": "Recurrent MDD (F33.x) is statistically more probable in a follow-up setting than a first-ever episode (F32.x)."
+      }
+    ]
+  },
+  "duration_ms": 8048,
+  "error": null
+}

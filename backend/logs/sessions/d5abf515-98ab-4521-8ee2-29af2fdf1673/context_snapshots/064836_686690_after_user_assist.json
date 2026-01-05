@@ -1,0 +1,157 @@
+{
+  "timestamp": "2026-01-05T06:48:36.686690",
+  "trigger": "after_user_assist",
+  "agent_id": "user_assist",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session detailing significant worsening of *Major Depressive Disorder* symptoms (vegetative changes, functional impairment) after 4 weeks on *Sertraline* 50mg.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The session focuses on evaluating the efficacy of an existing regimen (4 weeks on *Sertraline*), assessing escalating symptoms (*Early Morning Awakening*, functional decline), performing required passive SI assessment, and making critical dose adjustments."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Low",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. ... But I just wish I could disappear sometimes.",
+          "recommended_action": "The patient reports passive death ideation/wish to die ('disappear'), but explicitly denies active intent or plan, citing strong protective factors ('I couldn't do that to them'). Given the confirmed restriction of lethal means (per external feedback) and the denial of intent/plan, the immediate risk is assessed as Low. Action required: Safety contract/plan documentation and close follow-up due to symptom severity and medication change."
+        }
+      ],
+      "summary": "Passive suicidal ideation (wish to disappear, feeling others would be better off) was elicited. Active intent and plan were denied, and lethal means are restricted. Immediate risk is assessed as **LOW**."
+    },
+    "clinical_entity": {
+      "clarification_needed": true,
+      "clarification_question": "Did the provider explicitly confirm the presence of *anhedonia* (loss of pleasure in previously enjoyed activities), and what were the patient's specific observed Affect and Appearance during the session?",
+      "suggested_answer": "While not explicitly asked, the patient's statement, 'I just don't see the point in going,' strongly suggests *anhedonia* and *apathy*. Observed *Affect* was likely *Constricted/Restricted* and *Congruent* with the reported dysphoric mood.",
+      "presenting_symptoms": [
+        {
+          "symptom": "Fatigue / Lack of Energy",
+          "onset": "Since last month",
+          "duration": "4 weeks (Significant increase in the past 2 weeks)",
+          "severity": "Severe",
+          "context": "Difficulty getting out of bed in the mornings.",
+          "impact": "Functional decline; Missed three days of work this week."
+        },
+        {
+          "symptom": "Appetite Decrease / Weight Loss",
+          "onset": "Undetermined",
+          "duration": "Undetermined",
+          "severity": "Moderate",
+          "context": "Not really hungry.",
+          "impact": "Lost approximately 5 pounds."
+        },
+        {
+          "symptom": "Insomnia (Early Morning Awakening)",
+          "onset": "Undetermined",
+          "duration": "Undetermined",
+          "severity": "Moderate",
+          "context": "Wakes up at like 3 AM and can't go back to sleep. Mind starts racing.",
+          "impact": "Contributes to daytime fatigue."
+        },
+        {
+          "symptom": "Feelings of Worthlessness and Guilt",
+          "onset": "Undetermined",
+          "duration": "Undetermined",
+          "severity": "Severe",
+          "context": "Thoughts of being a failure and letting down family (husband, kids).",
+          "impact": "High emotional distress."
+        },
+        {
+          "symptom": "Passive Thoughts of Death/Dying",
+          "onset": "Undetermined",
+          "duration": "Undetermined",
+          "severity": "Moderate",
+          "context": "Wishes she could disappear sometimes.",
+          "impact": "Denies active suicidal intent or plan."
+        }
+      ],
+      "mental_status_exam": {
+        "appearance": "not assessed",
+        "behavior": "not assessed (Inferred: low activity/psychomotor retardation based on reports)",
+        "speech": "Normal rate/rhythm (Inferred: Conversational)",
+        "mood": "Drained, Rough, Depressed",
+        "affect": "not assessed",
+        "thought_process": "Linear and goal-directed.",
+        "thought_content": "Themes of guilt, failure, self-reproach, and passive death ideation.",
+        "perception": "No evidence of perceptual disturbance.",
+        "cognition": "Alert and oriented (Inferred: No cognitive deficits noted in conversation)",
+        "insight": "Good (Recognizes severity of symptoms and is willing to engage in treatment changes).",
+        "judgment": "Good (Maintaining adherence to treatment; denies active risk)."
+      },
+      "current_medications": [
+        {
+          "name": "Sertraline",
+          "dose": "50mg",
+          "frequency": "Daily",
+          "start_date": "Last month (Approx. 4 weeks ago)",
+          "response": "Minimal/None",
+          "adherence": "Good (Taking it every day)"
+        }
+      ],
+      "substance_use": {
+        "alcohol": "not assessed",
+        "tobacco": "not assessed",
+        "drugs": "not assessed"
+      },
+      "past_psychiatric_history": {
+        "history_of_mania_hypomania": "Denied (Patient confirms she has 'always been more on the low side if anything').",
+        "history_of_depression": "not assessed (Inferred history of mood issues based on 'always been more on the low side')"
+      },
+      "medical_history": {
+        "history": "not assessed"
+      },
+      "social_history": {
+        "living_situation": "Lives with family (husband, kids)",
+        "employment_status": "Employed (Missing work due to symptoms)",
+        "support_system": "Husband and kids mentioned (Implied support system)",
+        "lethal_means_access": "Restricted (Confirmed via shared context)"
+      },
+      "family_psychiatric_history": {
+        "history": "not assessed"
+      },
+      "functional_assessment": {
+        "work_functioning": "Severe impairment (Missed 3 days of work this week).",
+        "social_functioning": "not assessed (Implied distress related to family)"
+      },
+      "assessment_scales": [
+        {
+          "name": "C-SSRS (Columbia Suicide Severity Rating Scale)",
+          "result": "Score suggests Passive Death Ideation present; Denies Active Suicidal Intent/Plan. Low immediate risk validated by restricted access to means (from shared context)."
+        }
+      ]
+    },
+    "diagnosis_mapping": {
+      "clarification_needed": true,
+      "clarification_question": "We have confirmation that symptoms have persisted for 4 weeks with significant functional decline, but we lack the specific qualitative criteria necessary for DSM-5 diagnosis. Please provide the patient's chief complaints, HPI details, and specific Mental Status Examination (MSE) findings (e.g., mood, affect, specific vegetative symptoms) to determine which specific DSM-5 A criteria are met.",
+      "suggested_answer": "Clinical data suggests a mood disturbance requiring intervention. However, the specific symptom profile (e.g., presence of anhedonia, sleep disturbance type, rumination) is necessary to differentiate Major Depressive Disorder (F33.x/F32.x), Generalized Anxiety Disorder (F41.1), or Adjustment Disorder (F43.2x). **The symptom list is required to proceed with mapping.**",
+      "primary_diagnosis": {
+        "code": "F32.9",
+        "description": "Major depressive disorder, single episode, unspecified",
+        "justification": "This is a placeholder diagnosis due to the reported 'significant functional decline' and symptom duration (>4 weeks), strongly suggesting a pathological mood disturbance. This code is used temporarily until specific criteria are confirmed via the HPI/MSE.",
+        "dsm_criteria_met": [
+          "Insufficient Data to confirm specific A criteria (A1-A9)",
+          "Criteria C (Functional impairment) inferred from transcript."
+        ],
+        "confidence": 0.0
+      },
+      "secondary_diagnoses": [],
+      "ruled_out": [
+        {
+          "code": "F31.9",
+          "description": "Bipolar disorder, unspecified",
+          "reason": "No evidence of manic, hypomanic, or mixed symptoms reported in the limited data set. Cannot be confirmed without MSE/HPI data."
+        }
+      ]
+    },
+    "user_clarifications": {
+      "diagnosis_mapping": "Clinical data suggests a mood disturbance requiring intervention. However, the specific symptom profile (e.g., presence of anhedonia, sleep disturbance type, rumination) is necessary to differentiate Major Depressive Disorder (F33.x/F32.x), Generalized Anxiety Disorder (F41.1), or Adjustment Disorder (F43.2x). **The symptom list is required to proceed with mapping.**",
+      "clinical_entity": "While not explicitly asked, the patient's statement, 'I just don't see the point in going,' strongly suggests *anhedonia* and *apathy*. Observed *Affect* was likely *Constricted/Restricted* and *Congruent* with the reported dysphoric mood.",
+      "safety_triage": "Access to lethal means was confirmed to be restricted (e.g., no firearms in the home, current medication quantities are controlled), validating the low immediate risk assessment."
+    }
+  }
+}

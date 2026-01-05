@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-01-05T06:42:47.399514",
+  "trigger": "after_user_assist",
+  "agent_id": "user_assist",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session for Major Depressive Disorder (MDD) marked by a severe exacerbation of vegetative symptoms, functional decline, and passive suicidal ideation.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The patient is presenting with a significant lack of response to the initial dose of Sertraline 50mg after 4 weeks, demonstrating classic severe depressive symptoms (early morning awakening, weight loss, anhedonia, guilt), which necessitates immediate medication dose escalation and detailed safety assessment."
+    }
+  }
+}

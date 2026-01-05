@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-01-05T07:09:52.185862",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "primary_diagnosis": {
+      "code": "F33.1",
+      "description": "Major depressive disorder, recurrent, moderate",
+      "justification": "Based on the documented history of recurrent episodes and the denial of manic/hypomanic history, F33 is appropriate. The recent initiation of *Sertraline* 4 weeks ago, indicating symptoms causing impairment requiring treatment, aligns with an ongoing Moderate Major Depressive Episode.",
+      "dsm_criteria_met": [
+        "Meets criteria for Major Depressive Episode (MDE)",
+        "Symptoms present for > 2 weeks, causing distress/impairment",
+        "History confirms multiple prior episodes (Recurrent specifier met)"
+      ],
+      "confidence": 0.95
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": [
+      {
+        "code": "F32.x",
+        "description": "Major depressive disorder, single episode",
+        "reason": "Patient history explicitly suggests Recurrent MDD, ruling out a single episode presentation."
+      },
+      {
+        "code": "F31.x",
+        "description": "Bipolar I or II Disorder",
+        "reason": "Clinical Entity Agent confirms patient denies any history of manic or hypomanic episodes."
+      }
+    ]
+  },
+  "duration_ms": 4963,
+  "error": null
+}

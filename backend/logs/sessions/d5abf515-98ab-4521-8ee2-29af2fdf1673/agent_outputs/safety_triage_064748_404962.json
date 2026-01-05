@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-01-05T06:47:48.404962",
+  "agent_id": "safety_triage",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "risk_detected": true,
+    "clarification_needed": true,
+    "clarification_question": "Please clarify if the patient was assessed regarding access to lethal means (e.g., firearms, large quantities of medications) during the session.",
+    "suggested_answer": "Given the patient reported strong protective factors (concern for family) and denied intent, we infer low immediate access/intent to use means, but this requires confirmation to ensure **SAFE** disposition.",
+    "concerns": [
+      {
+        "type": "Suicide Risk",
+        "severity": "Moderate",
+        "evidence": "Sometimes I think they'd be better off without me dragging them down... But I just wish I could disappear sometimes.",
+        "recommended_action": "Formal C-SSRS assessment and documentation are required. Patient reports passive death ideation/wish to die (C-SSRS Q1/Q2 fulfilled) but denies active intent or plan (Q3-Q5 denied). Given significant functional decline (*missed work*, *early morning awakening*), a safety plan must be established and lethal means restriction must be confirmed."
+      }
+    ],
+    "summary": "The patient reports significant worsening of depressive symptoms, marked by functional decline and confirmed *passive suicidal ideation* (wish to disappear, sense of burden on family). Active intent, plan, and preparatory behaviors were denied. The immediate safety risk is **MODERATE** due to persistent ideation without known access to means or current high intent. **Lethal means safety check is required for final disposition.**"
+  },
+  "duration_ms": 7111,
+  "error": null
+}

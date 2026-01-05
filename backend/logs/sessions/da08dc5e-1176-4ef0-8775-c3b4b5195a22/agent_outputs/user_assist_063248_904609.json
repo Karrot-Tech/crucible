@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T06:32:48.904609",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session focused on worsening depressive symptoms, assessment of passive suicidal ideation, and titration of current SSRI dosage.",
+    "clinical_nature": "medication_check",
+    "validation_result": "approved",
+    "reasoning": "The session is a standard psychiatric follow-up focused on monitoring efficacy of existing treatment (Sertraline) and evaluating the current severity of Major Depressive Disorder symptoms, including C-SSRS screening for passive ideation, which necessitated a medication change."
+  },
+  "duration_ms": 4359,
+  "error": null
+}

@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-01-05T07:53:38.050011",
+  "trigger": "after_safety_triage",
+  "agent_id": "safety_triage",
+  "context": {
+    "user_assist": {
+      "summary": "This is a follow-up session addressing the severe exacerbation of depressive symptoms, including significant functional impairment and passive suicidal ideation, requiring medication dose adjustment.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The patient presented with severe vegetative and cognitive depressive symptoms (insomnia, anorexia, guilt, fatigue) and reported passive death wishes. The provider conducted an appropriate safety screen, confirmed the absence of intent/plan, and subsequently adjusted the current Sertraline dose from 50mg to 100mg daily."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. [...] No, no, I wouldn't do that. I couldn't do that to them. But I just wish I could disappear sometimes.",
+          "recommended_action": "Patient reports passive suicidal ideation ('wish I could disappear,' 'better off without me') but explicitly denies intent, plan, or preparatory behavior. Monitor symptom severity closely following medication change. Formal C-SSRS screening is necessary to document the severity and denial of intent/plan."
+        },
+        {
+          "type": "Acute Emergency",
+          "severity": "High",
+          "evidence": "I'm just feeling so drained all the time. I can barely get out of bed in the mornings. I've missed three days of work this week. I just don't see the point in going. I wake up at like 3 AM and can't go back to sleep.",
+          "recommended_action": "Severe, persistent vegetative symptoms (anhedonia, severe fatigue, early morning awakening, functional impairment) consistent with a severe Major Depressive Episode. Requires prompt pharmacological adjustment and safety monitoring."
+        }
+      ],
+      "summary": "Moderate suicide risk detected due to passive death ideation and denial of intent/plan, coupled with severe symptoms of Major Depression (anhedonia, insomnia, functional impairment, weight loss). Requires formal risk assessment (C-SSRS) and close follow-up post-Sertraline increase."
+    }
+  }
+}

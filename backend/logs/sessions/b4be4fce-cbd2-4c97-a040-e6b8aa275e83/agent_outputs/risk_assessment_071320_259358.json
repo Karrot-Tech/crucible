@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-01-05T07:13:20.259358",
+  "agent_id": "risk_assessment",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "risk_level": "Low",
+    "suicidal_ideation_present": true,
+    "max_ideation_severity": 1,
+    "suicidal_behavior_present": false,
+    "protective_factors": [
+      "Explicit denial of active intent/plan: 'I couldn't do that to them.'",
+      "Identifies family (husband, kids) as a reason for not acting.",
+      "Willingness to engage in treatment plan changes (*Sertraline* dose increase, behavioral activation goals)."
+    ],
+    "risk_factors": [
+      "Passive suicidal ideation ('wish I could disappear', 'they'd be better off without me')",
+      "Significant vegetative symptoms of depression (early morning awakening, weight loss, fatigue)",
+      "Severe feelings of guilt and worthlessness ('I'm a failure', 'letting everyone down')",
+      "Recent history of missed work/social functioning decline"
+    ],
+    "clinical_actions": [
+      "Psychoeducation provided regarding passive vs. active ideation.",
+      "Safety plan reinforcement (due to passive ideation being present).",
+      "Monitor closely for any shift from passive to active ideation during follow-up, especially post-medication increase."
+    ],
+    "cssrs_detail": {
+      "wish_to_be_dead": true,
+      "active_thoughts": false,
+      "specific_plan": false,
+      "intent": false
+    }
+  },
+  "duration_ms": 5061,
+  "error": null
+}

@@ -1,0 +1,121 @@
+{
+  "timestamp": "2026-01-05T07:54:20.903553",
+  "agent_id": "clinical_entity",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "presenting_symptoms": [
+      {
+        "symptom": "Fatigue/Low Energy",
+        "onset": "Approximately 2 weeks ago",
+        "duration": "2 weeks",
+        "severity": "Severe",
+        "context": "Constant feeling of being drained",
+        "impact": "Inability to get out of bed"
+      },
+      {
+        "symptom": "Occupational Impairment",
+        "onset": "This week",
+        "duration": "Recent",
+        "severity": "Moderate to Severe",
+        "context": "Lack of motivation/anhedonia",
+        "impact": "Missed 3 days of work"
+      },
+      {
+        "symptom": "Anhedonia/Apathy",
+        "onset": "Approximately 2 weeks ago",
+        "duration": "2 weeks",
+        "severity": "Moderate",
+        "context": "Doesn't see the point in going to work",
+        "impact": "Contributing to work absence"
+      },
+      {
+        "symptom": "Appetite Loss/Weight Change",
+        "onset": "Recent",
+        "duration": "Implied 2 weeks",
+        "severity": "Moderate",
+        "context": "Not really hungry",
+        "impact": "5 pounds weight loss"
+      },
+      {
+        "symptom": "Early Morning Awakening Insomnia",
+        "onset": "Recent",
+        "duration": "Implied 2 weeks",
+        "severity": "Moderate",
+        "context": "Wakes up at 3 AM and cannot return to sleep",
+        "impact": "Unrestorative sleep, associated with racing thoughts"
+      },
+      {
+        "symptom": "Excessive Guilt/Worthlessness",
+        "onset": "Recent",
+        "duration": "Implied 2 weeks",
+        "severity": "Severe",
+        "context": "Thoughts of being a failure and letting family down",
+        "impact": "Fueling death ideation"
+      },
+      {
+        "symptom": "Passive Death Ideation",
+        "onset": "Recent",
+        "duration": "Intermittent",
+        "severity": "Present, Non-Suicidal",
+        "context": "Thinking family 'would be better off' without her; wishing to 'disappear'",
+        "impact": "Indicates significant distress"
+      }
+    ],
+    "mental_status_exam": {
+      "appearance": "not assessed",
+      "behavior": "not assessed",
+      "speech": "Normo-prosodic, clear",
+      "mood": "Drained, rough",
+      "affect": "Constricted/Depressed (Inferred, congruent with mood)",
+      "thought_process": "Goal-directed, coherent",
+      "thought_content": "Preoccupied with failure, guilt, passive death ideation. Denies active suicidal intent.",
+      "perception": "No current evidence of perceptual disturbances (denies manic/psychotic symptoms)",
+      "cognition": "Alert and oriented (Inferred)",
+      "insight": "Good (Acknowledges symptoms and distress, willing to adjust treatment)",
+      "judgment": "Fair (Treatment adherent, but significant functional impairment leading to missed work)"
+    },
+    "current_medications": [
+      {
+        "name": "Sertraline",
+        "dose": "50mg",
+        "frequency": "Daily",
+        "start_date": "4 weeks ago",
+        "response": "Minimal/None ('don't feel like it's doing anything yet')",
+        "adherence": "Good ('taking it every day')"
+      }
+    ],
+    "substance_use": {
+      "alcohol": "not assessed",
+      "tobacco": "not assessed",
+      "drugs": "not assessed"
+    },
+    "past_psychiatric_history": {
+      "diagnoses_denied": "Mania/Hypomania",
+      "history_noted": "Patient reports always being 'more on the low side if anything'."
+    },
+    "medical_history": {
+      "general_medical": "not assessed"
+    },
+    "social_history": {
+      "marital_status": "Married (mentions husband and kids)",
+      "employment": "Employed (missed 3 days this week due to symptoms)"
+    },
+    "family_psychiatric_history": {
+      "history": "not assessed"
+    },
+    "functional_assessment": {
+      "occupational": "Severely impaired (3 missed days of work this week)",
+      "self_care": "Impaired (difficulty getting out of bed)",
+      "interpersonal": "Intact (implied, concern for family's well-being)"
+    },
+    "assessment_scales": []
+  },
+  "duration_ms": 9862,
+  "error": null
+}

@@ -1,0 +1,170 @@
+{
+  "timestamp": "2026-01-05T07:54:27.250623",
+  "trigger": "after_diagnosis_mapping",
+  "agent_id": "diagnosis_mapping",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session addressing the exacerbation of severe depressive symptoms, passive death ideation, and lack of therapeutic response to the current dose of Sertraline.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "This is a standard psychiatric follow-up focused on managing a recurrent mood disorder (likely MDD) which is currently destabilized. The encounter included necessary safety screening (passive death ideation noted, active risk cleared) and subsequent pharmacologic adjustment (up-titration of *Sertraline* 50mg to 100mg)."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. / No, no, I wouldn't do that. I couldn't do that to them. But I just wish I could disappear sometimes.",
+          "recommended_action": "The patient reports significant passive suicidal ideation (wish to be dead/disappear) related to feelings of guilt and being a 'failure.' Active intent and plan are explicitly denied. Mandate completion of the full C-SSRS for documentation and review the patient's current safety plan."
+        },
+        {
+          "type": "Acute Emergency",
+          "severity": "Moderate",
+          "evidence": "I wake up at like 3 AM and can't go back to sleep. / I've missed three days of work this week.",
+          "recommended_action": "The severity of the *depressive episode* (early morning awakening, severe functional impairment, significant weight loss, passive ideation) warrants aggressive treatment adjustment and close follow-up to mitigate rising suicide risk indicators. The agent has adequately ruled out mania/psychosis."
+        }
+      ],
+      "summary": "Safety concerns are detected related to passive suicidal ideation ('wish I could disappear,' 'better off without me'). The patient explicitly denied active intent or plan, classifying the immediate risk as Moderate. The clinical picture indicates a severe *Major Depressive Episode* requiring urgent adjustment of the treatment plan and documentation of the C-SSRS assessment."
+    },
+    "clinical_entity": {
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "presenting_symptoms": [
+        {
+          "symptom": "Fatigue/Low Energy",
+          "onset": "Approximately 2 weeks ago",
+          "duration": "2 weeks",
+          "severity": "Severe",
+          "context": "Constant feeling of being drained",
+          "impact": "Inability to get out of bed"
+        },
+        {
+          "symptom": "Occupational Impairment",
+          "onset": "This week",
+          "duration": "Recent",
+          "severity": "Moderate to Severe",
+          "context": "Lack of motivation/anhedonia",
+          "impact": "Missed 3 days of work"
+        },
+        {
+          "symptom": "Anhedonia/Apathy",
+          "onset": "Approximately 2 weeks ago",
+          "duration": "2 weeks",
+          "severity": "Moderate",
+          "context": "Doesn't see the point in going to work",
+          "impact": "Contributing to work absence"
+        },
+        {
+          "symptom": "Appetite Loss/Weight Change",
+          "onset": "Recent",
+          "duration": "Implied 2 weeks",
+          "severity": "Moderate",
+          "context": "Not really hungry",
+          "impact": "5 pounds weight loss"
+        },
+        {
+          "symptom": "Early Morning Awakening Insomnia",
+          "onset": "Recent",
+          "duration": "Implied 2 weeks",
+          "severity": "Moderate",
+          "context": "Wakes up at 3 AM and cannot return to sleep",
+          "impact": "Unrestorative sleep, associated with racing thoughts"
+        },
+        {
+          "symptom": "Excessive Guilt/Worthlessness",
+          "onset": "Recent",
+          "duration": "Implied 2 weeks",
+          "severity": "Severe",
+          "context": "Thoughts of being a failure and letting family down",
+          "impact": "Fueling death ideation"
+        },
+        {
+          "symptom": "Passive Death Ideation",
+          "onset": "Recent",
+          "duration": "Intermittent",
+          "severity": "Present, Non-Suicidal",
+          "context": "Thinking family 'would be better off' without her; wishing to 'disappear'",
+          "impact": "Indicates significant distress"
+        }
+      ],
+      "mental_status_exam": {
+        "appearance": "not assessed",
+        "behavior": "not assessed",
+        "speech": "Normo-prosodic, clear",
+        "mood": "Drained, rough",
+        "affect": "Constricted/Depressed (Inferred, congruent with mood)",
+        "thought_process": "Goal-directed, coherent",
+        "thought_content": "Preoccupied with failure, guilt, passive death ideation. Denies active suicidal intent.",
+        "perception": "No current evidence of perceptual disturbances (denies manic/psychotic symptoms)",
+        "cognition": "Alert and oriented (Inferred)",
+        "insight": "Good (Acknowledges symptoms and distress, willing to adjust treatment)",
+        "judgment": "Fair (Treatment adherent, but significant functional impairment leading to missed work)"
+      },
+      "current_medications": [
+        {
+          "name": "Sertraline",
+          "dose": "50mg",
+          "frequency": "Daily",
+          "start_date": "4 weeks ago",
+          "response": "Minimal/None ('don't feel like it's doing anything yet')",
+          "adherence": "Good ('taking it every day')"
+        }
+      ],
+      "substance_use": {
+        "alcohol": "not assessed",
+        "tobacco": "not assessed",
+        "drugs": "not assessed"
+      },
+      "past_psychiatric_history": {
+        "diagnoses_denied": "Mania/Hypomania",
+        "history_noted": "Patient reports always being 'more on the low side if anything'."
+      },
+      "medical_history": {
+        "general_medical": "not assessed"
+      },
+      "social_history": {
+        "marital_status": "Married (mentions husband and kids)",
+        "employment": "Employed (missed 3 days this week due to symptoms)"
+      },
+      "family_psychiatric_history": {
+        "history": "not assessed"
+      },
+      "functional_assessment": {
+        "occupational": "Severely impaired (3 missed days of work this week)",
+        "self_care": "Impaired (difficulty getting out of bed)",
+        "interpersonal": "Intact (implied, concern for family's well-being)"
+      },
+      "assessment_scales": []
+    },
+    "user_clarifications": {
+      "clinical_entity": "Based on the Doctor's comment ('at 4 weeks'), the *Sertraline* 50mg was initiated approximately four weeks prior to this session."
+    },
+    "diagnosis_mapping": {
+      "clarification_needed": true,
+      "clarification_question": "The only clinical information available is the initiation of *Sertraline* 50mg four weeks prior. To accurately assign a primary diagnosis, please confirm the presenting symptoms (A-Criteria), duration, and if the patient meets full DSM-5 criteria for a specific disorder (e.g., Major Depressive Disorder or Generalized Anxiety Disorder).",
+      "suggested_answer": "Given the use of *Sertraline* for 4 weeks, the most likely provisional diagnosis based on common clinical practice is Major Depressive Disorder, recurrent episode, moderate, pending confirmation of criteria (F33.1).",
+      "primary_diagnosis": {
+        "code": "F33.1",
+        "description": "Major depressive disorder, recurrent, moderate",
+        "justification": "This is a provisional code inferred solely from the initiation of an SSRI (*Sertraline*) 50mg four weeks prior, which is standard treatment for this condition. We lack essential criteria (symptom list, duration, severity specifiers) to confirm.",
+        "dsm_criteria_met": [
+          "INFERRED: 5+ symptoms of MDD present nearly every day for most of the day for at least 2 weeks (e.g., Depressed mood, Anhedonia, Sleep disturbance, Fatigue)."
+        ],
+        "confidence": 0.1
+      },
+      "secondary_diagnoses": [],
+      "ruled_out": [
+        {
+          "code": "F31.x",
+          "description": "Bipolar and Related Disorders",
+          "reason": "Insufficient information to rule out, but current treatment (SSRI monotherapy) makes Bipolar I/II less likely without known mood stabilizer co-prescribed or a documented hypomanic/manic history."
+        }
+      ]
+    }
+  }
+}

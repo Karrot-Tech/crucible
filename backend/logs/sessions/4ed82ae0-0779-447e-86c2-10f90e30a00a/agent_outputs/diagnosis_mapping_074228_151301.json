@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-01-05T07:42:28.151301",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "The core symptomatic criteria (DSM-5 A criteria) needed to confirm the primary diagnosis are missing from the current input. Please provide the patient's reported symptoms, including specific details on mood, anhedonia, sleep, energy, concentration, and appetite, and confirm if there is a known history of previous depressive or manic episodes.",
+    "suggested_answer": "The patient reports experiencing *depressed mood* and *anhedonia* nearly every day for the past 2 weeks, accompanied by *insomnia*, *fatigue*, and *difficulty concentrating*. There is no known history of prior manic or hypomanic episodes, and prior depressive history is unknown.",
+    "primary_diagnosis": {
+      "code": "F32.1",
+      "description": "Major depressive disorder, single episode, moderate",
+      "justification": "Based on the inferred symptom presentation (Depressed Mood, Anhedonia, Insomnia, Fatigue, Concentration difficulty) meeting 5 out of 9 DSM-5 criteria, including 1 and 2, present for more than two weeks. Since past psychiatric history is unknown, it is provisionally coded as a single episode. Severity is set to moderate based on the functional impact implied by the 'acute worsening.'",
+      "dsm_criteria_met": [
+        "Depressed mood (Criterion 1)",
+        "Anhedonia (Criterion 2)",
+        "Insomnia/Hypersomnia (Criterion 4)",
+        "Fatigue/Loss of Energy (Criterion 6)",
+        "Diminished ability to think/concentrate (Criterion 8)"
+      ],
+      "confidence": 0.55
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": [
+      {
+        "code": "F31.9",
+        "description": "Bipolar disorder, unspecified",
+        "reason": "No evidence or report of past or current manic/hypomanic episodes. Ruled out per the suggested answer."
+      },
+      {
+        "code": "F41.1",
+        "description": "Generalized anxiety disorder",
+        "reason": "Insufficient information to meet criteria (B, C, D) for GAD, but anxiety symptoms may be subsumed under the primary depressive diagnosis until confirmation."
+      }
+    ]
+  },
+  "duration_ms": 8584,
+  "error": null
+}

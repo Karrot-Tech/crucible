@@ -1,0 +1,159 @@
+{
+  "timestamp": "2026-01-05T07:45:32.205050",
+  "trigger": "after_diagnosis_mapping",
+  "agent_id": "diagnosis_mapping",
+  "context": {
+    "user_assist": {
+      "summary": "The session is a follow-up for a patient with Major Depressive Disorder presenting with severe, worsening symptoms including profound fatigue, anhedonia, insomnia, and passive suicidal ideation, requiring medication management adjustment.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "This is a standard psychiatric follow-up addressing a severe depressive episode characterized by anhedonia, early morning awakening, and passive death thoughts, leading to a planned dose titration of Sertraline after inadequate response at 50mg."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. / But I just wish I could disappear sometimes.",
+          "recommended_action": "The patient reports significant passive suicidal ideation (wish to be dead/others better off without her). Active ideation and intent are explicitly denied (No, no, I wouldn't do that). This requires close safety monitoring, immediate treatment modification (Sertraline dose increase), and a documented safety plan/contract for safety."
+        },
+        {
+          "type": "Acute Emergency",
+          "severity": "Moderate",
+          "evidence": "I'm just feeling so drained all the time. I can barely get out of bed in the mornings. I've missed three days of work this week. I've lost maybe 5 pounds. I wake up at like 3 AM and can't go back to sleep.",
+          "recommended_action": "The patient is experiencing a severe depressive episode (MDD) with significant functional impairment, severe vegetative symptoms (anhedonia, weight loss, psychomotor retardation, terminal insomnia), requiring urgent intervention and medication management escalation."
+        }
+      ],
+      "summary": "Patient is experiencing a severe Major Depressive Episode with significant functional decline, vegetative symptoms, and clear evidence of passive suicidal ideation ('wish to be dead'). Active intent and plan are denied per documented screening. Severity is moderate requiring immediate medication adjustment and continued close safety follow-up."
+    },
+    "clinical_entity": {
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "presenting_symptoms": [
+        {
+          "symptom": "*Fatigue* / *Lack of motivation*",
+          "onset": "Acute exacerbation recently",
+          "duration": "Couple of weeks",
+          "severity": "Significant",
+          "context": "Presenting continuously",
+          "impact": "Difficulty getting out of bed; Missed 3 days of work this week"
+        },
+        {
+          "symptom": "*Anhedonia* / *Avolition*",
+          "onset": "Acute exacerbation recently",
+          "duration": "Couple of weeks",
+          "severity": "Significant",
+          "context": "Feeling hopeless ('don't see the point')",
+          "impact": "Contributes to work absence"
+        },
+        {
+          "symptom": "*Appetite Decrease* / *Weight Loss*",
+          "onset": "Unknown (recent change)",
+          "duration": "Unknown",
+          "severity": "Moderate",
+          "context": "Not feeling hungry",
+          "impact": "Lost 5 pounds"
+        },
+        {
+          "symptom": "*Sleep Disturbance* / *Early Morning Awakening*",
+          "onset": "Unknown",
+          "duration": "Couple of weeks",
+          "severity": "Moderate",
+          "context": "Wakes at 3 AM, cannot return to sleep",
+          "impact": "Mind starts racing"
+        },
+        {
+          "symptom": "*Guilt* / *Worthlessness*",
+          "onset": "Unknown (worsened during sleepless periods)",
+          "duration": "Couple of weeks",
+          "severity": "Significant",
+          "context": "Thoughts of being a failure and letting people down",
+          "impact": "Contributes to distress and passive suicidal ideation"
+        },
+        {
+          "symptom": "*Passive Suicidal Ideation*",
+          "onset": "Recent exacerbation",
+          "duration": "Unknown",
+          "severity": "Moderate",
+          "context": "Thoughts that family would be 'better off' without patient; wishes to 'disappear'",
+          "impact": "Significant distress. Denies active plan, intent, or means."
+        }
+      ],
+      "mental_status_exam": {
+        "appearance": "not assessed",
+        "behavior": "not assessed (Implied sluggishness/withdrawal due to work absence)",
+        "speech": "Clear, coherent, goal-directed",
+        "mood": "Rough, Drained",
+        "affect": "Consistent with mood (Inferred dysphoric)",
+        "thought_process": "Goal-directed, logical (except for nocturnal 'racing thoughts' related to worry)",
+        "thought_content": "Preoccupations with failure, guilt, worthlessness, and passive thoughts of death. Denies active *Suicidal Ideation*.",
+        "perception": "not assessed (No evidence of disturbance)",
+        "cognition": "not assessed",
+        "insight": "Good (Acknowledges severity of symptoms and need for treatment change)",
+        "judgment": "Good (Maintains safety; seeking help for symptoms)",
+        "ruling_out": "Denies history of elevated mood, excessive energy, decreased need for sleep, or risk-taking behavior (Rules out Bipolar I/II)"
+      },
+      "current_medications": [
+        {
+          "name": "*Sertraline*",
+          "dose": "50mg",
+          "frequency": "Daily",
+          "start_date": "Approximately 4 weeks ago (last month)",
+          "response": "Poor ('not doing anything yet') given current symptom severity",
+          "adherence": "Good ('taking it every day')"
+        }
+      ],
+      "substance_use": {
+        "alcohol": "not assessed",
+        "tobacco": "not assessed",
+        "drugs": "not assessed"
+      },
+      "past_psychiatric_history": {
+        "summary": "Reports being 'always more on the low side if anything'. Denies history of hypomania or mania.",
+        "hospitalizations": "not assessed"
+      },
+      "medical_history": {
+        "summary": "not assessed",
+        "current_conditions": "not assessed"
+      },
+      "social_history": {
+        "status": "Married, has children. Currently employed (missing work due to symptoms).",
+        "support": "Has husband and children (context of guilt/concern for family is noted).",
+        "occupation": "Employed (currently impaired)"
+      },
+      "family_psychiatric_history": {
+        "summary": "not assessed"
+      },
+      "functional_assessment": {
+        "work_school": "Severely impaired (Missed three days of work this week).",
+        "adl_iadl": "Impaired (Difficulty getting out of bed)."
+      },
+      "assessment_scales": []
+    },
+    "diagnosis_mapping": {
+      "clarification_needed": true,
+      "clarification_question": "The clinical input data is absent. Please provide the patient's chief complaint, HPI, and reported symptoms (e.g., *depressed mood*, *anxiety*, *sleep disturbance*) to enable criteria assessment.",
+      "suggested_answer": "Requires full transcription or structured input data to proceed. No diagnostic codes can be assigned at this time.",
+      "primary_diagnosis": {
+        "code": "",
+        "description": "Insufficient clinical data to establish a diagnosis.",
+        "justification": "Input data is null/empty.",
+        "dsm_criteria_met": [],
+        "confidence": 0.0
+      },
+      "secondary_diagnoses": [],
+      "ruled_out": [
+        {
+          "code": "F32.9",
+          "description": "Major depressive disorder, unspecified",
+          "reason": "Cannot assess required symptoms, duration, or impairment."
+        }
+      ]
+    }
+  }
+}

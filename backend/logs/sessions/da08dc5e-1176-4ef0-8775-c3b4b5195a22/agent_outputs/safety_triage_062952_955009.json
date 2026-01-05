@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-01-05T06:29:52.955009",
+  "agent_id": "safety_triage",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "risk_detected": true,
+    "clarification_needed": true,
+    "clarification_question": "Did the patient report or was the patient asked about access to lethal means (e.g., weapons, large quantities of medications) to complete suicide? This information is critical for complete C-SSRS risk assessment and safety planning.",
+    "suggested_answer": "Assume the provider verbally confirmed the patient does not have immediate access to lethal means (weapons or excessive medication quantities) and that the environment is safe, as the clinical plan proceeded without requiring an immediate higher level of care or restriction.",
+    "concerns": [
+      {
+        "type": "Suicide Risk",
+        "severity": "Moderate",
+        "evidence": "Sometimes I think they'd be better off without me dragging them down. [...] But I just wish I could disappear sometimes.",
+        "recommended_action": "The patient reports passive suicidal ideation (passive death wish/feeling others would be better off) but explicitly denies intent or plan. Initiate structured safety planning, confirm and document absence of lethal means (as requested in the clarification), and schedule a prompt follow-up appointment (within 1-2 weeks) given the acute symptom severity and medication dosage increase."
+      }
+    ],
+    "summary": "The patient reports significant worsening of depressive symptoms (fatigue, early morning awakening, weight loss, severe guilt) and passive suicidal ideation (wishing to disappear, feeling family would be better off). Intent and plan were denied. A moderate, non-imminent suicide risk is present, necessitating formal safety planning and verification of means restriction."
+  },
+  "duration_ms": 6092,
+  "error": null
+}

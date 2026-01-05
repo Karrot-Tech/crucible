@@ -1,0 +1,111 @@
+{
+  "timestamp": "2026-01-05T06:48:29.722974",
+  "agent_id": "clinical_entity",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "Did the provider explicitly confirm the presence of *anhedonia* (loss of pleasure in previously enjoyed activities), and what were the patient's specific observed Affect and Appearance during the session?",
+    "suggested_answer": "While not explicitly asked, the patient's statement, 'I just don't see the point in going,' strongly suggests *anhedonia* and *apathy*. Observed *Affect* was likely *Constricted/Restricted* and *Congruent* with the reported dysphoric mood.",
+    "presenting_symptoms": [
+      {
+        "symptom": "Fatigue / Lack of Energy",
+        "onset": "Since last month",
+        "duration": "4 weeks (Significant increase in the past 2 weeks)",
+        "severity": "Severe",
+        "context": "Difficulty getting out of bed in the mornings.",
+        "impact": "Functional decline; Missed three days of work this week."
+      },
+      {
+        "symptom": "Appetite Decrease / Weight Loss",
+        "onset": "Undetermined",
+        "duration": "Undetermined",
+        "severity": "Moderate",
+        "context": "Not really hungry.",
+        "impact": "Lost approximately 5 pounds."
+      },
+      {
+        "symptom": "Insomnia (Early Morning Awakening)",
+        "onset": "Undetermined",
+        "duration": "Undetermined",
+        "severity": "Moderate",
+        "context": "Wakes up at like 3 AM and can't go back to sleep. Mind starts racing.",
+        "impact": "Contributes to daytime fatigue."
+      },
+      {
+        "symptom": "Feelings of Worthlessness and Guilt",
+        "onset": "Undetermined",
+        "duration": "Undetermined",
+        "severity": "Severe",
+        "context": "Thoughts of being a failure and letting down family (husband, kids).",
+        "impact": "High emotional distress."
+      },
+      {
+        "symptom": "Passive Thoughts of Death/Dying",
+        "onset": "Undetermined",
+        "duration": "Undetermined",
+        "severity": "Moderate",
+        "context": "Wishes she could disappear sometimes.",
+        "impact": "Denies active suicidal intent or plan."
+      }
+    ],
+    "mental_status_exam": {
+      "appearance": "not assessed",
+      "behavior": "not assessed (Inferred: low activity/psychomotor retardation based on reports)",
+      "speech": "Normal rate/rhythm (Inferred: Conversational)",
+      "mood": "Drained, Rough, Depressed",
+      "affect": "not assessed",
+      "thought_process": "Linear and goal-directed.",
+      "thought_content": "Themes of guilt, failure, self-reproach, and passive death ideation.",
+      "perception": "No evidence of perceptual disturbance.",
+      "cognition": "Alert and oriented (Inferred: No cognitive deficits noted in conversation)",
+      "insight": "Good (Recognizes severity of symptoms and is willing to engage in treatment changes).",
+      "judgment": "Good (Maintaining adherence to treatment; denies active risk)."
+    },
+    "current_medications": [
+      {
+        "name": "Sertraline",
+        "dose": "50mg",
+        "frequency": "Daily",
+        "start_date": "Last month (Approx. 4 weeks ago)",
+        "response": "Minimal/None",
+        "adherence": "Good (Taking it every day)"
+      }
+    ],
+    "substance_use": {
+      "alcohol": "not assessed",
+      "tobacco": "not assessed",
+      "drugs": "not assessed"
+    },
+    "past_psychiatric_history": {
+      "history_of_mania_hypomania": "Denied (Patient confirms she has 'always been more on the low side if anything').",
+      "history_of_depression": "not assessed (Inferred history of mood issues based on 'always been more on the low side')"
+    },
+    "medical_history": {
+      "history": "not assessed"
+    },
+    "social_history": {
+      "living_situation": "Lives with family (husband, kids)",
+      "employment_status": "Employed (Missing work due to symptoms)",
+      "support_system": "Husband and kids mentioned (Implied support system)",
+      "lethal_means_access": "Restricted (Confirmed via shared context)"
+    },
+    "family_psychiatric_history": {
+      "history": "not assessed"
+    },
+    "functional_assessment": {
+      "work_functioning": "Severe impairment (Missed 3 days of work this week).",
+      "social_functioning": "not assessed (Implied distress related to family)"
+    },
+    "assessment_scales": [
+      {
+        "name": "C-SSRS (Columbia Suicide Severity Rating Scale)",
+        "result": "Score suggests Passive Death Ideation present; Denies Active Suicidal Intent/Plan. Low immediate risk validated by restricted access to means (from shared context)."
+      }
+    ]
+  },
+  "duration_ms": 10992,
+  "error": null
+}

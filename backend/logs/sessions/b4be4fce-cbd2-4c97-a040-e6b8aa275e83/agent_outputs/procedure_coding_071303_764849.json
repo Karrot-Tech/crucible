@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-01-05T07:13:03.764849",
+  "agent_id": "procedure_coding",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "Please specify the total time spent in the encounter, including counseling, psychotherapy, and medical management components, as time is the controlling factor for combined E/M and psychotherapy coding.",
+    "suggested_answer": "45 minutes (Standard 90836/90834)?",
+    "primary_code": {
+      "code": "TBD",
+      "description": "Established Patient Visit (E/M) combined with Psychotherapy (30, 45, or 60 minutes)",
+      "rationale": "This was a follow-up session requiring medication adjustment (*Sertraline* dose increase from 50mg to 100mg), safety assessment (passive ideation/C-SSRS), and significant counseling regarding depressive symptoms (*Recurrent Major Depressive Disorder*). The specific CPT code (9921X combined with 9083X) depends entirely on the documented time."
+    },
+    "addon_codes": [],
+    "modifiers": [],
+    "medical_necessity": "Management of worsening *Recurrent Major Depressive Disorder, Moderate (F33.1)*, requiring dose increase of *Sertraline* and assessment of passive suicidal ideation. High level of medical decision making based on risk and treatment complexity.",
+    "confidence": "High"
+  },
+  "duration_ms": 6027,
+  "error": null
+}

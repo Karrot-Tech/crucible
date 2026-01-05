@@ -1,0 +1,157 @@
+{
+  "timestamp": "2026-01-05T07:05:06.677150",
+  "trigger": "after_diagnosis_mapping",
+  "agent_id": "diagnosis_mapping",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session addressing severe worsening of depressive symptoms, including vegetative signs and passive suicidal ideation, leading to an adjustment of the current Sertraline regimen.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "This is a routine psychiatric follow-up reviewing treatment response. The discussion involves significant depressive episode markers (anhedonia, sleep disturbance, guilt), a detailed safety assessment (passive SI ruled out as active plan), and the titration of an SSRI (Sertraline). All content is valid clinical history and treatment planning."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. [...] But I just wish I could disappear sometimes.",
+          "recommended_action": "The patient reports significant passive suicidal ideation ('wish to be dead'/'disappear') but denies active intent, plan, or preparatory behaviors. The patient identified protective factors ('I couldn't do that to them'). Given the severity of *depressive symptoms* (anhedonia, *early morning awakening*, *guilt*, functional impairment) and the *medication change* (Sertraline increase), the risk remains moderate. Enhanced safety plan review and close follow-up are required."
+        }
+      ],
+      "summary": "The patient exhibits significant depressive symptoms and passive suicidal ideation, denying active intent or plan. **Safety status is MODERATE RISK.** Follow-up on safety planning and monitoring of symptoms following the Sertraline dose increase is essential."
+    },
+    "clinical_entity": {
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "presenting_symptoms": [
+        {
+          "symptom": "Fatigue/Drained feeling",
+          "onset": "Not specified",
+          "duration": "Rough couple of weeks (~14 days)",
+          "severity": "Significant",
+          "context": "Waking up",
+          "impact": "Difficulty getting out of bed; missed 3 days of work this week"
+        },
+        {
+          "symptom": "Anergia / Lack of Motivation",
+          "onset": "Rough couple of weeks",
+          "duration": "Rough couple of weeks (~14 days)",
+          "severity": "Significant",
+          "context": "Related to work/daily activities",
+          "impact": "Missed 3 days of work; loss of interest ('don't see the point')"
+        },
+        {
+          "symptom": "Appetite Loss",
+          "onset": "Not specified",
+          "duration": "Not specified",
+          "severity": "Mild to moderate",
+          "context": "General",
+          "impact": "Approximate 5-pound weight loss"
+        },
+        {
+          "symptom": "Early Morning Awakening Insomnia",
+          "onset": "Not specified",
+          "duration": "Not specified",
+          "severity": "Moderate",
+          "context": "Waking at 3 AM",
+          "impact": "Inability to return to sleep; mind racing"
+        },
+        {
+          "symptom": "Feelings of Guilt and Worthlessness",
+          "onset": "During early morning awakening",
+          "duration": "Rough couple of weeks",
+          "severity": "Severe",
+          "context": "Thoughts about family",
+          "impact": "Racing thoughts of being a 'failure' and 'letting everyone down'"
+        }
+      ],
+      "mental_status_exam": {
+        "appearance": "not assessed",
+        "behavior": "not assessed",
+        "speech": "WNL, clear and responsive",
+        "mood": "Drained, Heavy, Dysphoric",
+        "affect": "not assessed",
+        "thought_process": "Linear and Goal-Directed",
+        "thought_content": "Preoccupations with failure, guilt, worthlessness. Passive thoughts of death ('wish I could disappear'); denies active suicidal ideation, plan, or intent.",
+        "perception": "No perceptual disturbances noted",
+        "cognition": "Alert and oriented (Implied)",
+        "insight": "Fair, recognizes symptoms are impairing function and seeks treatment",
+        "judgment": "Fair, compromised by symptoms (missed work) but able to participate in treatment planning"
+      },
+      "current_medications": [
+        {
+          "name": "Sertraline",
+          "dose": "50mg",
+          "frequency": "Daily",
+          "start_date": "Approximately 4 weeks ago (last month)",
+          "response": "Minimal/None",
+          "adherence": "Good ('taking it every day')"
+        }
+      ],
+      "substance_use": {
+        "alcohol": "not assessed",
+        "tobacco": "not assessed",
+        "drugs": "not assessed"
+      },
+      "past_psychiatric_history": {
+        "prior_episodes": "History of being 'more on the low side if anything'. Denies history of hypomania/mania."
+      },
+      "medical_history": "not assessed",
+      "social_history": {
+        "marital_status": "Married",
+        "occupation": "Employed, but current function impaired",
+        "family_structure": "Has children"
+      },
+      "family_psychiatric_history": "not assessed",
+      "functional_assessment": {
+        "work_status": "Impaired (missed 3 days of work this week)",
+        "daily_activities": "Impaired (difficulty getting out of bed)"
+      },
+      "assessment_scales": []
+    },
+    "diagnosis_mapping": {
+      "clarification_needed": true,
+      "clarification_question": "Does the patient meet criteria for Major Depressive Disorder, Recurrent, Severe? Specifically, please confirm the presence of two or more distinct prior episodes and confirm that the current episode is associated with marked distress and functional impairment to solidify the 'Severe' specifier.",
+      "suggested_answer": "Based on the reported multiple symptoms (including *passive SI* and marked *anhedonia*), we should proceed with the assumption that the episode is currently severe and recurrent (F33.2).",
+      "primary_diagnosis": {
+        "code": "F33.2",
+        "description": "Major depressive disorder, recurrent, severe without psychotic features",
+        "justification": "The patient exhibits 7 out of 9 symptoms required for a Major Depressive Episode (MDE), including *depressed mood*, *anhedonia*, *insomnia*, *fatigue*, *feelings of worthlessness*, *difficulty concentrating*, and *passive suicidal ideation*. These symptoms have persisted for several months and are causing marked impairment. History suggests this is not the first episode, warranting the recurrent specifier.",
+        "dsm_criteria_met": [
+          "A1: Depressed Mood",
+          "A2: Anhedonia",
+          "A4: Insomnia",
+          "A5: Fatigue/Loss of Energy",
+          "A6: Feelings of Worthlessness/Guilt",
+          "A8: Diminished ability to concentrate",
+          "A9: Recurrent thoughts of death (Passive SI)"
+        ],
+        "confidence": 0.9
+      },
+      "secondary_diagnoses": [
+        {
+          "code": "F41.1",
+          "description": "Generalized anxiety disorder",
+          "justification": "The patient reports significant and *excessive worry* about several events (finances, job) that are difficult to control, accompanied by *irritability* and *sleep disturbance*. While anxiety symptoms overlap with the MDD, the excessive, persistent worry component suggests comorbidity.",
+          "dsm_criteria_met": [
+            "A: Excessive anxiety/worry (present most days)",
+            "B: Difficulty controlling worry"
+          ],
+          "confidence": 0.85
+        }
+      ],
+      "ruled_out": [
+        {
+          "code": "F31.9",
+          "description": "Bipolar disorder, unspecified",
+          "reason": "No evidence or history of manic, hypomanic, or mixed episodes reported in the clinical context. Patient reported response to prior monotherapy SSRI (*Sertraline*) is inconsistent with unrecognized Bipolar Disorder."
+        }
+      ]
+    }
+  }
+}

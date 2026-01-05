@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-01-05T07:08:28.208139",
+  "agent_id": "medication_management",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": null,
+    "suggested_answer": null,
+    "medications": [
+      {
+        "name": "Sertraline",
+        "generic_name": "Sertraline",
+        "brand_name": "Zoloft",
+        "strength": "50mg",
+        "form": "Tablet",
+        "route": "Oral",
+        "frequency": "Daily",
+        "indication": "*Major Depressive Disorder*, Recurrent",
+        "response": "Poor/Minimal (patient reports feeling no benefit at 4 weeks)",
+        "adherence": "Good (reported daily compliance)",
+        "side_effects": []
+      }
+    ],
+    "changes_made": [
+      {
+        "medication": "Sertraline",
+        "change_type": "Increase Dose",
+        "rationale": "Lack of clinical response after 4 weeks at 50mg, coupled with persistent and worsening neurovegetative and cognitive symptoms of depression. Escalation to the next therapeutic dose is warranted.",
+        "new_dose": "100mg Daily"
+      }
+    ],
+    "get_chat_summary": [
+      "Medication Check: Current medication is *Sertraline* 50mg daily, started 4 weeks ago.",
+      "Response Status: Patient reports poor response with worsening symptoms (fatigue, anhedonia, early morning awakening).",
+      "**PEER REVIEW**: The use of *Sertraline* (SSRI) aligns perfectly with the proposed diagnosis of **F33.1 Recurrent Major Depressive Disorder, Moderate**. No diagnostic mismatch found.",
+      "Plan: **DOSE INCREASE** for *Sertraline* from 50mg daily to 100mg daily, effective immediately."
+    ]
+  },
+  "duration_ms": 5923,
+  "error": null
+}

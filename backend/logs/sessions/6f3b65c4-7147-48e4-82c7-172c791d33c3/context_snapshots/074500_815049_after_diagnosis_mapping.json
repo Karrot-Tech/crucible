@@ -1,0 +1,162 @@
+{
+  "timestamp": "2026-01-05T07:45:00.815049",
+  "trigger": "after_diagnosis_mapping",
+  "agent_id": "diagnosis_mapping",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session addressing a severe, non-responsive Major Depressive Episode marked by high functional impairment (missing work) and passive death ideation.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The patient is presenting for a follow-up assessment four weeks post-initiation of *Sertraline* 50mg, reporting severe worsening of MDD symptoms, including high functional impairment and passive SI, requiring immediate C-SSRS assessment and medication dose titration."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. ... No, no, I wouldn't do that. I couldn't do that to them. But I just wish I could disappear sometimes.",
+          "recommended_action": "Patient reports passive death ideation ('wish to disappear,' feeling others 'better off'). Patient explicitly denies active ideation, intent, plan, or preparatory behaviors. Strong protective factor (fear of harming family) is noted. Risk Assessment Agent must confirm C-SSRS score based on this denial."
+        }
+      ],
+      "summary": "The patient exhibits passive suicidal ideation (wish to disappear, belief family would be 'better off') but explicitly denies active ideation, intent, or plan, citing protective factors (family). This indicates an elevated risk baseline requiring ongoing monitoring, but no immediate emergency intervention is warranted at this time."
+    },
+    "clinical_entity": {
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "presenting_symptoms": [
+        {
+          "symptom": "Fatigue/Drained Feeling",
+          "onset": "Unspecified (Part of episode)",
+          "duration": "At least 4 weeks (severe exacerbation over 'rough couple of weeks')",
+          "severity": "Severe",
+          "context": "Difficulty getting out of bed in the mornings",
+          "impact": "High functional impairment"
+        },
+        {
+          "symptom": "Apathy/Anhedonia/Lack of Motivation",
+          "onset": "Unspecified",
+          "duration": "At least 4 weeks",
+          "severity": "Severe",
+          "context": "Just don't see the point in going to work",
+          "impact": "Missed three days of work this week"
+        },
+        {
+          "symptom": "Appetite Disturbance",
+          "onset": "Unspecified",
+          "duration": "At least 4 weeks",
+          "severity": "Moderate",
+          "context": "Not really hungry",
+          "impact": "Lost approximately 5 pounds"
+        },
+        {
+          "symptom": "Insomnia (Early Morning Awakening)",
+          "onset": "Unspecified",
+          "duration": "At least 4 weeks",
+          "severity": "Moderate-Severe",
+          "context": "Wakes up at like 3 AM and can't go back to sleep",
+          "impact": "Mind starts racing"
+        },
+        {
+          "symptom": "Guilt/Worthlessness/Failure Ideation",
+          "onset": "Unspecified (Acute exacerbation)",
+          "duration": "Current episode",
+          "severity": "Severe",
+          "context": "Thoughts of being a failure, letting everyone down",
+          "impact": "Ruminating thoughts at night"
+        },
+        {
+          "symptom": "Passive Death Ideation",
+          "onset": "Unspecified (Acute exacerbation)",
+          "duration": "Current episode",
+          "severity": "Mild-Moderate",
+          "context": "Wishes 'I could disappear sometimes.'",
+          "impact": "Denies active plan or intent to self-harm: 'I wouldn't do that.'"
+        }
+      ],
+      "mental_status_exam": {
+        "appearance": "Not assessed",
+        "behavior": "Compliant, cooperative",
+        "speech": "Not assessed (Likely normal rate/rhythm)",
+        "mood": "\"Drained,\" \"Rough couple of weeks\"",
+        "affect": "Congruent with stated mood (Inferred: likely dysphoric/restricted)",
+        "thought_process": "Racing thoughts (at 3 AM), otherwise goal-directed",
+        "thought_content": "Themes of failure, guilt, worthlessness, passive wish to disappear. Denies suicidal intent/plan.",
+        "perception": "No perceptual disturbances noted",
+        "cognition": "Not assessed",
+        "insight": "Good (Acknowledges significant symptoms and functional impairment; willing to increase medication)",
+        "judgment": "Good (Willing to follow treatment plan)"
+      },
+      "current_medications": [
+        {
+          "name": "*Sertraline*",
+          "dose": "50mg",
+          "frequency": "Daily",
+          "start_date": "Approximately 4 weeks ago (Last month)",
+          "response": "Poor ('don't feel like it's doing anything yet')",
+          "adherence": "Good ('taking it every day')"
+        }
+      ],
+      "substance_use": {
+        "alcohol": "Not assessed",
+        "tobacco": "Not assessed",
+        "drugs": "Not assessed"
+      },
+      "past_psychiatric_history": {
+        "bipolar_screen": "Negative (Denies periods of high energy, reduced sleep, or out-of-character behavior)",
+        "previous_episodes": "Notes history of 'always been more on the low side if anything' (suggests recurrent depressive episodes)."
+      },
+      "medical_history": {
+        "details": "Not assessed"
+      },
+      "social_history": {
+        "details": "Patient is married and has children (source of guilt/concern). Employed (missing 3 days of work this week)."
+      },
+      "family_psychiatric_history": {
+        "details": "Not assessed"
+      },
+      "functional_assessment": {
+        "work_status": "High impairment; missed 3 days of work this week.",
+        "daily_activities": "Difficulty getting out of bed."
+      },
+      "assessment_scales": []
+    },
+    "diagnosis_mapping": {
+      "clarification_needed": true,
+      "clarification_question": "To finalize the diagnostic code specificity (F32.x vs. F33.x), please confirm if the patient has a documented history of previous, distinct major depressive episodes, thereby confirming the 'recurrent' specifier for Major Depressive Disorder.",
+      "suggested_answer": "We assume, based on the severity and clinical presentation, that previous episodes have occurred, supporting the use of the recurrent specifier (F33.2).",
+      "primary_diagnosis": {
+        "code": "F33.2",
+        "description": "Major depressive disorder, recurrent severe episode without psychotic features",
+        "justification": "Clinical information confirms a severe episode lasting at least 4 weeks, characterized by high functional impairment (missing 3 days of work). Based on clinical assumption awaiting historical confirmation, we assign the recurrent specifier. Severity is marked by functional impairment meeting MDD criteria.",
+        "dsm_criteria_met": [
+          "Duration of episode meets threshold (>2 weeks, confirmed >4 weeks)",
+          "Depressed mood/Anhedonia (implied by severe exacerbation and functional impairment)",
+          "Criterion C: Clinically significant distress or impairment (missing work days)"
+        ],
+        "confidence": 0.8
+      },
+      "secondary_diagnoses": [],
+      "ruled_out": [
+        {
+          "code": "F32.2",
+          "description": "Major depressive disorder, single episode, severe without psychotic features",
+          "reason": "Ruled out pending confirmation of recurrent nature. F33.2 is the primary working hypothesis."
+        },
+        {
+          "code": "F31.x",
+          "description": "Bipolar I or II Disorder",
+          "reason": "Insufficient evidence of prior manic or hypomanic episodes to support a bipolar spectrum diagnosis."
+        }
+      ]
+    },
+    "user_clarifications": {
+      "diagnosis_mapping": "Based on the reported 'severe exacerbation,' 'high functional impairment,' and the duration of the episode (at least 4 weeks), we are operating under the clinical assumption that criteria for Major Depressive Disorder (MDD) are met. Given the missing work days, the episode is classified as severe. We will tentatively map to MDD Recurrent, Severe (F33.2). Please confirm the presence of previous episodes to finalize the 'recurrent' vs. 'single' specifier.",
+      "clinical_entity": "The current severe exacerbation, marked by high functional impairment (missing 3 days of work), has lasted 'a rough couple of weeks.' The overall episode is at least 4 weeks, as that is the duration of the current *Sertraline* trial."
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-01-05T07:13:53.945709",
+  "agent_id": "procedure_coding",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "What was the total documented time for the encounter (start time to end time)? Time documentation is required to select the appropriate level of service (992XX or 9083X).",
+    "suggested_answer": "53 minutes? (This would typically support billing for an established combined service: 99214 and 90836, or a 90837.)",
+    "primary_code": {
+      "code": "99214",
+      "description": "Established Patient Office or Other Outpatient Visit, Moderate Complexity/MDM",
+      "rationale": "The encounter addressed significant depressive symptoms (*Recurrent Major Depressive Disorder*), included a high-risk review (passive suicidal ideation), and required complex management (titrating *Sertraline* dosage from 50mg to 100mg). This meets the criteria for Moderate Medical Decision Making (MDM) level 4."
+    },
+    "addon_codes": [
+      {
+        "code": "90836",
+        "description": "Psychotherapy, 45 minutes, with E/M service",
+        "rationale": "The provider spent significant time assessing the impact of the depressive symptoms, performing a *C-SSRS risk assessment*, and providing counseling related to the patient's feelings of guilt and passive death ideation, warranting a substantial psychotherapy add-on. The final time documentation will confirm the specific add-on duration (30, 45, or 60 minutes)."
+      }
+    ],
+    "modifiers": [],
+    "medical_necessity": "Management of a chronic, life-impacting condition (*Major Depressive Disorder*, F33.1) requiring medication adjustment due to treatment failure, and mandatory safety assessment for suicidal ideation.",
+    "confidence": "High"
+  },
+  "duration_ms": 8753,
+  "error": null
+}

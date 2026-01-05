@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-01-05T06:28:35.275386",
+  "agent_id": "safety_triage",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "risk_detected": true,
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "concerns": [
+      {
+        "type": "Suicide Risk",
+        "severity": "Moderate",
+        "evidence": "Sometimes I think they'd be better off without me dragging them down. ... No, no, I wouldn't do that. I couldn't do that to them. But I just wish I could disappear sometimes.",
+        "recommended_action": "Patient reports significant passive suicidal ideation ('wish I could disappear,' 'better off without me') coupled with severe depressive symptoms (anhedonia, significant work impairment, insomnia, weight loss). While the patient explicitly denies intent, plan, or preparatory behaviors and notes strong protective factors ('I couldn't do that to them'), the risk level requires immediate safety planning documentation, confirmation of means restriction, and close follow-up, especially initiating an antidepressant dose increase."
+      }
+    ],
+    "summary": "The patient exhibits symptoms of severe depression with passive suicidal ideation and feelings of being a burden, classifying the current risk as Moderate. Protective factors appear intact (no intent/plan), but the safety plan should be reviewed immediately."
+  },
+  "duration_ms": 5346,
+  "error": null
+}

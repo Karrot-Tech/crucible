@@ -1,0 +1,143 @@
+{
+  "timestamp": "2026-01-05T07:25:36.633418",
+  "trigger": "after_diagnosis_mapping",
+  "agent_id": "diagnosis_mapping",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up detailing acute worsening of a depressive episode with vegetative symptoms and passive suicidal ideation, 4 weeks post-initiation of Sertraline.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The session is a scheduled follow-up for Major Depressive Disorder management, focusing on assessing the initial response to *Sertraline* (50mg) and performing a thorough suicide risk evaluation due to reported passive thoughts of death. The core action is a medication change (increase to 100mg)."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. [..] But I just wish I could disappear sometimes. (Follows denial of active intent: 'No, no, I wouldn't do that.')",
+          "recommended_action": "The patient endorsed passive suicidal ideation (wish to disappear/passive death wish) tied to severe guilt, coupled with significant vegetative symptoms (*early morning awakening*, *weight loss*, *anhedonia*). Active intent/plan was explicitly denied. Maintain close safety monitoring and reinforce protective factors (e.g., concern for children)."
+        }
+      ],
+      "summary": "Patient presents with severe depressive symptoms, including *early morning awakening*, *weight loss*, and significant functional decline (missing work). The patient endorsed passive suicidal ideation ('wish to disappear') and guilt regarding being a burden, but denied active ideation or plan. Immediate risk level is Moderate, requiring careful management and safety plan reinforcement."
+    },
+    "clinical_entity": {
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "presenting_symptoms": [
+        {
+          "symptom": "Fatigue/Low Energy (Drained)",
+          "onset": "Acute worsening 2 weeks ago",
+          "duration": "Couple of weeks (acute worsening)",
+          "severity": "Severe",
+          "context": "All the time, difficulty getting out of bed",
+          "impact": "Missed 3 days of work this week"
+        },
+        {
+          "symptom": "Anhedonia/Lack of Motivation",
+          "onset": "Acute worsening 2 weeks ago",
+          "duration": "Couple of weeks",
+          "severity": "Moderate-Severe",
+          "context": "Not seeing the point in going to work",
+          "impact": "Missed work"
+        },
+        {
+          "symptom": "Insomnia (Early Morning Awakening)",
+          "onset": "Unspecified",
+          "duration": "Unspecified",
+          "severity": "Moderate",
+          "context": "Wakes up at 3 AM and cannot go back to sleep",
+          "impact": "Mind racing at 3 AM"
+        },
+        {
+          "symptom": "Appetite Disturbance/Weight Loss",
+          "onset": "Unspecified",
+          "duration": "Unspecified",
+          "severity": "Moderate",
+          "context": "Not really hungry",
+          "impact": "Lost 5 pounds"
+        },
+        {
+          "symptom": "Guilt/Worthlessness",
+          "onset": "Unspecified (present during episode)",
+          "duration": "Unspecified",
+          "severity": "Moderate-Severe",
+          "context": "Thoughts of being a failure, letting everyone down",
+          "impact": "Contributes to passive death wishes"
+        },
+        {
+          "symptom": "Passive Suicidal Ideation/Death Wish",
+          "onset": "Unspecified (present during episode)",
+          "duration": "Unspecified",
+          "severity": "Moderate (denied active plan/intent)",
+          "context": "Thinks family would be better off without her; wishes she could disappear sometimes",
+          "impact": "Distress, requires safety monitoring"
+        }
+      ],
+      "mental_status_exam": {
+        "appearance": "not assessed",
+        "behavior": "not assessed",
+        "speech": "WNL rate and volume, spontaneous, relevant content",
+        "mood": "Drained, Rough",
+        "affect": "Congruent with stated mood (Inferred)",
+        "thought_process": "Linear and goal-directed",
+        "thought_content": "Themes of failure, worthlessness, guilt, and passive death wish",
+        "perception": "Denies perceptual disturbances",
+        "cognition": "WNL (Inferred from conversation)",
+        "insight": "Good (Acknowledges the severity of current symptoms)",
+        "judgment": "Fair (Intact safety judgment regarding SI; impaired functional judgment related to work attendance)"
+      },
+      "current_medications": [
+        {
+          "name": "Sertraline",
+          "dose": "50mg",
+          "frequency": "Daily",
+          "start_date": "Last month (Approx. 4 weeks trial)",
+          "response": "Minimal/Poor ('don't feel like it's doing anything yet')",
+          "adherence": "Good (Taking it every day)"
+        }
+      ],
+      "substance_use": {
+        "alcohol": "not assessed",
+        "tobacco": "not assessed",
+        "drugs": "not assessed"
+      },
+      "past_psychiatric_history": {
+        "diagnoses": "History of being 'more on the low side' (suggests chronic/recurrent depression)",
+        "hospitalizations": "not assessed",
+        "suicide_attempts": "not assessed",
+        "manic_episodes": "Denied (Explicitly rules out hypomanic/manic symptoms)"
+      },
+      "medical_history": "not assessed",
+      "social_history": {
+        "marital_status": "Married (has husband and kids)",
+        "employment_status": "Employed (missed 3 days of work this week)"
+      },
+      "family_psychiatric_history": "not assessed",
+      "functional_assessment": {
+        "work": "Severely impaired (missed 3 days this week)",
+        "ADLs": "Impaired (difficulty getting out of bed)",
+        "social": "not assessed"
+      },
+      "assessment_scales": []
+    },
+    "diagnosis_mapping": {
+      "clarification_needed": true,
+      "clarification_question": "CRITICAL: No clinical data, patient symptoms, or history of present illness (HPI) was provided in the input object. Please supply the clinical interview transcript or entity extraction data needed for psychiatric diagnosis.",
+      "suggested_answer": "Clinical information (symptoms, history, duration, functioning) is entirely absent. Diagnosis cannot proceed without any input data.",
+      "primary_diagnosis": {
+        "code": "Z00.00",
+        "description": "Encounter for general psychiatric examination without abnormal findings",
+        "justification": "Diagnosis cannot be reliably assigned or ruled out due to lack of clinical data input. This code is a placeholder indicating an encounter where findings are indeterminate due to missing information.",
+        "dsm_criteria_met": [],
+        "confidence": 0.0
+      },
+      "secondary_diagnoses": [],
+      "ruled_out": []
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T08:35:03.288239",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session detailing a severe depressive relapse, lack of response to 50mg of Sertraline, and assessment of passive suicidal ideation.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The session involves a standard psychiatric follow-up reviewing significant worsening of depressive symptoms (vegetative changes, functional impairment) and includes a crucial safety assessment for passive death ideation. The primary intervention is a Sertraline dosage increase."
+  },
+  "duration_ms": 3777,
+  "error": null
+}

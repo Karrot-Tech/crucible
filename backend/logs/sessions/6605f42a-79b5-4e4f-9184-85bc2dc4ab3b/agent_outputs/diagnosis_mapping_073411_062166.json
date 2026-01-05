@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-01-05T07:34:11.062166",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "Please provide the patient's reported symptoms, onset, duration, psychosocial stressors, and clinical history necessary for diagnostic mapping.",
+    "suggested_answer": "No clinical data was provided in the input object. Diagnosis mapping requires core symptom clusters (e.g., depressed mood, anhedonia, anxiety levels, trauma exposure) and duration criteria to proceed.",
+    "primary_diagnosis": {
+      "code": "R69",
+      "description": "Illness, unspecified, due to missing clinical information",
+      "justification": "Insufficient clinical data provided to meet criteria for any specific psychiatric disorder.",
+      "dsm_criteria_met": [
+        "No criteria assessed."
+      ],
+      "confidence": 0.0
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": [
+      {
+        "code": "N/A",
+        "description": "All disorders",
+        "reason": "Lack of clinical data prevents any diagnostic rule-out or confirmation."
+      }
+    ]
+  },
+  "duration_ms": 3926,
+  "error": null
+}

@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-01-05T07:04:22.220730",
+  "agent_id": "medication_management",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "error": "Failed to parse JSON",
+    "raw": "{\n  \"clarification_needed\": false,\n  \"clarification_question\": null,\n  \"suggested_answer\": null,\n  \"medications\": [\n    {\n      \"name\": \"Sertraline\",\n      \"generic_name\": \"Sertraline\",\n      \"brand_name\": \"Zoloft\",\n      \"strength\": \"50mg\",\n      \"form\": \"Tablet\",\n      \"route\": \"Oral\",\n      \"frequency\": \"Daily\",\n      \"indication\": \"*Major Depressive Disorder*\",\n      \"response\": \"Minimal/Poor response (patient reports no benefit after 4 weeks)\",\n      \"adherence\": \"Good (reports taking it every day)\",\n      \"side_effects\": []\n    }\n  ],\n  \"changes_made\": [\n    {\n      \"medication\": \"Sertraline\",\n      \"change_type\": \"Increase Dose\",\n      \"rationale\": \"Inadequate therapeutic response (minimal symptom improvement) after 4 weeks at current dose (50mg). Symptoms consistent with **Recurrent Major Depressive Disorder, Moderate (F33.1)**. Escalation to target dose of 100mg daily is warranted.\",\n      \"new_dose\": \"100mg Daily\"\n    }\n  ]\n}\n}",
+    "clarification_question": "I encountered a formatting error while processing the analysis. Could you please provide a brief update or re-state the last point of the session to help me re-sync?"
+  },
+  "duration_ms": 4836,
+  "error": null
+}

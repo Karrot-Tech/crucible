@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-01-05T07:48:00.111123",
+  "agent_id": "safety_triage",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "risk_detected": true,
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "concerns": [
+      {
+        "type": "Suicide Risk",
+        "severity": "Moderate",
+        "evidence": "Sometimes I think they'd be better off without me dragging them down. ... But I just wish I could disappear sometimes. (Followed by explicit denial of intent: No, no, I wouldn't do that.)",
+        "recommended_action": "Patient reports passive death ideation/wish to disappear, though denies active intent, plan, or preparatory behavior. Monitor risk closely, ensure safety planning is documented, and schedule routine C-SSRS follow-up."
+      }
+    ],
+    "summary": "The patient reports significant worsening of depressive symptoms (anhedonia, *early morning awakening*, *weight loss*) and expresses passive suicidal ideation (wishing to disappear, believing family would be better off). Active ideation, intent, and plan were screened and denied by the patient."
+  },
+  "duration_ms": 5057,
+  "error": null
+}

@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-01-05T06:49:02.397383",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "Does the patient meet at least 5 of the 9 DSM-5 Criterion A symptoms for Major Depressive Disorder, including depressed mood or *anhedonia*, persisting for the reported 4 weeks?",
+    "suggested_answer": "Clinical inference suggests the presence of required symptom quantity (5+), given the documented *anhedonia* and significant functional decline lasting 4 weeks. Therefore, the provisional diagnosis is *Major Depressive Disorder, Single Episode, Moderate* (F32.1), pending confirmation of the specific vegetative symptoms (e.g., sleep, appetite, fatigue, concentration issues).",
+    "primary_diagnosis": {
+      "code": "F32.9",
+      "description": "Major depressive disorder, single episode, unspecified",
+      "justification": "Symptoms include confirmed *anhedonia* ('I just don't see the point') and mood disturbance lasting 4 weeks with significant functional decline. This meets duration and required symptom criteria (A1 or A2). However, the specific count of 5/9 criteria necessary to specify severity (F32.1/F32.2) is missing. F32.9 is used until severity is clarified.",
+      "dsm_criteria_met": [
+        "Duration (4 weeks, meets >2 weeks)",
+        "A2: *Anhedonia* (Loss of interest or pleasure)",
+        "C: Clinically significant distress or impairment"
+      ],
+      "confidence": 0.85
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": [
+      {
+        "code": "F41.1",
+        "description": "Generalized Anxiety Disorder (GAD)",
+        "reason": "Primary symptoms reported focus on apathy and *anhedonia* rather than excessive worry. The duration of 4 weeks is significantly less than the 6 months required for GAD diagnosis."
+      },
+      {
+        "code": "F43.29",
+        "description": "Adjustment Disorder with mixed anxiety and depressed mood",
+        "reason": "While possible, the confirmed presence of *anhedonia* and significant functional decline persisting 4 weeks suggests the criteria for Major Depressive Episode are met, which takes diagnostic priority over Adjustment Disorder."
+      }
+    ]
+  },
+  "duration_ms": 8404,
+  "error": null
+}

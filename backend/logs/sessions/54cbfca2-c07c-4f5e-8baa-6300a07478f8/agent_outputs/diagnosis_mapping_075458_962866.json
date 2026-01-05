@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-01-05T07:54:58.962866",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "To solidify the diagnosis of Major Depressive Disorder, recurrent episode, moderate (F33.1), please confirm the full A-criteria count (5 or more symptoms of depression/anhedonia), the duration of the current episode, and whether the patient has a confirmed history of previous Major Depressive Episodes.",
+    "suggested_answer": "Given the recent initiation of *Sertraline* 50mg, the most clinically probable answer is that the patient met full A-criteria (>5 symptoms for >2 weeks) and has a known history of previous depressive episodes, supporting the provisional F33.1.",
+    "primary_diagnosis": {
+      "code": "F33.1",
+      "description": "Major depressive disorder, recurrent episode, moderate",
+      "justification": "This code is assigned provisionally based on the clinical context provided by the User Feedback (initiation of *Sertraline* 50mg four weeks prior), which is standard treatment for this disorder. The 'recurrent' specifier is assumed based on the common practice of confirming past episodes before initiating pharmacotherapy.",
+      "dsm_criteria_met": [
+        "Presumed A-criteria (5/9 symptoms) met for the current episode.",
+        "Presumed duration > 2 weeks.",
+        "Presumed history of at least one previous Major Depressive Episode."
+      ],
+      "confidence": 0.75
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": [
+      {
+        "code": "F32.1",
+        "description": "Major depressive disorder, single episode, moderate",
+        "reason": "Ruled out in favor of F33.1 based on common clinical practice suggesting a history of recurrence when initiating treatment in this context."
+      },
+      {
+        "code": "F41.1",
+        "description": "Generalized anxiety disorder",
+        "reason": "While *Sertraline* treats GAD, the initial provisional assessment pointed toward MDD (F33.1) as the primary diagnosis. Cannot rule out GAD as a secondary diagnosis without further screening."
+      }
+    ]
+  },
+  "duration_ms": 5770,
+  "error": null
+}

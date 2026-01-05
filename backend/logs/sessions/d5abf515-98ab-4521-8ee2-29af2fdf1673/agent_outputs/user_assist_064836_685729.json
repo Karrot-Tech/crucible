@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T06:48:36.685729",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session detailing significant worsening of *Major Depressive Disorder* symptoms (vegetative changes, functional impairment) after 4 weeks on *Sertraline* 50mg.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The session focuses on evaluating the efficacy of an existing regimen (4 weeks on *Sertraline*), assessing escalating symptoms (*Early Morning Awakening*, functional decline), performing required passive SI assessment, and making critical dose adjustments."
+  },
+  "duration_ms": 3598,
+  "error": null
+}

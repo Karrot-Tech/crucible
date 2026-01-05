@@ -1,0 +1,109 @@
+{
+  "timestamp": "2026-01-05T08:35:36.129722",
+  "agent_id": "clinical_entity",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "Did the patient chart note specify the exact start date for the *Sertraline* 50mg trial, or is 'last month' the only available information?",
+    "suggested_answer": "The trial began approximately 4 weeks ago (consistent with the physician's comment regarding the 4-week mark for response assessment).",
+    "presenting_symptoms": [
+      {
+        "symptom": "Fatigue/Anergia",
+        "onset": "Approximately 2 weeks ago",
+        "duration": "2 weeks",
+        "severity": "Severe",
+        "context": "Wakes up feeling drained, difficulty getting out of bed.",
+        "impact": "Missed three days of work this week; functional impairment."
+      },
+      {
+        "symptom": "Anhedonia/Lack of Motivation",
+        "onset": "Approximately 2 weeks ago",
+        "duration": "2 weeks",
+        "severity": "Moderate-Severe",
+        "context": "Doesn't see the point in going to work.",
+        "impact": "Contributes to work absenteeism."
+      },
+      {
+        "symptom": "Appetite Disturbance/Weight Loss",
+        "onset": "Unspecified",
+        "duration": "Unspecified (recent)",
+        "severity": "Moderate",
+        "context": "Not really hungry.",
+        "impact": "5 pound weight loss."
+      },
+      {
+        "symptom": "Maintenance Insomnia",
+        "onset": "Unspecified",
+        "duration": "Unspecified",
+        "severity": "Moderate",
+        "context": "Wakes up at 3 AM and cannot return to sleep.",
+        "impact": "Associated with racing/guilt thoughts."
+      },
+      {
+        "symptom": "Feelings of Guilt/Worthlessness",
+        "onset": "Unspecified (associated with early awakening)",
+        "duration": "Recent",
+        "severity": "Severe",
+        "context": "Mind starts racing with thoughts of being a 'failure' and 'letting everyone down.'",
+        "impact": "Causes significant emotional distress."
+      },
+      {
+        "symptom": "Passive Suicidal Ideation (PSI)",
+        "onset": "Recent",
+        "duration": "Current",
+        "severity": "Moderate",
+        "context": "Thinks family would be 'better off without me dragging them down,' wishes to 'disappear.'",
+        "impact": "**No active intent or plan identified.**"
+      }
+    ],
+    "mental_status_exam": {
+      "appearance": "not assessed",
+      "behavior": "Anergic (reported difficulty getting out of bed); cooperative during interview.",
+      "speech": "WNL (clear, coherent, normal rate/rhythm).",
+      "mood": "*Depressed* ('drained,' 'rough couple of weeks,' 'low side').",
+      "affect": "not assessed (likely restricted or congruent with mood).",
+      "thought_process": "Goal-directed; linear.",
+      "thought_content": "Preoccupied with themes of failure, guilt, self-reproach, and *passive suicidal ideation*.",
+      "perception": "Intact; no evidence of hallucinations or delusions.",
+      "cognition": "not assessed",
+      "insight": "Fair (acknowledges severity of symptoms and is willing to accept treatment changes).",
+      "judgment": "Adequate (maintains personal safety and follows treatment recommendations, despite functional impairment related to work)."
+    },
+    "current_medications": [
+      {
+        "name": "*Sertraline*",
+        "dose": "50mg (current, changing to 100mg)",
+        "frequency": "Daily",
+        "start_date": "Approximately 4 weeks ago",
+        "response": "Minimal/None ('don't feel like it's doing anything yet').",
+        "adherence": "Good ('taking it every day')."
+      }
+    ],
+    "substance_use": {
+      "alcohol": "not assessed",
+      "tobacco": "not assessed",
+      "drugs": "not assessed"
+    },
+    "past_psychiatric_history": {
+      "history_of_mania": "Denied past episodes of mania/hypomania; stated she has 'always been more on the low side if anything.'",
+      "other_history": "not assessed"
+    },
+    "medical_history": "not assessed",
+    "social_history": {
+      "employment": "Currently employed, but missing work due to symptoms.",
+      "family_structure": "Has a husband and kids.",
+      "other": "not assessed"
+    },
+    "family_psychiatric_history": "not assessed",
+    "functional_assessment": {
+      "occupational": "Severely impaired (missed 3 days of work this week).",
+      "social": "not assessed (implied strain due to guilt toward family)."
+    },
+    "assessment_scales": []
+  },
+  "duration_ms": 9919,
+  "error": null
+}

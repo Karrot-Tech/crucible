@@ -1,0 +1,100 @@
+{
+  "timestamp": "2026-01-05T07:04:57.311668",
+  "agent_id": "clinical_entity",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "presenting_symptoms": [
+      {
+        "symptom": "Fatigue/Drained feeling",
+        "onset": "Not specified",
+        "duration": "Rough couple of weeks (~14 days)",
+        "severity": "Significant",
+        "context": "Waking up",
+        "impact": "Difficulty getting out of bed; missed 3 days of work this week"
+      },
+      {
+        "symptom": "Anergia / Lack of Motivation",
+        "onset": "Rough couple of weeks",
+        "duration": "Rough couple of weeks (~14 days)",
+        "severity": "Significant",
+        "context": "Related to work/daily activities",
+        "impact": "Missed 3 days of work; loss of interest ('don't see the point')"
+      },
+      {
+        "symptom": "Appetite Loss",
+        "onset": "Not specified",
+        "duration": "Not specified",
+        "severity": "Mild to moderate",
+        "context": "General",
+        "impact": "Approximate 5-pound weight loss"
+      },
+      {
+        "symptom": "Early Morning Awakening Insomnia",
+        "onset": "Not specified",
+        "duration": "Not specified",
+        "severity": "Moderate",
+        "context": "Waking at 3 AM",
+        "impact": "Inability to return to sleep; mind racing"
+      },
+      {
+        "symptom": "Feelings of Guilt and Worthlessness",
+        "onset": "During early morning awakening",
+        "duration": "Rough couple of weeks",
+        "severity": "Severe",
+        "context": "Thoughts about family",
+        "impact": "Racing thoughts of being a 'failure' and 'letting everyone down'"
+      }
+    ],
+    "mental_status_exam": {
+      "appearance": "not assessed",
+      "behavior": "not assessed",
+      "speech": "WNL, clear and responsive",
+      "mood": "Drained, Heavy, Dysphoric",
+      "affect": "not assessed",
+      "thought_process": "Linear and Goal-Directed",
+      "thought_content": "Preoccupations with failure, guilt, worthlessness. Passive thoughts of death ('wish I could disappear'); denies active suicidal ideation, plan, or intent.",
+      "perception": "No perceptual disturbances noted",
+      "cognition": "Alert and oriented (Implied)",
+      "insight": "Fair, recognizes symptoms are impairing function and seeks treatment",
+      "judgment": "Fair, compromised by symptoms (missed work) but able to participate in treatment planning"
+    },
+    "current_medications": [
+      {
+        "name": "Sertraline",
+        "dose": "50mg",
+        "frequency": "Daily",
+        "start_date": "Approximately 4 weeks ago (last month)",
+        "response": "Minimal/None",
+        "adherence": "Good ('taking it every day')"
+      }
+    ],
+    "substance_use": {
+      "alcohol": "not assessed",
+      "tobacco": "not assessed",
+      "drugs": "not assessed"
+    },
+    "past_psychiatric_history": {
+      "prior_episodes": "History of being 'more on the low side if anything'. Denies history of hypomania/mania."
+    },
+    "medical_history": "not assessed",
+    "social_history": {
+      "marital_status": "Married",
+      "occupation": "Employed, but current function impaired",
+      "family_structure": "Has children"
+    },
+    "family_psychiatric_history": "not assessed",
+    "functional_assessment": {
+      "work_status": "Impaired (missed 3 days of work this week)",
+      "daily_activities": "Impaired (difficulty getting out of bed)"
+    },
+    "assessment_scales": []
+  },
+  "duration_ms": 9412,
+  "error": null
+}

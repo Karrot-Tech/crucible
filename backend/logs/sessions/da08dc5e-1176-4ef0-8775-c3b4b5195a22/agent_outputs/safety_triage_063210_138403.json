@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-01-05T06:32:10.138403",
+  "agent_id": "safety_triage",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "risk_detected": true,
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "concerns": [
+      {
+        "type": "Suicide Risk",
+        "severity": "Moderate",
+        "evidence": "Sometimes I think they'd be better off without me dragging them down. ... I just wish I could disappear sometimes.",
+        "recommended_action": "The patient reports passive suicidal ideation (wish to be dead/wish to disappear) but explicitly denies intent or plan, and reports strong protective factors (family: 'I couldn't do that to them'). Maintain a safety contract, document specific protective factors, and ensure close follow-up given the medication change and functional impairment (missing work)."
+      },
+      {
+        "type": "Acute Emergency",
+        "severity": "Low",
+        "evidence": "I wake up at like 3 AM and can't go back to sleep. My mind just starts racing. ... No, never. I've always been more on the low side if anything.",
+        "recommended_action": "The patient is experiencing severe unipolar depressive symptoms (early morning awakening, severe guilt, functional decline). Mania/Psychosis was ruled out explicitly in the session. Monitor closely for paradoxical agitation or increased suicidal ideation following the Sertraline dosage increase."
+      }
+    ],
+    "summary": "Patient exhibits moderate risk due to passive suicidal ideation and severe functional impairment secondary to depression. Intent and plan are denied, and lethal means restriction has been confirmed by the provider. Protective factors (family) appear strong. Close monitoring for increased risk, especially following the medication titration, is required."
+  },
+  "duration_ms": 5406,
+  "error": null
+}

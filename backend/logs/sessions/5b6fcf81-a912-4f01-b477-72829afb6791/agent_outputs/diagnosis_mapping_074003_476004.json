@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-01-05T07:40:03.476004",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "Critical information regarding the patient's symptoms, history, and current mental status exam is missing. Please provide the clinical encounter transcript or key findings necessary for diagnosis (e.g., Chief Complaint, duration of depressive/manic symptoms, functional impairment).",
+    "suggested_answer": "Insufficient data provided. Assuming this is a preliminary check, but no diagnoses can be mapped without clinical input.",
+    "primary_diagnosis": {
+      "code": "R69",
+      "description": "Illness, unspecified",
+      "justification": "No clinical data was provided for analysis, preventing symptom clustering or DSM-5 matching.",
+      "dsm_criteria_met": [],
+      "confidence": 0.0
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": [
+      {
+        "code": "F33.2",
+        "description": "Major Depressive Disorder, Recurrent, Severe",
+        "reason": "Cannot assess required criteria (A-E) including severity, duration (2+ weeks), or functional impairment due to lack of clinical input."
+      }
+    ]
+  },
+  "duration_ms": 3683,
+  "error": null
+}

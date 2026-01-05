@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T07:58:51.410510",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session addressing worsening major depressive symptoms, including vegetative signs, early morning awakening, and passive suicidal ideation, requiring medication dose adjustment.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The patient is presenting with a continuation of symptoms consistent with a Major Depressive Episode (MDE) four weeks after starting Sertraline 50mg. Key findings include anhedonia, fatigue, and early morning awakening. Safety assessment was conducted due to expressed passive death wishes, but active intent was denied. The session focuses on monitoring clinical status, adjusting the existing SSRI dose, and ruling out differential diagnoses (e.g., mania)."
+  },
+  "duration_ms": 4632,
+  "error": null
+}

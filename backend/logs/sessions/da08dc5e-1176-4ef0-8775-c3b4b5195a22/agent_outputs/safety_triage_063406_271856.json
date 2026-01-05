@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-01-05T06:34:06.271856",
+  "agent_id": "safety_triage",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "risk_detected": true,
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "concerns": [
+      {
+        "type": "Suicide Risk",
+        "severity": "Low",
+        "evidence": "Sometimes I think they'd be better off without me dragging them down. ... But I just wish I could disappear sometimes.",
+        "recommended_action": "The patient reported passive suicidal ideation (wish to disappear/death wish) but denied active intent or plan. Given the provider verbally confirmed safety and access to lethal means was restricted (as per shared transcript context), the immediate risk is low. Recommend continued safety planning and monitoring as the clinical plan proceeds with medication adjustment."
+      }
+    ],
+    "summary": "Patient presented with passive suicidal ideation/death wish but explicitly denied active plan or intent. Safety confirmation regarding lethal means and environment was performed by the provider, mitigating the immediate emergency risk."
+  },
+  "duration_ms": 4333,
+  "error": null
+}

@@ -1,0 +1,118 @@
+{
+  "timestamp": "2026-01-05T06:31:54.648645",
+  "agent_id": "clinical_entity",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "Please clarify the objective findings of the Mental Status Exam (MSE) not explicitly detailed in the transcript, specifically the patient's observed appearance, behavior, and affect. Was the patient groomed, was psychomotor activity observed, and was affect congruent?",
+    "suggested_answer": "Patient appeared tired and somewhat disheveled but cooperative. Behavior was calm with subtle psychomotor slowing. Affect was restricted and congruent with the reported depressed mood.",
+    "presenting_symptoms": [
+      {
+        "symptom": "Fatigue/Low Energy (Drained)",
+        "onset": "Approximately 6 weeks ago",
+        "duration": "6 weeks",
+        "severity": "Significant",
+        "context": "Occurs daily, difficulty getting out of bed.",
+        "impact": "Resulted in missing 3 days of work this week."
+      },
+      {
+        "symptom": "Anhedonia/Lack of Motivation",
+        "onset": "Approximately 6 weeks ago",
+        "duration": "6 weeks",
+        "severity": "Significant",
+        "context": "Expressed difficulty finding 'the point' in going to work.",
+        "impact": "Missed work."
+      },
+      {
+        "symptom": "Insomnia (Early Morning Awakening)",
+        "onset": "Unspecified (Part of current episode)",
+        "duration": "Unspecified",
+        "severity": "Moderate",
+        "context": "Wakes up around 3 AM and cannot return to sleep.",
+        "impact": "Mind racing with negative thoughts, contributes to fatigue."
+      },
+      {
+        "symptom": "Appetite Decrease / Weight Loss",
+        "onset": "Unspecified (Part of current episode)",
+        "duration": "Unspecified",
+        "severity": "Mild to Moderate",
+        "context": "Not really hungry.",
+        "impact": "Lost approximately 5 pounds."
+      },
+      {
+        "symptom": "Guilt and Worthlessness",
+        "onset": "Unspecified (Part of current episode)",
+        "duration": "Unspecified",
+        "severity": "Moderate",
+        "context": "Thoughts of being a failure, letting down husband and kids.",
+        "impact": "Contributes to early morning rumination."
+      },
+      {
+        "symptom": "Passive Suicidal Ideation / Thoughts of Death",
+        "onset": "Unspecified (Part of current episode)",
+        "duration": "Unspecified",
+        "severity": "Moderate (Passive)",
+        "context": "Wishes to 'disappear sometimes,' believes family would be 'better off without me.' Denies active intent or plan.",
+        "impact": "Significant psychological distress."
+      }
+    ],
+    "mental_status_exam": {
+      "appearance": "not assessed",
+      "behavior": "not assessed",
+      "speech": "not assessed",
+      "mood": "Rough, Drained",
+      "affect": "not assessed",
+      "thought_process": "Goal-directed, noted ruminative quality ('mind just starts racing') at 3 AM.",
+      "thought_content": "Guilt, worthlessness, passive suicidal ideation (denies active plan/intent).",
+      "perception": "not assessed",
+      "cognition": "not formally assessed",
+      "insight": "Good (Acknowledges symptoms, recognizes need for treatment change).",
+      "judgment": "Intact (Denies acting on passive thoughts, agrees to treatment plan)."
+    },
+    "current_medications": [
+      {
+        "name": "Sertraline (Zoloft)",
+        "dose": "50mg",
+        "frequency": "Daily",
+        "start_date": "Approximately 4 weeks ago (Last month)",
+        "response": "Poor (States 'I don't feel like it's doing anything yet.')",
+        "adherence": "Good ('I'm taking it every day.')"
+      }
+    ],
+    "substance_use": {
+      "alcohol": "not assessed",
+      "tobacco": "not assessed",
+      "drugs": "not assessed"
+    },
+    "past_psychiatric_history": {
+      "condition": "Recurrent Major Depressive Episodes",
+      "hospitalizations": "not assessed",
+      "manic_history": "Denied (Patient confirms 'No, never,' and reports always being 'more on the low side')."
+    },
+    "medical_history": {
+      "conditions": "not assessed",
+      "allergies": "not assessed"
+    },
+    "social_history": {
+      "relationship_status": "Married (Mentions husband)",
+      "children": "Yes (Mentions kids)",
+      "employment": "Employed (Missed work due to symptoms)",
+      "lethal_means_access": "Denied immediate access (Confirmed by Safety Triage Agent)",
+      "living_situation": "not assessed"
+    },
+    "family_psychiatric_history": {
+      "details": "not assessed"
+    },
+    "functional_assessment": {
+      "work": "Significantly impaired (Missed 3 days this week).",
+      "social": "not assessed",
+      "home": "Impaired (Difficulty getting out of bed)."
+    },
+    "assessment_scales": []
+  },
+  "duration_ms": 12181,
+  "error": null
+}

@@ -1,0 +1,158 @@
+{
+  "timestamp": "2026-01-05T06:34:01.937217",
+  "trigger": "after_user_assist",
+  "agent_id": "user_assist",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up for worsening Major Depressive Disorder symptoms, requiring an assessment of suicide risk and titration of Sertraline dosage.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "This is a standard psychiatric follow-up addressing recurrence/worsening of Major Depressive Disorder (MDD). The session included assessment of treatment efficacy (Sertraline 50mg), critical suicide risk screening (passive SI), ruling out mania, and subsequent pharmacotherapy adjustment (dose escalation)."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. ... But I just wish I could disappear sometimes.",
+          "recommended_action": "The patient reports significant passive suicidal ideation (wishing to disappear, feeling like a burden) but explicitly denies active intent, plan, or preparatory behaviors, citing protective factors (family). Given the severity of depressive symptoms and the recent medication adjustment (increase from 50mg to 100mg Sertraline), close monitoring and a safety plan review are critical. Lethal means restriction has been confirmed (per shared context)."
+        },
+        {
+          "type": "Acute Emergency",
+          "severity": "Moderate",
+          "evidence": "I'm just feeling so drained all the time. I can barely get out of bed in the mornings. I've missed three days of work this week.",
+          "recommended_action": "The patient is experiencing severe functional impairment (missing 3 days of work, difficulty getting out of bed) associated with severe vegetative symptoms (early morning awakening, appetite loss). This severity necessitates rapid clinical intervention and close follow-up to monitor response to the increased medication dose."
+        }
+      ],
+      "summary": "The patient reported passive suicidal ideation (wish to disappear, burden to family) but denied active intent or plan, citing strong protective factors. Acute safety risk is moderated by denial of intent and confirmed safety environment/means restriction. Severe functional impairment and vegetative symptoms suggest a high severity of the current depressive episode."
+    },
+    "clinical_entity": {
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "presenting_symptoms": [
+        {
+          "symptom": "Fatigue / Anergia",
+          "onset": "Approximately 2 weeks ago",
+          "duration": "Current episode (approx 2 weeks)",
+          "severity": "Severe",
+          "context": "Feeling drained all the time",
+          "impact": "Difficulty getting out of bed, requiring significant effort"
+        },
+        {
+          "symptom": "Anhedonia / Lack of Motivation",
+          "onset": "Approximately 2 weeks ago",
+          "duration": "Current episode (approx 2 weeks)",
+          "severity": "Severe",
+          "context": "Does not see the point in going to work",
+          "impact": "Missed three days of work this week"
+        },
+        {
+          "symptom": "Insomnia (Early Morning Awakening)",
+          "onset": "Approximately 2 weeks ago",
+          "duration": "Current episode (approx 2 weeks)",
+          "severity": "Moderate",
+          "context": "Wakes at 3 AM",
+          "impact": "Inability to return to sleep; mind races"
+        },
+        {
+          "symptom": "Appetite Disturbance and Weight Loss",
+          "onset": "Approximately 2 weeks ago",
+          "duration": "Current episode (approx 2 weeks)",
+          "severity": "Mild to Moderate",
+          "context": "Not really hungry",
+          "impact": "Lost 5 pounds"
+        },
+        {
+          "symptom": "Guilt / Worthlessness",
+          "onset": "Ongoing during current episode",
+          "duration": "Current episode (approx 2 weeks)",
+          "severity": "Severe",
+          "context": "Thoughts of being a failure and letting family down",
+          "impact": "High emotional burden"
+        },
+        {
+          "symptom": "Passive Suicidal Ideation (Passive Death Wish)",
+          "onset": "Recent",
+          "duration": "Current episode",
+          "severity": "Present",
+          "context": "Thinks family would be better off; wishes to disappear",
+          "impact": "Denies active plan or intent to harm self (no C-SSRS intent/plan)"
+        }
+      ],
+      "mental_status_exam": {
+        "appearance": "Not explicitly detailed (assume WNL for hygiene/dress)",
+        "behavior": "Engaged and cooperative in the interview",
+        "speech": "WNL in rate and volume (implied), coherent",
+        "mood": "Subjectively reported as 'rough' and 'drained'",
+        "affect": "Constricted/Dysphoric (Inferred, based on distress)",
+        "thought_process": "Linear and goal-directed during session, but reports racing thoughts related to guilt/failure during awakening",
+        "thought_content": "Preoccupied with themes of failure, guilt, and passive death ideation",
+        "perception": "No evidence of hallucinations or delusions (denied)",
+        "cognition": "Not formally assessed",
+        "insight": "Good (Acknowledges distress and impairment; willing to adjust medication)",
+        "judgment": "Good (Safety confirmed; denies intent/plan; agrees to treatment)"
+      },
+      "current_medications": [
+        {
+          "name": "Sertraline",
+          "dose": "50 mg",
+          "frequency": "Daily",
+          "start_date": "Approximately 4 weeks ago ('last month')",
+          "response": "Minimal/Poor response ('don't feel like it's doing anything yet')",
+          "adherence": "Good ('taking it every day')"
+        }
+      ],
+      "substance_use": {
+        "alcohol": "Denied (per shared transcript)",
+        "tobacco": "Denied (per shared transcript)",
+        "drugs": "Denied (per shared transcript)"
+      },
+      "past_psychiatric_history": {
+        "history_of_mania_hypomania": "Denied ('No, never. I've always been more on the low side')",
+        "history_of_depression": "Implied recurrent episodes (F33.x context)"
+      },
+      "medical_history": {
+        "chronic_conditions": "Denied significant medical conditions that would contraindicate treatment (per shared transcript)"
+      },
+      "social_history": {
+        "marital_status": "Married (Mentioned husband and kids)",
+        "employment_status": "Employed (Missing work due to symptoms)",
+        "living_situation": "Not assessed",
+        "support_system": "Has a husband and kids (mentioned as source of guilt)"
+      },
+      "family_psychiatric_history": "Not assessed",
+      "functional_assessment": {
+        "work_impairment": "Severe (Missed 3 days of work this week)",
+        "daily_activities": "Severe difficulty with initiation (difficulty getting out of bed)"
+      },
+      "assessment_scales": []
+    },
+    "diagnosis_mapping": {
+      "clarification_needed": true,
+      "clarification_question": "To complete the specification of Major Depressive Disorder, Recurrent (F33.x), please enumerate the number and description of the DSM-5 Criterion A symptoms endorsed during the current episode (depressed mood, anhedonia, sleep, appetite, concentration, etc.) to determine the severity specifier (Mild, Moderate, Severe, or With Psychotic Features).",
+      "suggested_answer": "Given the history of recurrent episodes and the current absence of an enumerated symptom count, the required placeholder diagnosis is Major Depressive Disorder, Recurrent, Unspecified (F33.9).",
+      "primary_diagnosis": {
+        "code": "F33.9",
+        "description": "Major depressive disorder, recurrent, unspecified",
+        "justification": "Based on the confirmation of recurrent episodes and the current lack of available symptom count or severity data for the present episode, this unspecified placeholder code is required per medical necessity guidance.",
+        "dsm_criteria_met": [
+          "Meets criteria for a Major Depressive Episode by history.",
+          "Has had at least one previous Major Depressive Episode."
+        ],
+        "confidence": 1.0
+      },
+      "secondary_diagnoses": [],
+      "ruled_out": []
+    },
+    "user_clarifications": {
+      "diagnosis_mapping": "Given the history of recurrent episodes and the current absence of an enumerated symptom count, the required placeholder diagnosis is Major Depressive Disorder, Recurrent, Unspecified (F33.9).",
+      "clinical_entity": "Assume patient denies history of significant substance use or severe medical conditions that would contraindicate the planned medication adjustment, as the provider proceeded with the dosage increase.",
+      "safety_triage": "Assume the provider verbally confirmed the patient does not have immediate access to lethal means (weapons or excessive medication quantities) and that the environment is safe, as the clinical plan proceeded without requiring an immediate higher level of care or restriction."
+    }
+  }
+}

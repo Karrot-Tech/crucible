@@ -1,0 +1,113 @@
+{
+  "timestamp": "2026-01-05T07:43:20.993579",
+  "agent_id": "clinical_entity",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "presenting_symptoms": [
+      {
+        "symptom": "Fatigue/Anergia",
+        "onset": "Recent exacerbation",
+        "duration": "A couple of weeks",
+        "severity": "Significant",
+        "context": "Mornings, persistent",
+        "impact": "Barely able to get out of bed; missed 3 days of work"
+      },
+      {
+        "symptom": "Anhedonia/Lack of Motivation",
+        "onset": "Recent exacerbation",
+        "duration": "A couple of weeks",
+        "severity": "Significant",
+        "context": "Pervasive",
+        "impact": "Doesn't see the point in going to work"
+      },
+      {
+        "symptom": "Terminal Insomnia",
+        "onset": "Unspecified",
+        "duration": "Unspecified",
+        "severity": "Moderate",
+        "context": "Wakes up at 3 AM with racing thoughts",
+        "impact": "Inability to return to sleep"
+      },
+      {
+        "symptom": "Anorexia and Weight Loss",
+        "onset": "Unspecified",
+        "duration": "Unspecified",
+        "severity": "Mild to Moderate",
+        "context": "Not feeling hungry",
+        "impact": "Lost 5 pounds"
+      },
+      {
+        "symptom": "Guilt/Worthlessness",
+        "onset": "During exacerbation",
+        "duration": "Unspecified",
+        "severity": "Severe",
+        "context": "Racing thoughts at 3 AM",
+        "impact": "Believes she is a failure and letting her family down"
+      },
+      {
+        "symptom": "Passive Death Wish",
+        "onset": "During exacerbation",
+        "duration": "Unspecified",
+        "severity": "High",
+        "context": "Feeling like a burden",
+        "impact": "Wishes she could disappear; believes family would be better off without her"
+      }
+    ],
+    "mental_status_exam": {
+      "appearance": "not assessed",
+      "behavior": "not assessed",
+      "speech": "Conversational, normal rate and rhythm",
+      "mood": "Drained, low (patient reported)",
+      "affect": "Consistent with stated mood (inferred depressed)",
+      "thought_process": "Linear and goal-directed",
+      "thought_content": "Preoccupied with failure, guilt, worthlessness, and passive death wishes",
+      "perception": "Denied perceptual disturbances",
+      "cognition": "Alert and oriented (inferred)",
+      "insight": "Good (Acknowledges significant symptom burden and accepts treatment change)",
+      "judgment": "Intact (Denies active suicidal intent; able to participate in treatment planning)"
+    },
+    "current_medications": [
+      {
+        "name": "*Sertraline*",
+        "dose": "50mg",
+        "frequency": "Daily",
+        "start_date": "Last month (approx. 4 weeks)",
+        "response": "Minimal/Poor ('don't feel like it's doing anything yet')",
+        "adherence": "Good (Taking it every day)"
+      }
+    ],
+    "substance_use": {
+      "alcohol": "not assessed",
+      "tobacco": "not assessed",
+      "drugs": "not assessed"
+    },
+    "past_psychiatric_history": {
+      "prior_hospitalization": "not assessed",
+      "past_depressive_episodes": "Implied ('always been more on the low side if anything')",
+      "history_of_mania": "Denied ('No, never')"
+    },
+    "medical_history": {
+      "chronic_conditions": "not assessed"
+    },
+    "social_history": {
+      "employment": "Employed; currently missing work (3 days this week)",
+      "living_situation": "Lives with husband and children",
+      "support_system": "Has a family (husband, kids) who are the source of current guilt"
+    },
+    "family_psychiatric_history": "not assessed",
+    "functional_assessment": {
+      "occupational": "Severely impaired (missed 3 days of work)",
+      "social": "Impaired by anergia (barely getting out of bed)",
+      "ADLs": "Impaired"
+    },
+    "assessment_scales": []
+  },
+  "duration_ms": 9336,
+  "error": null
+}

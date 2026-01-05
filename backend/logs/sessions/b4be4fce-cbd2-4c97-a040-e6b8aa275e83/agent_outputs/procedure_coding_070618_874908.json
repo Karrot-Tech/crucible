@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-01-05T07:06:18.874908",
+  "agent_id": "procedure_coding",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "The session transcript does not specify the total time spent with the patient (start time, end time, or documented duration). Given the intensity of the psychotherapy (risk assessment, symptom review) and medication management (dose adjustment), please specify the total face-to-face time to select the appropriate CPT code (90834 for 45 min vs. 90837 for 60 min).",
+    "suggested_answer": "If the total time documented was 53 minutes or more, we should code 90837 (60-minute psychotherapy).",
+    "primary_code": {
+      "code": "TIME REQUIRED",
+      "description": "Psychotherapy with established patient involving detailed risk assessment and medication evaluation.",
+      "rationale": "The session involves complex clinical decision-making: assessing *passive suicidal ideation* (SI), confirming the diagnosis (*Recurrent Major Depressive Disorder*), and modifying medication (*Sertraline* dose increase). This necessitates a substantial amount of time, but the specific duration must be confirmed to choose between 90834 (45 min) or 90837 (60 min)."
+    },
+    "addon_codes": [],
+    "modifiers": [
+      "95"
+    ],
+    "medical_necessity": "Management of moderate *Recurrent Major Depressive Disorder* (F33.1) with concurrent passive suicidal ideation and inadequate response to current pharmacotherapy (Sertraline 50mg), requiring immediate dose adjustment and detailed risk assessment.",
+    "confidence": "High"
+  },
+  "duration_ms": 6938,
+  "error": null
+}

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T07:17:59.944897",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session focused on worsening severe depressive symptoms and functional impairment, necessitating a dose increase of the recently initiated *Sertraline*.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The session is a standard psychiatric follow-up assessing the current severity of depressive symptoms (including passive death ideation) and determining appropriate medication management strategy (titration of *Sertraline*)."
+  },
+  "duration_ms": 3534,
+  "error": null
+}

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T06:41:21.930940",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session for Major Depressive Disorder (MDD) focusing on severe worsening depressive symptoms, including passive suicidal ideation, and subsequent titration of Sertraline.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The discussion is a clinically appropriate symptom and risk assessment for a worsening depressive episode, addressing passive suicidal ideation, functional decline, and conducting necessary psychotropic medication management (Sertraline titration)."
+  },
+  "duration_ms": 4164,
+  "error": null
+}

@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-01-05T06:28:53.000276",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "Please provide the clinical input data (e.g., patient chief complaint, history of present illness, symptom descriptions, duration, and any available mental status exam findings) required to perform the psychiatric diagnosis mapping. The input data dictionary is currently empty.",
+    "suggested_answer": "Clinical information, including symptom clusters and duration required for DSM-5 matching, is entirely absent in the provided input dictionary {}. If the data was intended to be present but failed to load, please resubmit the full clinical context.",
+    "primary_diagnosis": {
+      "code": "R69",
+      "description": "Illness, unspecified",
+      "justification": "Diagnosis cannot be assigned without any clinical information regarding symptoms, history, or duration. R69 is used as a placeholder indicating an unspecified clinical state due to insufficient data.",
+      "dsm_criteria_met": [],
+      "confidence": 0.0
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": []
+  },
+  "duration_ms": 6165,
+  "error": null
+}

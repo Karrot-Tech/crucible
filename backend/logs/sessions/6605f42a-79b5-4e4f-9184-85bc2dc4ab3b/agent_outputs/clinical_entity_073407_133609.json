@@ -1,0 +1,109 @@
+{
+  "timestamp": "2026-01-05T07:34:07.133609",
+  "agent_id": "clinical_entity",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "presenting_symptoms": [
+      {
+        "symptom": "*Fatigue* / *Anergia*",
+        "onset": "Recent exacerbation",
+        "duration": "Rough couple of weeks",
+        "severity": "Severe",
+        "context": "Constant feeling of being *drained*",
+        "impact": "Barely able to get out of bed"
+      },
+      {
+        "symptom": "*Apathy* / *Lack of Motivation*",
+        "onset": "Recent exacerbation",
+        "duration": "Rough couple of weeks",
+        "severity": "Severe",
+        "context": "Doesn't see the point in going to work",
+        "impact": "Missed three days of work this week"
+      },
+      {
+        "symptom": "*Appetite Loss* and *Weight Loss*",
+        "onset": "Recent",
+        "duration": "Unknown (Recent)",
+        "severity": "Moderate",
+        "context": "Not really hungry",
+        "impact": "Lost approximately *5 pounds*"
+      },
+      {
+        "symptom": "*Insomnia, Terminal*",
+        "onset": "Unknown",
+        "duration": "Unknown",
+        "severity": "Moderate",
+        "context": "Waking up at 3 AM with *racing thoughts*",
+        "impact": "Inability to return to sleep"
+      },
+      {
+        "symptom": "*Guilt* and *Worthlessness*",
+        "onset": "During early morning awakenings",
+        "duration": "Unknown",
+        "severity": "Significant",
+        "context": "Thoughts of being a *failure* and *letting everyone down*",
+        "impact": "Contributes to distress and lack of motivation"
+      },
+      {
+        "symptom": "*Passive Death Ideation*",
+        "onset": "Recent",
+        "duration": "Unknown",
+        "severity": "Moderate (Passive)",
+        "context": "Thinks family would be *better off without* her; wishes to *disappear*",
+        "impact": "Causing significant emotional burden"
+      }
+    ],
+    "mental_status_exam": {
+      "appearance": "not assessed",
+      "behavior": "Subdued; psychomotor state is not explicitly documented but implied to be decreased based on self-report of *anergia*",
+      "speech": "Clear, relevant, normal rate and volume",
+      "mood": "*Depressed*, *drained*",
+      "affect": "Constricted/dysphoric, congruent with reported mood",
+      "thought_process": "Linear and goal-directed during session; reports *racing thoughts* leading to *terminal insomnia*",
+      "thought_content": "Preoccupied with themes of *failure* and *guilt*; reports *passive death wishes* ('wish I could disappear') but explicitly denies *active suicidal ideation* or intent.",
+      "perception": "Denies perceptual disturbances (Implied)",
+      "cognition": "Alert and oriented; not formally tested",
+      "insight": "Good (Acknowledges severity of current symptoms and agrees to treatment adjustment)",
+      "judgment": "Intact (Accepting medication change; prioritizes family safety over passive death wishes)"
+    },
+    "current_medications": [
+      {
+        "name": "*Sertraline*",
+        "dose": "50mg (Current), increasing to 100mg (Planned)",
+        "frequency": "Daily",
+        "start_date": "Approximately 4 weeks ago (Last month)",
+        "response": "Minimal/None ('don't feel like it's doing anything yet')",
+        "adherence": "Good ('taking it every day')"
+      }
+    ],
+    "substance_use": {
+      "alcohol": "not assessed",
+      "tobacco": "not assessed",
+      "drugs": "not assessed"
+    },
+    "past_psychiatric_history": {
+      "details": "History of depressive symptoms ('always been more on the low side'); denied history of *manic* or *hypomanic* episodes."
+    },
+    "medical_history": {
+      "details": "not assessed"
+    },
+    "social_history": {
+      "details": "Employed (though currently missing work), married, has children (Implied)"
+    },
+    "family_psychiatric_history": {
+      "details": "not assessed"
+    },
+    "functional_assessment": {
+      "details": "Severe impairment: Missed three days of work this week; reporting difficulty performing basic self-care (*barely get out of bed*)."
+    },
+    "assessment_scales": []
+  },
+  "duration_ms": 10116,
+  "error": null
+}

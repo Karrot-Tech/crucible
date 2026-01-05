@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-01-05T07:04:11.137320",
+  "agent_id": "risk_assessment",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "risk_level": "Low",
+    "suicidal_ideation_present": true,
+    "max_ideation_severity": 1,
+    "suicidal_behavior_present": false,
+    "protective_factors": [
+      "Strong deterrent (denial of intent due to responsibility for family/children)",
+      "Established relationship with provider",
+      "Compliance with treatment (taking Sertraline daily)"
+    ],
+    "risk_factors": [
+      "Symptoms consistent with *Recurrent Major Depressive Disorder, Moderate (F33.1)*",
+      "Functional impairment (missing 3 days of work)",
+      "Insomnia/Early Morning Awakening",
+      "Guilt and feelings of worthlessness ('letting everyone down')",
+      "Passive death ideation ('wish I could disappear')",
+      "Inadequate response to initial dose of *Sertraline*"
+    ],
+    "clinical_actions": [
+      "Increased monitoring post-*Sertraline* dose change (50mg to 100mg)",
+      "Scheduled follow-up is necessary to assess response and manage side effects",
+      "Reinforce safety planning strategies if established (or establish a brief safety plan)",
+      "Behavioral activation prescription (10-minute morning walk)"
+    ],
+    "cssrs_detail": {
+      "wish_to_be_dead": true,
+      "active_thoughts": false,
+      "specific_plan": false,
+      "intent": false
+    }
+  },
+  "duration_ms": 6450,
+  "error": null
+}

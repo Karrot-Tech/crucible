@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T07:54:38.933312",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session detailing worsening depressive symptoms (fatigue, insomnia, passive ideation) despite 4 weeks on *Sertraline* 50mg, leading to dose escalation.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "The session is a follow-up appointment assessing the efficacy of recently initiated *Sertraline* for severe depressive symptoms, including a critical safety assessment for passive death ideation and subsequent dose titration to 100mg."
+  },
+  "duration_ms": 3530,
+  "error": null
+}

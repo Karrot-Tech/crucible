@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-01-05T07:54:27.249804",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "The only clinical information available is the initiation of *Sertraline* 50mg four weeks prior. To accurately assign a primary diagnosis, please confirm the presenting symptoms (A-Criteria), duration, and if the patient meets full DSM-5 criteria for a specific disorder (e.g., Major Depressive Disorder or Generalized Anxiety Disorder).",
+    "suggested_answer": "Given the use of *Sertraline* for 4 weeks, the most likely provisional diagnosis based on common clinical practice is Major Depressive Disorder, recurrent episode, moderate, pending confirmation of criteria (F33.1).",
+    "primary_diagnosis": {
+      "code": "F33.1",
+      "description": "Major depressive disorder, recurrent, moderate",
+      "justification": "This is a provisional code inferred solely from the initiation of an SSRI (*Sertraline*) 50mg four weeks prior, which is standard treatment for this condition. We lack essential criteria (symptom list, duration, severity specifiers) to confirm.",
+      "dsm_criteria_met": [
+        "INFERRED: 5+ symptoms of MDD present nearly every day for most of the day for at least 2 weeks (e.g., Depressed mood, Anhedonia, Sleep disturbance, Fatigue)."
+      ],
+      "confidence": 0.1
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": [
+      {
+        "code": "F31.x",
+        "description": "Bipolar and Related Disorders",
+        "reason": "Insufficient information to rule out, but current treatment (SSRI monotherapy) makes Bipolar I/II less likely without known mood stabilizer co-prescribed or a documented hypomanic/manic history."
+      }
+    ]
+  },
+  "duration_ms": 6344,
+  "error": null
+}

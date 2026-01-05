@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-01-05T07:15:03.719923",
+  "agent_id": "procedure_coding",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": true,
+    "clarification_question": "Please specify the total time spent face-to-face and/or on documentation related to this established patient visit. Accurate time documentation (start and end time) is required for assignment of timed CPT codes (9083x/99xxx).",
+    "suggested_answer": "50 minutes (to align with the standard 90836 combined E/M and therapy service duration)?",
+    "primary_code": {
+      "code": "90836",
+      "description": "Psychotherapy, 45-52 minutes, with evaluation and management service",
+      "rationale": "The session involves complex clinical decision-making (titration of *Sertraline* due to lack of efficacy and concerning symptoms) combined with substantive psychotherapy (addressing feelings of being a failure and passive *death ideation*). Assuming standard time documentation (38-52 minutes) for a typical follow-up, 90836 is the most appropriate code for a prescribing provider delivering combined services."
+    },
+    "addon_codes": [],
+    "modifiers": [],
+    "medical_necessity": "Recurrent Major Depressive Disorder, Moderate Severity (F33.1) requiring medication management titration and acute therapeutic intervention for passive suicidal ideation and vegetative symptoms.",
+    "confidence": "High"
+  },
+  "duration_ms": 6664,
+  "error": null
+}

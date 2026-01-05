@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T06:46:44.847014",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session detailing a significant exacerbation of depressive symptoms, including passive suicidal ideation and vegetative symptoms, necessitating a medication dose increase.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "This is a clinically appropriate follow-up focusing on symptom severity (anhedonia, sleep disturbance, passive suicidal ideation) and response to current medication (*Sertraline*). The discussion of self-harm/death is clinical history, not prohibited content."
+  },
+  "duration_ms": 3638,
+  "error": null
+}

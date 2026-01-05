@@ -1,0 +1,147 @@
+{
+  "timestamp": "2026-01-05T06:29:46.861609",
+  "trigger": "after_user_assist",
+  "agent_id": "user_assist",
+  "context": {
+    "user_assist": {
+      "summary": "Follow-up session addressing the worsening severity of depressive symptoms and evaluating the efficacy of current pharmacotherapy.",
+      "clinical_nature": "follow-up",
+      "validation_result": "approved",
+      "reasoning": "The patient presented with classic symptoms of a Major Depressive Episode (anhedonia, terminal insomnia, significant fatigue, weight loss, and reported passive death ideation). The session focus was clinical management, specifically increasing the Sertraline dose from 50mg to 100mg daily following an inadequate response over four weeks, and ruling out any history of hypomania/mania."
+    },
+    "safety_triage": {
+      "risk_detected": true,
+      "clarification_needed": false,
+      "clarification_question": "",
+      "suggested_answer": "",
+      "concerns": [
+        {
+          "type": "Suicide Risk",
+          "severity": "Moderate",
+          "evidence": "Sometimes I think they'd be better off without me dragging them down. ... No, no, I wouldn't do that. I couldn't do that to them. But I just wish I could disappear sometimes.",
+          "recommended_action": "Patient reports passive death ideation (wishes to disappear, feeling like a burden) but explicitly denies active intent, plan, or preparatory acts, citing protective factors (responsibility to children). Although immediate imminent risk is low due to denial of plan, the presence of passive ideation combined with severe depressive symptoms (anhedonia, significant functional impairment, early morning awakening) mandates a full C-SSRS assessment and creation/review of a safety plan."
+        }
+      ],
+      "summary": "Moderate risk of passive suicidal ideation is present. The patient is experiencing severe depressive symptoms but denies active plan or intent, noting strong protective factors."
+    },
+    "clinical_entity": {
+      "clarification_needed": true,
+      "clarification_question": "Please clarify if the patient reported any baseline medical conditions (e.g., hepatic or cardiac issues) or substance use (alcohol, tobacco, illicit drugs) that must be considered before increasing the Sertraline dosage.",
+      "suggested_answer": "Assume no significant medical history or substance use was present in the patient's record that would contraindicate the planned dosage increase, based on the provider's decision to proceed.",
+      "presenting_symptoms": [
+        {
+          "symptom": "Fatigue and Low Energy",
+          "onset": "Approximately 2 weeks prior to session",
+          "duration": "Approximately 2+ weeks",
+          "severity": "Severe",
+          "context": "Unable to get out of bed in the mornings",
+          "impact": "Missed three days of work this week"
+        },
+        {
+          "symptom": "Anhedonia/Lack of motivation",
+          "onset": "Approximately 2 weeks prior to session",
+          "duration": "Approximately 2+ weeks",
+          "severity": "Moderate",
+          "context": "Lack of motivation to go to work",
+          "impact": "Impaired occupational functioning"
+        },
+        {
+          "symptom": "Insomnia (Terminal)",
+          "onset": "Unknown, present for at least 2 weeks",
+          "duration": "Approximately 2+ weeks",
+          "severity": "Moderate",
+          "context": "Waking up at 3 AM and unable to return to sleep due to racing thoughts",
+          "impact": "Contributes to daytime fatigue"
+        },
+        {
+          "symptom": "Hyporexia/Weight Loss",
+          "onset": "Unknown, present for at least 2 weeks",
+          "duration": "Approximately 2+ weeks",
+          "severity": "Mild to Moderate",
+          "context": "Not feeling hungry",
+          "impact": "Loss of 5 pounds"
+        },
+        {
+          "symptom": "Guilt and Worthlessness",
+          "onset": "Unknown, present during early morning awakening",
+          "duration": "Current",
+          "severity": "Moderate",
+          "context": "Thoughts of being a failure and letting family down",
+          "impact": "Significant emotional distress"
+        },
+        {
+          "symptom": "Passive Suicidal Ideation (PSI)",
+          "onset": "Current",
+          "duration": "Current",
+          "severity": "Mild",
+          "context": "Wishes she could disappear; believes family would be better off without her.",
+          "impact": "Requires immediate safety assessment (Completed by Doctor in transcript)"
+        }
+      ],
+      "mental_status_exam": {
+        "appearance": "not assessed",
+        "behavior": "not assessed",
+        "speech": "Normal rate, rhythm, and volume; coherent",
+        "mood": "Drained, low",
+        "affect": "Constricted (implied by description of symptoms), appropriate to content",
+        "thought_process": "Linear and goal-directed",
+        "thought_content": "Themes of hopelessness, failure, guilt, and passive thoughts of death/disappearing",
+        "perception": "No perceptual disturbances noted",
+        "cognition": "Alert and oriented (implied)",
+        "insight": "Good (Acknowledges severity of symptoms and is willing to accept treatment change)",
+        "judgment": "Intact (Denies active suicidal intent or plan)"
+      },
+      "current_medications": [
+        {
+          "name": "Sertraline",
+          "dose": "50mg",
+          "frequency": "Daily",
+          "start_date": "Last month (approx. 4 weeks ago)",
+          "response": "Minimal/None ('don't feel like it's doing anything yet')",
+          "adherence": "Good ('taking it every day')"
+        }
+      ],
+      "substance_use": {
+        "alcohol": "not assessed",
+        "tobacco": "not assessed",
+        "drugs": "not assessed"
+      },
+      "past_psychiatric_history": {
+        "history": "Denies history of mania or hypomania (rule out bipolar disorder). States she has 'always been more on the low side if anything.'"
+      },
+      "medical_history": {
+        "history": "not assessed"
+      },
+      "social_history": {
+        "employment": "Employed, missed 3 days this week.",
+        "support": "Married, has children."
+      },
+      "family_psychiatric_history": {
+        "history": "not assessed"
+      },
+      "functional_assessment": {
+        "occupational": "Severely impaired (missed 3 days of work).",
+        "daily_activities": "Impaired (struggles to get out of bed)."
+      },
+      "assessment_scales": []
+    },
+    "diagnosis_mapping": {
+      "clarification_needed": true,
+      "clarification_question": "Please provide the clinical input data (e.g., patient chief complaint, history of present illness, symptom descriptions, duration, and any available mental status exam findings) required to perform the psychiatric diagnosis mapping. The input data dictionary is currently empty.",
+      "suggested_answer": "Clinical information, including symptom clusters and duration required for DSM-5 matching, is entirely absent in the provided input dictionary {}. If the data was intended to be present but failed to load, please resubmit the full clinical context.",
+      "primary_diagnosis": {
+        "code": "R69",
+        "description": "Illness, unspecified",
+        "justification": "Diagnosis cannot be assigned without any clinical information regarding symptoms, history, or duration. R69 is used as a placeholder indicating an unspecified clinical state due to insufficient data.",
+        "dsm_criteria_met": [],
+        "confidence": 0.0
+      },
+      "secondary_diagnoses": [],
+      "ruled_out": []
+    },
+    "user_clarifications": {
+      "diagnosis_mapping": "Clinical information, including symptom clusters and duration required for DSM-5 matching, is entirely absent in the provided input dictionary {}. If the data was intended to be present but failed to load, please resubmit the full clinical context.",
+      "clinical_entity": "Assume no significant medical history or substance use was present in the patient's record that would contraindicate the planned dosage increase, based on the provider's decision to proceed."
+    }
+  }
+}

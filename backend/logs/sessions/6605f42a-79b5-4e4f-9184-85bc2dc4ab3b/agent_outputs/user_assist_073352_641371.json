@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-01-05T07:33:52.641371",
+  "agent_id": "user_assist",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "summary": "Follow-up session addressing severe worsening of depressive symptoms, including vegetative signs and passive suicidal ideation, necessitating an escalation of pharmacologic treatment.",
+    "clinical_nature": "follow-up",
+    "validation_result": "approved",
+    "reasoning": "Standard psychiatric evaluation for treatment refractory depression. The conversation covers key diagnostic criteria (sleep, appetite, energy, guilt) and includes necessary screening for suicidal ideation (passive SI reported, active SI denied). The focus is medication management and dose adjustment."
+  },
+  "duration_ms": 4133,
+  "error": null
+}

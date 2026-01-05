@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-01-05T07:10:43.877660",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "primary_diagnosis": {
+      "code": "F33.1",
+      "description": "Major depressive disorder, recurrent, moderate",
+      "justification": "History confirms recurrent depressive episodes without intervening mania or hypomania. The current episode is moderate, supported by persistent symptoms significant enough to warrant initiation of an SSRI (*Sertraline*) approximately 4 weeks ago.",
+      "dsm_criteria_met": [
+        "Meets criteria for a Major Depressive Episode (MDE).",
+        "History of at least one previous MDE.",
+        "No history of manic or hypomanic episodes (Rules out Bipolar).",
+        "Severity specifier is Moderate."
+      ],
+      "confidence": 1.0
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": [
+      {
+        "code": "F31.x",
+        "description": "Bipolar I or II Disorder",
+        "reason": "The Clinical Entity Agent confirmed the patient denies any manic or hypomanic episodes, strongly suggesting a unipolar course."
+      },
+      {
+        "code": "F32.x",
+        "description": "Major depressive disorder, single episode",
+        "reason": "History confirms a recurrent pattern of depression, not a single episode."
+      },
+      {
+        "code": "R45.851",
+        "description": "Suicidal ideation (Passive only)",
+        "reason": "While passive ideation is noted, it is a symptom of the primary condition (F33.1) and should not be coded as a separate, primary mental health diagnosis unless it significantly impacts treatment planning outside the context of the MDD."
+      }
+    ]
+  },
+  "duration_ms": 5913,
+  "error": null
+}

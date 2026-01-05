@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-01-05T07:11:09.803329",
+  "agent_id": "diagnosis_mapping",
+  "phase": "complete",
+  "input_data": null,
+  "prompt": null,
+  "llm_response": null,
+  "output_data": {
+    "clarification_needed": false,
+    "clarification_question": "",
+    "suggested_answer": "",
+    "primary_diagnosis": {
+      "code": "F33.1",
+      "description": "Major depressive disorder, recurrent, moderate",
+      "justification": "Clinical history confirms recurrent episodes of Major Depressive Disorder (MDD). The current severity is considered moderate, aligning with the ongoing, impactful symptoms and the necessity for the recent initiation of the antidepressant *Sertraline* approximately 4 weeks ago.",
+      "dsm_criteria_met": [
+        "Criteria for Major Depressive Episode met.",
+        "No history of Manic or Hypomanic episodes (ruling out Bipolar disorder).",
+        "Episode duration and severity consistent with moderate criteria."
+      ],
+      "confidence": 1.0
+    },
+    "secondary_diagnoses": [],
+    "ruled_out": [
+      {
+        "code": "F32.x",
+        "description": "Major depressive disorder, single episode",
+        "reason": "Patient history explicitly supports recurrent, not single, episodes."
+      },
+      {
+        "code": "F31.x",
+        "description": "Bipolar I or II Disorder",
+        "reason": "Patient denies any history of manic or hypomanic episodes, confirming a unipolar depressive presentation."
+      }
+    ]
+  },
+  "duration_ms": 5628,
+  "error": null
+}
