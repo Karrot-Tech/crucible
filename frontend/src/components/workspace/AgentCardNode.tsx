@@ -1,6 +1,6 @@
 import React, { memo } from 'react';
 import { Handle, Position, NodeProps } from '@xyflow/react';
-import { Activity, AlertCircle, CheckCircle2, Eye, Zap, Brain } from 'lucide-react';
+import { Activity, AlertCircle, CheckCircle2, Eye, Zap, Brain, Loader2 } from 'lucide-react';
 import { AgentData } from './AgentDetailView';
 
 // Reuse the AgentData interface for type consistency
@@ -36,7 +36,7 @@ export const AgentCardNode = memo(({ data, selected }: any) => {
             return null;
         }
 
-        if (s === 'running') return <div className="absolute -top-1 -right-1 bg-cyan-500 text-white p-1 rounded-full animate-bounce z-10 shadow-sm"><Activity className="w-3 h-3" /></div>;
+        if (s === 'running') return <div className="absolute -top-1 -right-1 bg-cyan-500 text-white p-1 rounded-full animate-spin z-10 shadow-sm"><Loader2 className="w-3 h-3" /></div>;
         if (s === 'error') return <div className="absolute -top-1 -right-1 bg-red-500 text-white p-1 rounded-full z-10 shadow-sm"><AlertCircle className="w-3 h-3" /></div>;
         if (s === 'completed') return <div className="absolute -top-1 -right-1 bg-green-500 text-white p-1 rounded-full z-10 shadow-sm"><CheckCircle2 className="w-3 h-3" /></div>;
         return null;

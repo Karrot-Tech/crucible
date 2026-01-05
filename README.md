@@ -1,4 +1,5 @@
 # 🧪 Crucible
+[**🌐 View Network Showcase**](file:///Users/ppai/Documents/Karrot-Workspace/medical-scribe/docs/network_showcase.md)
 
 **Crucible** is an advanced multi-agent psychiatric scribe system that transforms clinical conversations into structured medical documentation. It uses an autonomous event-driven agent mesh where specialized AI agents collaborate, debate, and refine clinical insights under the supervision of an intelligent orchestrator.
 

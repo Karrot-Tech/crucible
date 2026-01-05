@@ -51,7 +51,7 @@ const AGENT_ROSTER: AgentData[] = [
         id: 'diagnosis_mapping',
         label: AGENT_PERSONAS['diagnosis_mapping'],
         role: 'PSYCHIATRIST',
-        avatar: '/avatars/doctor_female.png',
+        avatar: '/avatars/lead_diagnostician.png',
         description: 'Maps extracted symptoms to ICD-10 and DSM-5 criteria.',
         promptSnippet: 'You are a Diagnostic Specialist. Map symptoms to DSM-5 criteria. Rule out differentials. Assign ICD-10-CM F-codes. DEBATE with Medication Agent if meds dont match dx.'
     },

@@ -1,7 +1,7 @@
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Activity, AlertCircle, CheckCircle2, Cpu, Globe, Info, Terminal, Zap, X } from "lucide-react";
+import { Activity, AlertCircle, CheckCircle2, Cpu, Globe, Info, Terminal, Zap, X, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 export interface AgentData {
     id: string;
@@ -57,7 +57,7 @@ export function AgentDetailView({ agent, onClose }: AgentDetailViewProps) {
                                     "absolute bottom-0 right-0 w-6 h-6 rounded-full border-[3px] border-background flex items-center justify-center z-20 shadow-sm",
                                     getStatusColor(status)
                                 )}>
-                                    {status === 'running' && <Activity className="w-3.5 h-3.5 animate-spin" />}
+                                    {status === 'running' && <Loader2 className="w-3.5 h-3.5 animate-spin" />}
                                     {status === 'completed' && <CheckCircle2 className="w-3.5 h-3.5" />}
                                     {status === 'error' && <AlertCircle className="w-3.5 h-3.5" />}
                                     {status === 'idle' && <div className="w-2 h-2 rounded-full bg-current" />}
